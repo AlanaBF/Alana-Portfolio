@@ -42,7 +42,7 @@ export const ContactMe = () => {
           <Form.Label className="messagelabel">Send me a message</Form.Label>
           <Form.Control className="messagebox" name="message" />
         </Form.Group>
-        <Button className="submit" variant="primary" type="submit" value="Send">
+        <Button className="submit-button" variant="primary" type="submit" value="Send">
           Submit
         </Button>
       </Form.Group>

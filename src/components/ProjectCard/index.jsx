@@ -7,9 +7,9 @@ function ProjectCard({ project }) {
   const { name, image, Github, deployedLink, about } = project;
 
   return (
-    <Card className="card">
+    <Card className="gallery-card">
       <div className="card-image-position">
-        <Card.Img className="cardImg" variant="top" alt={name} src={image} />
+        <Card.Img className="card-image" variant="top" alt={name} src={image} />
       </div>
       <Card.Body className="cardBodyText">
         <Card.Title>
@@ -22,18 +22,18 @@ function ProjectCard({ project }) {
         </Card.Text>
       </Card.Body>
       <Card.Body className="cardBodyLinks">
-        <Card.Link>
+        <Card.Link className="galleryCardLink">
           {deployedLink === "not deployed" ? (
-            <h5>Backend Project</h5>
+            <h5 className="galleryCardLink">Backend Project</h5>
           ) : (
-            <h5>
-              <a href={deployedLink}>Deployed Web Page</a>
+            <h5 className="galleryCardLink">
+              <a className="galleryCardLink" href={deployedLink}>Deployed Web Page</a>
             </h5>
           )}
         </Card.Link>
         <Card.Link href="#">
-          <h5>
-            <a href={Github}>Github</a>
+          <h5 className="galleryCardLink">
+            <a className="galleryCardLink" href={Github}>Github</a>
           </h5>
         </Card.Link>
       </Card.Body>

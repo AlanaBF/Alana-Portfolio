@@ -3,5 +3,6 @@ import ProjectGallery from "./Project Gallery";
 import Blog from "./Blog";
 import Freelance from "./Freelance";
 import Home from "./Home"
+import NotFound from "./Not Found/NotFound";
 
-export { Home, Contact, ProjectGallery, Blog, Freelance }
+export { Home, Contact, ProjectGallery, Blog, Freelance, NotFound }

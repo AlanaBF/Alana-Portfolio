@@ -6,11 +6,12 @@ import {
   Outlet,
   Route,
 } from "react-router-dom";
-import { Home, Contact, ProjectGallery, Blog, Freelance } from "./pages/index";
+import { Home, Contact, ProjectGallery, Blog, Freelance, NotFound } from "./pages/index";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import "./App.css";
-import "./index.css";
+// import "./App.css";
+// import "./index.css";
+
 
 const App = () => {
   const router = createHashRouter(
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="/Blog" element={<Blog />} />
         <Route path="/ProjectGallery" element={<ProjectGallery />} />
         <Route path="/Freelance" element={<Freelance />} />
+        <Route path='*' element={<NotFound />} />
       </Route>
     )
   );
