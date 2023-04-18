@@ -52,6 +52,11 @@ nav a:hover {
   color: #e6ddc4;
 }
 
+.navbarIcons {
+  font-size: 2rem !important;
+  color: #f0e9d2;
+}
+
 .navigation {
   width: 100%;
   font-family: "Open Sans", sans-serif;
