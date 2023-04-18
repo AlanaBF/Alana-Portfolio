@@ -52,9 +52,15 @@ nav a:hover {
   color: #e6ddc4;
 }
 
+.navIcons {
+  display: flex;
+  justify-content: space-around;
+}
+
 .navbarIcons {
   font-size: 2rem !important;
   color: #f0e9d2;
+  padding: 10px;
 }
 
 .navigation {
@@ -375,10 +381,10 @@ span {
 }
 
 /* Page Not Found */
-
-/* .notfound-page-container {
+.notfound-page-container {
   width: 100%;
   background-color: #181d31;
+  height: 85vh;
 }
 
 .notfound-page-inner {
@@ -386,18 +392,17 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #678983;
 }
 
 .notfound-page-content {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 10px solid #678983;
-  border-radius: 10px;
+  border: 20px solid #678983;
+  border-radius: 20px;
   width: 100%;
-  background-color:#181d31;
-  color:#e6ddc4;
+  background-color: #181d31;
+  color: #e6ddc4;
 }
 
 .notfound-page-content div {
@@ -428,9 +433,8 @@ span {
 }
 
 .notfound-page-content img {
-  width: 100%;
-  max-width: 400px;
- 
+  display: flex;
+  width: 200%;
 }
 
 
@@ -448,4 +452,9 @@ span {
     min-height: 260px;
     align-items: center;
   }
-} */
+
+  .notfound-page-content img {
+    display: flex;
+    width: 100%;
+  }
+}

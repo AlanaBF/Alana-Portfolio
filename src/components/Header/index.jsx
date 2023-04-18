@@ -52,21 +52,21 @@ function Header() {
           </Nav>
 
           <Nav className="nav navbar-nav flex-row justify-content-md-center justify-content-start flex-nowrap">
-            <Nav.Link>
+          <div className="navIcons">
               <a href="https://twitter.com/AlanaBF81">
                 <i className="fa navbarIcons fa-twitter"></i>
               </a>
-            </Nav.Link>
-            <Nav.Link>
+            
+          
               <a href="https://github.com/AlanaBF">
                 <i className="fa navbarIcons fa-github"></i>
               </a>{" "}
-            </Nav.Link>
-            <Nav.Link>
-              <a href="https://www.linkedin.com/in/alanabarrettfrew">
+          
+          
+              <a href="https://www.linkedin.com/in/alanabarrettfrew/">
                 <i className="fa navbarIcons fa-linkedin"></i>
               </a>
-            </Nav.Link>
+            </div>
           </Nav>
         </Navbar.Collapse>
       </Container>

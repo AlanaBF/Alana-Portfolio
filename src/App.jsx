@@ -9,8 +9,6 @@ import {
 import { Home, Contact, ProjectGallery, Blog, Freelance, NotFound } from "./pages/index";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-// import "./App.css";
-// import "./index.css";
 
 
 const App = () => {
