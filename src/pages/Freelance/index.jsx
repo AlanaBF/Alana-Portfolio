@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
-function Freelance () {
+function Freelance() {
   return (
     <div className="page-background">
-    <h1>Freelance Work</h1>
+      <h1>Freelance Work</h1>
     </div>
-  )
+  );
 }
 
-export default Freelance
+export default Freelance;

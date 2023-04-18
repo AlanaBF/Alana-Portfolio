@@ -34,30 +34,29 @@
 
 // export default App
 
-import React from 'react';
-import {Route, BrowserRouter, Routes} from 'react-router-dom';
-import { Home, Contact, ProjectGallery, Blog, Freelance } from "./pages/index"
-import Navbar from "./components/Header"
-import Footer from "./components/Footer"
-import './App.css'
-import './index.css'
+import React from "react";
+import { Route, BrowserRouter, Routes } from "react-router-dom";
+import { Home, Contact, ProjectGallery, Blog, Freelance } from "./pages/index";
+import Navbar from "./components/Header";
+import Footer from "./components/Footer";
+import "./App.css";
+import "./index.css";
 
-function App () {
-
+function App() {
   return (
     <BrowserRouter>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/Home" element={<Home />} />
-          <Route path="/Contact" element={<Contact />} />
-          <Route path="/Blog" element={<Blog />} />
-          <Route path="/ProjectGallery" element={<ProjectGallery />} />
-          <Route path="/Freelance" element={<Freelance />} />
-        </Routes>
-        <Footer/>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Home" element={<Home />} />
+        <Route path="/Contact" element={<Contact />} />
+        <Route path="/Blog" element={<Blog />} />
+        <Route path="/ProjectGallery" element={<ProjectGallery />} />
+        <Route path="/Freelance" element={<Freelance />} />
+      </Routes>
+      <Footer />
     </BrowserRouter>
-  ); 
-};
+  );
+}
 
 export default App;

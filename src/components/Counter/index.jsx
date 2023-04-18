@@ -1,14 +1,19 @@
-import React from 'react'
+import React from "react";
 
 function Counter() {
-    const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
   return (
     <div className="card">
-         <a href="#"><button className="visitor" onClick={() => setCount((count) => count + 1)}>
-         {count} Visitors
-        </button></a>
+      <a href="#">
+        <button
+          className="visitor"
+          onClick={() => setCount((count) => count + 1)}
+        >
+          {count} Visitors
+        </button>
+      </a>
     </div>
-  )
+  );
 }
 
-export default Counter
+export default Counter;
