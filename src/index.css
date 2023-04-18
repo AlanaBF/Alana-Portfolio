@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -66,4 +66,389 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+} */
+
+:root {
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+
+  font-family: "Bubblegum Sans", cursive;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: #f0e9d2;
+  padding: 20px;
+  font-family: "Bubblegum Sans", cursive;
+}
+
+h2 {
+  font-size: 2em;
+  line-height: 1;
+  color: #f0e9d2;
+  padding: 20px;
+  font-family: "Bubblegum Sans", cursive;
+}
+
+/* Navbar */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navigation {
+  display: flex;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  align-items: center;
+  position: relative;
+  padding: 0.5rem 0rem;
+}
+
+nav a:hover {
+  color: #e6ddc4;
+}
+
+.navbar-brand {
+  color: #181d31;
+  font-size: 1em;
+  margin-left: 0%;
+}
+
+.navbar {
+  background: rgb(230, 221, 196);
+  background: linear-gradient(
+    90deg,
+    rgba(230, 221, 196, 1) 30%,
+    rgba(103, 137, 131, 1) 78%
+  );
+  font-size: 1.5rem;
+  justify-content: space-around;
+}
+
+.nav-link {
+  color: #181d31;
+  font-size: 1rem;
+  padding: 8px;
+}
+
+.ms-auto {
+}
+
+/* General Page Layout */
+.page-background {
+  background-color: #181d31;
+  min-height: 86vh;
+  margin-top: 0;
+  text-align: center;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* Home Page */
+.profilePic {
+  display: flex;
+  width: 15%;
+ 
+  border-radius: 50%;
+  border: solid #678983 10px;
+  margin-top: 30px;
+  position: absolute;
+  left: 80px;
+  top: 100px;
+}
+
+.page-background-home {
+  background-color: #181d31;
+  width: 100%;
+  background-position: center center;
+  border: #181d31 solid 20px;
+  height: 87vh;
+  background-repeat: no-repeat;
+}
+
+.image-home {
+  border: #678983 solid 20px;
+  border-radius: 20%;
+  display: flex;
+  margin: auto;
+width: 50%;
+}
+
+.home-title {
+  position: absolute;
+  top: 60%;
+  text-align: left;
+}
+
+.home-subtitle {
+  position: absolute;
+  top: 70%;
+  text-align: left;
+  font-size: 1.25em;
+}
+
+.aboutMe {
+  display: flex;
+  height: 80%;
+  width: 20%;
+  background-color: #e6ddc4;
+  color: #678983;
+  position: absolute;
+  right:35px;
+  top: 95px;
+  text-align: center;
+  justify-content: center;
+  font-size: 2em;
+  border: #678983 solid 20px;
+  border-radius: 20px;
+}
+/* Contact Page  and Component */
+
+.formlabel {
+  display: flex;
+  margin: auto;
+  color: #678983;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.forminput {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 50%;
+  height: 50px;
+}
+
+.submit {
+  display: flex;
+  margin: 50px auto 30px auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #678983;
+  font-weight: bold;
+  font-size: 2rem;
+  width: 30%;
+  border-radius: 20px;
+  border: #678983 solid 10px;
+  background-color: #e6ddc4;
+}
+
+.submit:hover {
+  color: #e6ddc4;
+  background-color: #678983;
+}
+
+.messagebox {
+  display: flex;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100px;
+}
+
+.messagelabel {
+  margin: auto;
+  display: flex;
+  color: #678983;
+  font-size: 2rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactText {
+  text-align: center;
+  margin: 2%;
+  font-size: 2rem;
+  color: #f0e9d2;
+}
+
+.fa {
+  font-size: 5rem;
+  color: #f0e9d2;
+}
+
+span {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 400px 20px 400px;
+}
+
+.contact {
+  width: 100%;
+  text-align: center;
+  font-size: 400%;
+  text-decoration: underline;
+  margin-bottom: 1%;
+  padding: 1rem;
+  font-style: italic;
+  color: #f0e9d2;
+}
+
+.contactMeForm {
+  width: 1000px;
+  background-color: #f0e9d2 !important;
+  margin: auto;
+  border-radius: 60px;
+  padding: 10px;
+}
+
+.cv {
+  font-size: 1em;
+color: #e6ddc4;
+text-decoration: none;
+ background-color: #678983;
+ border-radius: 20px;
+ padding: 10px;
+}
+.cv:hover {
+  color: #678983;
+  background-color: #e6ddc4;
+}
+
+/* Gallery and Project Cards */
+
+.intro {
+  width: 100%;
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #e6ddc4;
+}
+.card {
+  width: 35rem;
+  background: #f0e9d2;
+  border-radius: 3%;
+  border: 1rem solid #678983;
+  margin: 1%;
+}
+
+.card-image-position {
+  display: flex;
+}
+
+.cardImg {
+  width: 100%;
+  height: 100%;
+  object-fit: 100%;
+  overflow: hidden;
+  border-radius: 2%;
+}
+
+.cardBodyText {
+  font-size: 100%;
+  border-top: 1rem solid #678983;
+}
+
+.cardBodyLinks {
+  font-size: 100%;
+  width: 100%;
+  border-top: 1rem solid #678983;
+}
+
+.galleryCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Blog Page */
+.blogText {
+  color: #e6ddc4;
+  padding: 10px;
+  font-size: 1.5em;;
+}
+
+.blogCard {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  margin: 20px auto;
+}
+
+.picture {
+  background-image: url(../src/assets/maldives.jpeg);
+  width: 100%;
+  background-position: center center;
+  padding-bottom: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: #e6ddc4 solid 50px;
+  border-radius: 50px;
+}
+
+.picture-section {
+  padding: 50px;
+}
+
+.search {
+  width: 300px;
+  background-color: #f0e9d2 !important;
+  margin: auto;
+  border-radius: 20px;
+  border: #f0e9d2 solid 5px;
+  padding: 10px;
+  position: absolute;
+  right: 250px;
+  top: 110px;
+}
+
+.search-btn {
+  display: flex;
+  margin: 20px auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #678983;
+  position: absolute;
+  right: 100px;
+  top: 100px;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 100px;
+  border-radius: 20px;
+  border: #f0e9d2 solid 5px;
+  background-color: #f0e9d2;
+}
+
+.search-btn:hover {
+  color: #e6ddc4;
+  background-color: #678983;
+}
+
+/* Footer */
+.footer {
+  background: rgb(230, 221, 196);
+  background: linear-gradient(
+    270deg,
+    rgba(230, 221, 196, 1) 30%,
+    rgba(103, 137, 131, 1) 78%
+  );
+  color: #181d31;
+  font-size: 1rem !important;
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
 }

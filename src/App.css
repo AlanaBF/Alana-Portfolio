@@ -40,3 +40,15 @@
 .read-the-docs {
   color: #888;
 }
+
+.abfLogo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+  border-radius: 100%;
+}
+
+.abfLogo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
