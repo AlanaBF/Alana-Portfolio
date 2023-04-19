@@ -54,7 +54,7 @@ nav a:hover {
 
 .navIcons {
   display: flex;
-  justify-content: space-around;  
+  justify-content: space-around;
   align-items: center;
   text-decoration: none !important;
 }
@@ -63,7 +63,6 @@ nav a:hover {
   font-size: 2rem !important;
   color: #f0e9d2;
   padding: 10px;
-
 }
 
 .navigation {
@@ -380,7 +379,7 @@ nav a:hover {
   align-items: center;
   justify-content: center;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 150%;
 }
 
 .forminput {
@@ -395,14 +394,14 @@ nav a:hover {
 
 .submit-button {
   display: flex;
-  margin: 50px auto 30px auto !important;
+  margin: 40px auto 40px auto !important;
   text-align: center !important;
   justify-content: center !important;
   align-items: center !important;
   color: #678983 !important;
   font-weight: bold !important;
-  font-size: 2rem !important;
-  width: 30% !important;
+  font-size: 100% !important;
+  width: 40% !important;
   border-radius: 20px !important;
   border: #678983 solid 10px !important;
   background-color: #e6ddc4 !important;
@@ -428,7 +427,7 @@ nav a:hover {
   margin: auto;
   display: flex;
   color: #678983;
-  font-size: 2rem;
+  font-size: 150%;
   font-weight: bold;
   text-align: center;
   justify-content: center;
@@ -438,7 +437,7 @@ nav a:hover {
 .contactText {
   text-align: center;
   margin: 2%;
-  font-size: 1.5rem;
+  font-size: 150%;
   color: #f0e9d2;
 }
 
@@ -455,15 +454,19 @@ nav a:hover {
 span {
   display: flex;
   justify-content: space-around;
-  margin: 0px 400px 20px 400px;
+  margin: 0% 20% 0% 20%;
+  align-items: center;
 }
 
 .contact {
+  display: flex;
+  text-align: center;
+  justify-content: center;
   font-size: 400% !important;
 }
 
 .contactMeForm {
-  width: 1000px;
+  width: 80%;
   background-color: #f0e9d2 !important;
   margin: auto;
   border-radius: 60px;
@@ -568,22 +571,25 @@ span {
 }
 
 .search {
+  color: #678983 !important;
+  border: #678983 solid 5px !important;
   background-color: #f0e9d2 !important;
-  margin-left: 50% !important;
   border-radius: 20px !important;
-  border: #f0e9d2 solid 5px !important;
-  padding: 5px !important;
+  position: relative;
+  top: 100px;
 }
 
 .search-button {
   color: #678983 !important;
   font-weight: bold !important;
   font-size: 1rem !important;
-  width: 100px !important;
   border-radius: 20px !important;
-  border: #f0e9d2 solid 5px !important;
-  padding: 5px !important;
+  border: #678983 solid 5px !important;
   background-color: #f0e9d2 !important;
+  position: relative;
+  top: 100px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .search-button:hover {
@@ -695,7 +701,7 @@ span {
   color: #678983;
   background-color: #e6ddc4;
   padding: 50px;
-  margin: 50px 400px 100px 400px;
+
   border-radius: 50px;
   border: #678983 solid 20px;
 }
