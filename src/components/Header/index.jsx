@@ -10,7 +10,7 @@ function Header() {
     <Navbar
       collapseOnSelect
       expand="lg"
-      className="navbar navigation navbar-expand-md bg-light justify-content-md-center justify-content-start"
+      className="navbar navigation navbar-expand-lg bg-light justify-content-md-center justify-content-start"
     >
       <Container>
         <LinkContainer to="/">
@@ -19,15 +19,8 @@ function Header() {
           </Navbar.Brand>
         </LinkContainer>
 
-        <Navbar.Toggle aria-controls="responsive-navbar-nav">
-          <button
-            className="navbar-toggler ml-1"
-            type="button"
-            data-toggle="collapse"
-            data-target="#collapsingNavbar2"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
+        <Navbar.Toggle aria-controls="basic-navbar-nav">
+        <i class="fa-solid fa-bars"></i>
         </Navbar.Toggle>
 
         <Navbar.Collapse className="navbar-collapse collapse justify-content-between align-items-center w-100">
@@ -56,13 +49,9 @@ function Header() {
               <a href="https://twitter.com/AlanaBF81">
                 <i className="fa navbarIcons fa-twitter"></i>
               </a>
-            
-          
               <a href="https://github.com/AlanaBF">
                 <i className="fa navbarIcons fa-github"></i>
               </a>{" "}
-          
-          
               <a href="https://www.linkedin.com/in/alanabarrettfrew/">
                 <i className="fa navbarIcons fa-linkedin"></i>
               </a>

@@ -17,6 +17,9 @@ function Blog() {
           Web Developer
         </p>
       </div>
+      <div>
+        <h2 className="pageUnderConstruction">Page under construction</h2>
+      </div>
 
       <BlogPost />
     </div>

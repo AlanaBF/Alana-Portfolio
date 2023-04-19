@@ -4,7 +4,7 @@ import palmtree from "../../assets/palm-tree.jpeg";
 import About from "../../components/About";
 function Home() {
   return (
-    <div className="page-background-home">
+    <div className="page-background-home" >
       <img className="image-home" src={palmtree} alt=""></img>
       <div>
         <div>
@@ -16,9 +16,9 @@ function Home() {
         <div className="home-subtitle">
           <h2>Front End Web Developer</h2>
         </div>
-        <div>
+        <div className="aboutMePosition">
           <About />
-        </div>
+      </div>
       </div>
     </div>
   );

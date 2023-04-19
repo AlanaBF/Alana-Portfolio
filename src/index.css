@@ -54,17 +54,21 @@ nav a:hover {
 
 .navIcons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-around;  
+  align-items: center;
+  text-decoration: none !important;
 }
 
 .navbarIcons {
   font-size: 2rem !important;
   color: #f0e9d2;
   padding: 10px;
+
 }
 
 .navigation {
   width: 100%;
+  height: 100%;
   font-family: "Open Sans", sans-serif;
   background: rgb(230, 221, 196);
   background: linear-gradient(
@@ -129,21 +133,243 @@ nav a:hover {
   font-size: 1.25em;
 }
 
-.aboutMe {
-  display: flex;
-  height: 80%;
-  width: 20%;
+.aboutMeCard {
   background-color: #e6ddc4;
   color: #678983;
-  position: absolute;
-  right: 35px;
-  top: 95px;
   text-align: center;
-  justify-content: center;
-  font-size: 2em;
-  border: #678983 solid 20px;
+  border: #678983 solid 10px !important;
   border-radius: 20px;
+  width: 90%;
 }
+
+.aboutMePosition {
+  display: flex;
+  width: auto;
+  position: absolute;
+  top: 15%;
+  left: 77%;
+  flex-wrap: wrap;
+}
+
+.aboutMeHeader {
+  font-size: 3em;
+  font-family: "Bubblegum Sans", cursive;
+}
+
+.aboutMeText {
+  font-size: 1em;
+}
+
+@media screen and (max-width: 1200px) {
+  .aboutMePosition {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    left: 0%;
+    top: 75px;
+  }
+
+  .profilePic {
+    display: flex;
+    width: 20%;
+    border-radius: 50%;
+    border: solid #678983 10px;
+    margin-top: 30px;
+    position: absolute;
+    left: 80px;
+    top: 100px;
+  }
+
+  .image-home {
+    border: #678983 solid 20px;
+    border-radius: 20%;
+    display: flex;
+    margin-left: 40%;
+    width: 50%;
+  }
+
+  .home-title {
+    position: absolute;
+    top: 45%;
+    text-align: left;
+    margin-left: 5%;
+  }
+
+  .home-subtitle {
+    position: absolute;
+    top: 50%;
+    margin-left: 5%;
+    text-align: left;
+    font-size: 1.25em;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .aboutMePosition {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    left: 0%;
+    top: 70px;
+  }
+
+  .profilePic {
+    display: flex;
+    width: 25%;
+    border-radius: 50%;
+    border: solid #678983 10px;
+    margin-top: 30px;
+    position: absolute;
+    left: 60px;
+    top: 100px;
+  }
+
+  .aboutMeHeader {
+    font-size: 2em;
+    font-family: "Bubblegum Sans", cursive;
+  }
+
+  .image-home {
+    border: #678983 solid 20px;
+    border-radius: 20%;
+    display: flex;
+    margin-left: 40%;
+    margin-top: 5%;
+    width: 55%;
+  }
+
+  .home-title {
+    position: absolute;
+    top: 40%;
+    margin-left: 0;
+    text-align: left;
+  }
+
+  .home-subtitle {
+    position: absolute;
+    top: 45%;
+    margin-left: 0;
+    text-align: left;
+    font-size: 1.25em;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .page-background-home {
+    background-color: #181d31;
+    width: 100%;
+    background-position: center center;
+    border: #181d31 solid 20px;
+    height: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .aboutMePosition {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    left: 0;
+    top: -150px;
+  }
+
+  .profilePic {
+    display: flex;
+    width: 30%;
+    border-radius: 50%;
+    border: solid #678983 10px;
+    position: relative;
+    top: 0;
+  }
+
+  .aboutMeHeader {
+    font-size: 2em;
+    font-family: "Bubblegum Sans", cursive;
+  }
+
+  .image-home {
+    border: #678983 solid 20px;
+    border-radius: 20%;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 0%;
+    width: 80%;
+  }
+
+  .home-title {
+    position: relative;
+    top: -120px;
+    text-align: right;
+  }
+
+  .home-subtitle {
+    position: relative;
+    top: -180px;
+    text-align: right;
+    font-size: 1.25em;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .page-background-home {
+    background-color: #181d31;
+    width: 100%;
+    background-position: center center;
+    border: #181d31 solid 20px;
+    height: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .aboutMePosition {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+
+  .profilePic {
+    display: flex;
+
+    width: 50%;
+    border-radius: 50%;
+    border: solid #678983 10px;
+    position: relative;
+    top: 0;
+    left: 25%;
+    right: 25%;
+  }
+
+  .aboutMeHeader {
+    font-size: 2em;
+    font-family: "Bubblegum Sans", cursive;
+  }
+
+  .image-home {
+    border: #678983 solid 20px;
+    border-radius: 20%;
+    display: flex;
+    margin: auto;
+    width: 80%;
+  }
+
+  .home-title {
+    position: relative;
+    top: 0;
+    text-align: center;
+  }
+
+  .home-subtitle {
+    position: relative;
+    top: 0;
+    text-align: center;
+    font-size: 1.25em;
+  }
+}
+
 /* Contact Page  and Component */
 
 .formlabel {
@@ -269,7 +495,7 @@ span {
 }
 
 .gallery-card {
-  width: 45%;
+  width: 550px;
   background: #f0e9d2;
   border: 1rem solid #678983 !important;
   margin: 1%;
@@ -307,9 +533,9 @@ span {
 }
 
 .galleryCard {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: space-around !important;
 }
 
 /* Blog Page */
@@ -437,7 +663,6 @@ span {
   width: 200%;
 }
 
-
 @media screen and (max-width: 767px) {
   .notfound-page-content {
     flex-direction: column;
@@ -457,4 +682,20 @@ span {
     display: flex;
     width: 100%;
   }
+}
+
+/* Freelance Page */
+
+.pageUnderConstruction {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  color: #678983;
+  background-color: #e6ddc4;
+  padding: 50px;
+  margin: 50px 400px 100px 400px;
+  border-radius: 50px;
+  border: #678983 solid 20px;
 }
