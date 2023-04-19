@@ -7,7 +7,7 @@ function BlogPost({ blogpost }) {
   return (
     <Card className="blog-card">
       <div>
-        <Card.Img className="blog-image" variant="top" src={image} alt={name} />
+        <Card.Img className="blog-image" variant="top" src={`${image}`} alt={name} />
       </div>
       <Card.Body>
         <Card.Title>
