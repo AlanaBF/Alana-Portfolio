@@ -4,7 +4,7 @@
         "id": "1",
         "name": "Welcome",
         "date": "19/4/2023",
-        "image": "/src/assets/programmer.png",
+        "image": "https://drive.google.com/uc?export=view&id=1Rygy3O8qXt2YB7EbmCK9Sqpzsva0wTGp",
         "postText": "Welcome to my first Blog Post",
         "blogLink": "https://alanabarrettfrew.com/"
     }

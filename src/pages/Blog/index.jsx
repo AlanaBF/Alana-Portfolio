@@ -1,7 +1,7 @@
 import React from "react";
 import BlogPost from "../../components/Blog";
 import Search from "../../components/Search";
-import blog from "../../components/Blog/blog.json"
+import blog from "../../blog.json"
 
 function Blog() {
   return (
