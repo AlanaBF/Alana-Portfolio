@@ -1,6 +1,8 @@
 import React from "react";
 import BlogPost from "../../components/Blog";
 import Search from "../../components/Search";
+import blog from "../../components/Blog/blog.json"
+
 function Blog() {
   return (
     <div className="page-background">
@@ -17,11 +19,12 @@ function Blog() {
           Web Developer
         </p>
       </div>
-      <div>
-        <h2 className="pageUnderConstruction">Page under construction</h2>
-      </div>
 
-      <BlogPost />
+      <div className="blogCard">
+        {blog.map((blogpost) => (
+          <BlogPost key={blogpost.id} blogpost={blogpost} />
+        ))}
+      </div>
     </div>
   );
 }
