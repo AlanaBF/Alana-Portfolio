@@ -582,7 +582,7 @@ span {
   justify-content: space-around !important;
 }
 .blog-card {
-  width: 30%;
+  width: 550px;
   display: flex;
   justify-content: center;
   border: 1rem solid #678983 !important;

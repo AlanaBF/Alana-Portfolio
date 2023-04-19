@@ -4,10 +4,9 @@
         "id": "1",
         "name": "Welcome",
         "date": "19/4/2023",
-        "image": "/public/—Pngtree—programmer programming_5401915.png",
+        "image": "/src/assets/—Pngtree—programmer programming_5401915.png",
         "postText": "Welcome to my first Blog Post",
         "blogLink": "https://alanabarrettfrew.com/"
-      
     }
    
 ]
