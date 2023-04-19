@@ -133,7 +133,7 @@ nav a:hover {
 }
 
 .aboutMeCard {
-  background-color: #e6ddc4;
+  background-color: #e6ddc4 !important;
   color: #678983;
   text-align: center;
   border: #678983 solid 10px !important;
