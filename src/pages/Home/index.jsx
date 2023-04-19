@@ -20,6 +20,14 @@ function Home() {
           <About />
       </div>
       </div>
+      <hr/>
+      <div className="whiteSection">
+       <h1 className="news">In the news</h1>
+      </div>
+      <hr/>
+      <div className="colorSection">
+        <h1>Weather</h1>
+      </div>
     </div>
   );
 }
