@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div>Made with ❤️️ by Alana &copy; 2023 Alana Barrett-Frew</div>
-    </footer>
+      <a href='https://pngtree.com/so/programmer'>programmer image link/</a> </footer>
   );
 }
 
