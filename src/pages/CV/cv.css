@@ -23,9 +23,10 @@
   font-family: 'Fuzzy Bubbles', cursive;
   border: rgb(5, 85, 146) solid 10px !important;
   border-radius: 20px;
+  
 }
 
-.cv {
+.cvframe {
   padding-top: 20px;
   overflow: auto;
   width: 100% !important;

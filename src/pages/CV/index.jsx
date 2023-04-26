@@ -10,7 +10,7 @@ function CV() {
             <div className="button-position">
                 <Button className="link-button"><a href={AlanaCV}>Download a copy of my CV</a></Button>
             </div>
-            <div className="cv">
+            <div className="cvframe">
                 <iframe src={`${AlanaCV}#view=fitH`} title="AlanaCV" width="100%" height="1000" />
             </div>
 
