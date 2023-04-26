@@ -1,0 +1,32 @@
+
+/* CV Page */
+.cvBackground {
+  background-color: #181d31;
+  min-height: 120vh;
+  margin-top: 0;
+  text-align: center;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.button-position {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.link-button {
+  color: #48B !important;
+  background-color: #5FF !important;
+  font-family: 'Caveat', cursive;
+  font-family: 'Fuzzy Bubbles', cursive;
+  border: rgb(5, 85, 146) solid 10px !important;
+  border-radius: 20px;
+}
+
+.cv {
+  padding-top: 20px;
+  overflow: auto;
+  width: 100% !important;
+}

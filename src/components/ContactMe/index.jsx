@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-
+import "./contactMe.css"
 //code from emailjs.com
 export const ContactMe = () => {
   const form = useRef();

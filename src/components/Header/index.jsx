@@ -4,13 +4,15 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { LinkContainer } from "react-router-bootstrap";
+import "./header.css"
+
 
 function Header() {
   return (
     <Navbar
       collapseOnSelect
       expand="lg"
-      className="navbar navigation navbar-expand-lg bg-light justify-content-md-center justify-content-start"
+      className="navbar navigation navbar-expand-lg  justify-content-md-center justify-content-start"
     >
       <Container>
         <LinkContainer to="/">
@@ -42,6 +44,9 @@ function Header() {
             <LinkContainer to="/Contact">
               <Nav.Link className="nav-link">Contact Me</Nav.Link>
             </LinkContainer>
+            <LinkContainer to="/CV">
+              <Nav.Link className="nav-link">CV</Nav.Link>
+            </LinkContainer>
           </Nav>
 
           <Nav className="nav navbar-nav flex-row justify-content-md-center justify-content-start flex-nowrap">
@@ -64,27 +69,3 @@ function Header() {
 }
 
 export default Header;
-
-//     <ul class="navbar-nav mx-auto text-md-center text-left">
-//         <li class="nav-item">
-//             <a class="nav-link" href="#">Link</a>
-//         </li>
-//         <li class="nav-item">
-//             <a class="nav-link" href="#">Link</a>
-//         </li>
-//         <li class="nav-item my-auto">
-//             <a class="nav-link navbar-brand mx-0 d-none d-md-inline" href="">Brand</a>
-//         </li>
-//         <li class="nav-item">
-//             <a class="nav-link" href="#">Link</a>
-//         </li>
-//         <li class="nav-item">
-//             <a class="nav-link" href="#">Link</a>
-//         </li>
-//     </ul>
-//     <ul class="nav navbar-nav flex-row justify-content-md-center justify-content-start flex-nowrap">
-//         <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-facebook mr-1"></i></a> </li>
-//         <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-twitter"></i></a> </li>
-//     </ul>
-// </div>
-// </nav>

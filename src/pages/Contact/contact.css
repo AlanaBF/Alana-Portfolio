@@ -1,0 +1,84 @@
+/* Contact Page */
+
+.contactBackground {
+  background-image: url(./assets/vecteezy_sea-cave-background-in-cartoon-style_6769520.jpg);
+  min-height: 87vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+
+.contactText {
+  text-align: center;
+  margin: 0 auto 50px auto;
+  padding: 20px;
+  border: rgb(5, 85, 146) solid 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(5, 85, 146) !important;
+  font-family: "Caveat", cursive;
+  font-family: "Fuzzy Bubbles", cursive;
+  background-color: #caf0f8;
+  border-radius: 20px;
+  width: 50%;
+}
+
+.button {
+  color: rgb(5, 85, 146) !important;
+  margin-top: 1% !important;
+  margin-bottom: 10% !important;
+}
+
+.fa {
+  font-size: 6rem;
+  font-weight: bold;
+  color: rgb(5, 85, 146) !important;
+}
+
+.fa:hover {
+  font-size: 5rem;
+  color: #678983;
+}
+
+span {
+  display: flex;
+  justify-content: space-around;
+  margin: 0% 20% 0% 20%;
+  align-items: center;
+}
+
+.contact {
+  font-size: 400%;
+}
+
+.contactMeForm {
+  width: 80%;
+  background-color: rgb(5, 85, 146) !important;
+  margin: auto;
+  border-radius: 60px;
+  padding: 10px;
+}
+
+.cv {
+  display: flex;
+  margin: 40px auto 40px auto !important;
+  text-align: center !important;
+  justify-content: center !important;
+  text-decoration: none !important;
+  align-items: center !important;
+  color: #5ff !important;
+  font-weight: bold !important;
+  font-size: 100% !important;
+  width: 30% !important;
+  border-radius: 20px !important;
+  border: rgb(5, 85, 146) solid 10px !important;
+  background-color: rgb(5, 85, 146) !important;
+  padding-bottom: 10px;
+}
+
+.cv:hover {
+  color: #5ff !important;
+  background-color: #181d31 !important;
+}

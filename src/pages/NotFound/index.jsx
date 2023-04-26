@@ -2,7 +2,7 @@ import React from 'react'
 import { Container } from 'react-bootstrap'
 import error from '../../assets/vecteezy_3d-code-debugging-illustration-side-view_10998101_639.png'
 import { Link } from 'react-router-dom'
-
+import "./notfound.css"
 
 const NotFound = () => {
   return (

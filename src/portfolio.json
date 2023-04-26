@@ -53,9 +53,40 @@
     "deployedLink": "https://alanabf.github.io/Daily-Planner-App/",
     "about": "An application that allows a user to save events for each hour of the day by modifying starter code. This app runs in the browser and features dynamically updated HTML and CSS powered by jQuery. The Moment.js library is used to work with date and time."
   },
+
   {
     "id": 7,
     "key": 7,
+    "name": "Decision Dice",
+    "image": "https://drive.google.com/uc?export=view&id=1FMmhlkP1-ilczWL4COTV8_leGI-tG_Rh",
+    "Github": "https://github.com/AlanaBF/DecisionDice",
+    "deployedLink": "https://alanasdicedecisionmaker.netlify.app/",
+    "about": "A dice app to decide a winner on the roll of a dice"
+  },
+  
+  {
+    "id": 8,
+    "key": 8,
+    "name": "Drum Kit",
+    "image": "https://drive.google.com/uc?export=view&id=1kXkLQTVtnof2b6SviZXV0koqQVDXLf1M",
+    "Github": "https://github.com/AlanaBF/Drum-Kit",
+    "deployedLink": "https://alanasdrumkit.netlify.app/",
+    "about": "A drum kit that works by clicking on the drums or by pressing the corresponding key."
+  },
+
+  {
+    "id": 9,
+    "key": 9,
+    "name": "Simon Game",
+    "image": "https://drive.google.com/uc?export=view&id=1SIJ_4szWHnZAt4MZZaQXlRpxtsylqHhH",
+    "Github": "https://github.com/AlanaBF/Simon-Game",
+    "deployedLink": "https://alanas-simon-game.netlify.app/",
+    "about": "A game where the user has to remember a pattern and repeat it back as it progressively gets more difficult."
+  },
+
+  {
+    "id": 10,
+    "key": 10,
     "name": "Password Generator",
     "image": "https://drive.google.com/uc?export=view&id=1Z9gEj_CpVcMhHjTBUJpCaVuW8kDtuFuA",
     "Github": "https://github.com/AlanaBF/Password-Generator",
@@ -63,8 +94,8 @@
     "about": "An application that an employee can use to generate a random password based on criteria they’ve selected. This app runs in the browser, and features dynamically updated HTML and CSS powered by JavaScript code. It has a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes. The password can include special characters."
   },
   {
-    "id": 8,
-    "key": 8,
+    "id": 11,
+    "key": 11,
     "name": "Code-Quiz",
     "image": "https://drive.google.com/uc?export=view&id=1GuFiW9vjC23XxjfFyofAypSX08ZexYS2",
     "Github": "https://github.com/AlanaBF/Code-Quiz",

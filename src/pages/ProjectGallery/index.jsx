@@ -1,11 +1,11 @@
 import React from "react";
 import portfolio from "../../portfolio.json";
 import ProjectCard from "../../components/ProjectCard";
-
+import "./projectGallery.css"
 //Project gallery illustrating my work
 function ProjectGallery() {
   return (
-    <div className="page-background">
+    <div className="galleryBackground">
       <h1 className="gallerytitle">Project Gallery</h1>
       <p className="intro">
         Here you can find examples of the Front End Development projects I have

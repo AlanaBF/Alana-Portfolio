@@ -2,7 +2,7 @@ import React from "react";
 import BlogPost from "../../components/Blog";
 import Search from "../../components/Search";
 import blog from "../../blog.json"
-
+import "./blog.css"
 function Blog() {
   return (
     <div className="page-background">

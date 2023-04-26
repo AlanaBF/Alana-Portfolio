@@ -1,0 +1,14 @@
+/* Freelance Page */
+
+.pageUnderConstruction {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: #181d31;
+    background-color: #e6ddc4;
+    padding: 50px;
+    border-radius: 50px;
+    border: rgb(5, 85, 146) solid 20px;
+  }

@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./freelance.css"
 function Freelance() {
   return (
     <div className="page-background">

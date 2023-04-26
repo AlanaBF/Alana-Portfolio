@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-
+import "./projectCard.css"
 // Card that gives an image of the project, the name and a description and the deployed link
 
 function ProjectCard({ project }) {

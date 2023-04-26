@@ -1,14 +1,10 @@
-import React from "react";
-import Card from "react-bootstrap/Card";
-
+import "./about.css"
 function About() {
   return (
     <div >
-      <Card className="aboutMeCard">
-        <Card.Header className="aboutMeHeader">About Me</Card.Header>
-        <Card.Body>
-          <Card.Text className="aboutMeText">
-            <h5>
+      <div className="aboutMeCard">
+        <h2 className="aboutMeHeader">About Me</h2>
+            <h5 className="aboutMeText">
               Former Teacher turned Front End Developer, always learning and
               seeking new knowledge and skills. Very excited to bring highly
               transferable and relevant skillset into the Tech Sector. I value a
@@ -18,17 +14,16 @@ function About() {
               requirements alongside extra curricular activities.
             </h5>
             <h2 className="skills">Skills</h2>
-            <h5>
+            <h5 className="aboutMeSkills">
               Programming: HTML, CSS, JavaScript 
               <br/>Frameworks: React.js, Node.js,
               Bootstrap 
               <br/> 
               Methodologies: Agile, Scrum, Kanban Other: Git, Api’s
             </h5>
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    </div>
+          </div>
+      </div>
+    
   );
 }
 

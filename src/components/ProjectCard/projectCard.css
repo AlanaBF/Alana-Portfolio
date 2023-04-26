@@ -1,0 +1,51 @@
+/* ProjectCard Component */
+
+.card {
+  width: 35rem !important;
+  background: #fff !important;
+  border-radius: 10px !important;
+  border: 1rem solid #48b !important;
+  margin: 1% !important;
+}
+
+.card-image-position {
+  display: flex;
+}
+
+.cardImg {
+  width: 100%;
+  height: 100%;
+  object-fit: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.cardBodyText {
+  font-size: 1em !important;
+  height: 60%;
+  border-top: 1rem solid #48b;
+}
+
+.cardBodyLinks {
+  font-size: 1em !important;
+  height: 40%;
+  border-top: 1rem solid #48b;
+}
+
+.galleryCardLink {
+  font-size: 1em !important;
+  line-height: 1 !important;
+  color: #48b;
+  text-decoration: none !important;
+  font-family: "Caveat", cursive !important;
+  font-family: "Fuzzy Bubbles", cursive !important;
+  text-decoration: none !important;
+}

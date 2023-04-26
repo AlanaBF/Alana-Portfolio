@@ -1,8 +1,9 @@
 import Contact from "./Contact";
-import ProjectGallery from "./Project Gallery";
+import Home from "./Home";
+import ProjectGallery from "./ProjectGallery";
+import CV from "./CV";
 import Blog from "./Blog";
 import Freelance from "./Freelance";
-import Home from "./Home"
-import NotFound from "./Not Found/NotFound";
+import NotFound from "./NotFound";
 
-export { Home, Contact, ProjectGallery, Blog, Freelance, NotFound }
+export { Contact, Home, ProjectGallery, CV, Blog, Freelance, NotFound }

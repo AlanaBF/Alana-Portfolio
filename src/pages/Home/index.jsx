@@ -1,33 +1,27 @@
 import React from "react";
 import profilePic from "../../assets/ProfilePic.jpeg";
-import palmtree from "../../assets/palm-tree.jpeg";
 import About from "../../components/About";
+import "./home.css";
+
 function Home() {
   return (
-    <div className="page-background-home" >
-      <img className="image-home" src={palmtree} alt=""></img>
+    <div className="page-background-home">
       <div>
         <div>
           <img src={profilePic} className="profilePic" alt="ABF profilePic" />
         </div>
-        <div className="home-title">
-          <h1>Alana Barrett-Frew</h1>
+        <div >
+          <h1 className="home-title">Alana Barrett-Frew</h1>
         </div>
-        <div className="home-subtitle">
-          <h2>Front End Web Developer</h2>
+        <div >
+          <h2 className="home-subtitle">Front End Web Developer</h2>
         </div>
         <div className="aboutMePosition">
           <About />
       </div>
       </div>
       <hr/>
-      <div className="whiteSection">
-       <h1 className="news">In the news</h1>
-      </div>
-      <hr/>
-      <div className="colorSection">
-        <h1>Weather</h1>
-      </div>
+     
     </div>
   );
 }

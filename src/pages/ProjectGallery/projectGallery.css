@@ -1,0 +1,33 @@
+/* Project Gallery Page */
+
+.intro {
+  width: 100%;
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 1%;
+  padding: 1rem;
+  font-family: 'Caveat', cursive;
+  font-family: 'Fuzzy Bubbles', cursive;
+  color: rgb(5, 85, 146);
+}
+
+.galleryBackground {
+ 
+  background-image: url(./assets/vecteezy_the-wild-ocean-view_6177787.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 87vh;
+}
+
+.galleryCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.gallerytitle {
+  font-family: 'Caveat', cursive;
+  font-family: 'Fuzzy Bubbles', cursive;
+  color: rgb(5, 85, 146);
+}

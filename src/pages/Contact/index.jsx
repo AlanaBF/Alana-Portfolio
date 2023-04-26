@@ -2,10 +2,11 @@ import React from "react";
 import ContactMe from "../../components/ContactMe";
 import AlanaCV from "./assets/Alana-Barrett-Frew-CV.pdf";
 import Button from "react-bootstrap/Button";
+import "./contact.css"
 //Contact page with links to my LinkedIn, Github, Twitter and emails
 function Contact() {
   return (
-    <div className="page-background">
+    <div className="contactBackground">
       <h1 className="contact">Contact Me</h1>
       <p className="contactText">
         If you want to get in contact please use the form below

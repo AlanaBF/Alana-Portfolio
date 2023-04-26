@@ -1,0 +1,30 @@
+
+/* Blog Page */
+.blogText {
+    color: #e6ddc4;
+    padding: 10px;
+    font-size: 1.5em;
+  }
+  
+  
+  .blogCard {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: space-around !important;
+  }
+  
+  
+  .picture {
+    background-image: url(../src/assets/maldives.jpeg);
+    width: 100%;
+    background-position: center center;
+    padding-bottom: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: #e6ddc4 solid 50px;
+    border-radius: 50px;
+  }
+  
+  .picture-section {
+    padding: 50px;
+  }

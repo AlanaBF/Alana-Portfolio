@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { Button } from "react-bootstrap";
+import "./blogComp.css"
 
 function BlogPost({ blogpost }) {
   const { name, image, date, postText, blogLink } = blogpost;

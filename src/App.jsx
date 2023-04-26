@@ -6,7 +6,7 @@ import {
   Outlet,
   Route,
 } from "react-router-dom";
-import { Home, Contact, ProjectGallery, Blog, Freelance, NotFound } from "./pages/index";
+import { Home, Contact, ProjectGallery, Blog, CV, Freelance, NotFound } from "./pages"
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
@@ -15,11 +15,12 @@ const App = () => {
   const router = createHashRouter(
     createRoutesFromElements(
       <Route path="/" element={<Root />}>
-        <Route path="/" index element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Blog" element={<Blog />} />
         <Route path="/ProjectGallery" element={<ProjectGallery />} />
         <Route path="/Freelance" element={<Freelance />} />
+        <Route path="/CV" element={<CV />} />
         <Route path='*' element={<NotFound />} />
       </Route>
     )
