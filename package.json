@@ -2,12 +2,9 @@
   "name": "alana-portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://alanabf.github.io/Alana-Portfolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "vite build",
     "preview": "vite preview"
   },
