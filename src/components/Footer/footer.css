@@ -2,8 +2,8 @@
 
 .footer {
   width: 100%;
-  background-color: rgb(5, 85, 146) !important;
-  color: #5ff;
+  background-color: var(--dark-blue) !important;
+  color:var(--aqua-blue);
   font-size: 1rem !important;
   text-align: center;
   padding: 1rem;

@@ -1,9 +1,7 @@
+/* Drop Down Credit Component */
 
-/* Drop Dpwn Credit Component */
 #dropdown-basic-button {
-  background-color: #5FF !important;
-  color: rgb(5, 85, 146) !important;
-  font-family: 'Caveat', cursive;
-  font-family: 'Fuzzy Bubbles', cursive;
+  background-color: var(--aqua-blue) !important;
+  color: var(--dark-blue) !important;
   display: flex;
 }

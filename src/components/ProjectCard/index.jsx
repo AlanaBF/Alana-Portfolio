@@ -13,12 +13,12 @@ function ProjectCard({ project }) {
       </div>
       <Card.Body className="cardBodyText">
         <Card.Title>
-          <h4>
+          <h4 className="cardBodyTitle">
             <strong>{name}</strong>
           </h4>
         </Card.Title>
-        <Card.Text>
-          <h5>{about}</h5>
+        <Card.Text className="aboutText">
+          <h5 className="aboutText">{about}</h5>
         </Card.Text>
       </Card.Body>
       <Card.Body className="cardBodyLinks">

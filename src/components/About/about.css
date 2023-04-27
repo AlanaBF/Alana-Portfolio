@@ -1,39 +1,29 @@
 .aboutMeText {
-  color: rgb(5, 85, 146) !important;
-  font-family: "Caveat", cursive;
-  font-family: "Fuzzy Bubbles", cursive;
+  color: var(--dark-blue) !important;
   font-size: 100%;
   text-align: center;
 }
 
 .skills {
-  color: rgb(5, 85, 146) !important;
-  font-family: "Caveat", cursive;
-  font-family: "Fuzzy Bubbles", cursive;
+  color: var(--dark-blue) !important;
 }
 
 .aboutMeSkills {
-  color: rgb(5, 85, 146) !important;
-  font-family: "Caveat", cursive;
-  font-family: "Fuzzy Bubbles", cursive;
+  color: var(--dark-blue) !important;
   font-size: 100%;
   text-align: center;
 }
 .aboutMeHeader {
-  color: rgb(5, 85, 146) !important;
-  font-family: "Caveat", cursive;
-  font-family: "Fuzzy Bubbles", cursive;
+  color: var(--dark-blue) !important;
 }
 
 .aboutMeCard {
-  color: rgb(5, 85, 146) !important;
-  font-family: "Caveat", cursive;
-  font-family: "Fuzzy Bubbles", cursive;
+  color: var(--dark-blue) !important;
   font-size: 100%;
   text-align: center;
-  background-color: #caf0f8;
-  border: solid 10px rgb(5, 85, 146);
+  background-color: var(--light-blue);
+  border: solid 10px var(--dark-blue);
   border-radius: 20px;
   padding: 1%;
-margin-bottom: 5%;
+  margin-bottom: 5%;
 }

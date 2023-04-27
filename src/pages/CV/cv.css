@@ -1,7 +1,7 @@
-
 /* CV Page */
+
 .cvBackground {
-  background-color: #181d31;
+  background-color: var(--navy-blue);
   min-height: 120vh;
   margin-top: 0;
   text-align: center;
@@ -17,13 +17,12 @@
 }
 
 .link-button {
-  color: #48B !important;
-  background-color: #5FF !important;
-  font-family: 'Caveat', cursive;
-  font-family: 'Fuzzy Bubbles', cursive;
-  border: rgb(5, 85, 146) solid 10px !important;
+  color: var(--dark-blue) !important;
+  background-color: var(--aqua-blue) !important;
+  font-family: "Caveat", cursive !important;
+  font-family: "Fuzzy Bubbles", cursive !important;
+  border: var(--dark-blue) solid 10px !important;
   border-radius: 20px;
-  
 }
 
 .cvframe {

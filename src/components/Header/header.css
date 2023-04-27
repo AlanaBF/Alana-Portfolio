@@ -1,18 +1,18 @@
 /* Header Component */
 
 nav a:hover {
-  color: dimgrey !important;
+  color: var(--light-blue) !important;
+  border-radius: 20px;
+  width: auto;
 }
 
 .navigation {
   width: 100% !important;
   height: 100% !important;
   font-size: 1rem !important;
-  background-color: rgb(5, 85, 146) !important;
+  background-color: var(--dark-blue) !important;
   justify-content: space-around !important;
-  font-family: 'Caveat', cursive !important;
-  font-family: 'Fuzzy Bubbles', cursive !important;
-}
+  }
 
 .navIcons {
   display: flex;
@@ -23,33 +23,31 @@ nav a:hover {
 
 .navbarIcons {
   font-size: 2rem !important;
-  color: #f0e9d2 !important;
+  color: var(--light-blue) !important;
   padding: 10px;
 }
 
 .navbarIcons:hover {
   font-size: 2rem !important;
-  color:  #181d31 !important;
+  color: var(--navy-blue) !important;
   padding: 10px;
 }
 
 .navbar-brand {
-  color:#181d31 !important;
+  color:var(--navy-blue) !important;
   font-size: 100%;
   margin-left: 0%;
-  font-family: 'Caveat', cursive;
-  font-family: 'Fuzzy Bubbles', cursive;
 }
 
 .nav-link {
-  color: #181d31 !important;
+  color: var(--navy-blue) !important;
   font-size: 60%;
   font-family: 'Caveat', cursive;
   font-family: 'Fuzzy Bubbles', cursive;
 }
 
 .nav-link:hover {
-  background-color: #caf0f8;
-  color: rgb(5, 85, 146) !important;
+  background-color: var(--light-blue);
+  color: var(--dark-blue) !important;
 }
 

@@ -1,10 +1,14 @@
 /* ProjectCard Component */
 
+a {
+  text-decoration: none !important;
+}
+
 .card {
   width: 35rem !important;
-  background: #fff !important;
+  background: var(--light-blue) !important;
   border-radius: 10px !important;
-  border: 1rem solid #48b !important;
+  border: 1rem solid var(--dark-blue) !important;
   margin: 1% !important;
 }
 
@@ -31,21 +35,28 @@
 .cardBodyText {
   font-size: 1em !important;
   height: 60%;
-  border-top: 1rem solid #48b;
+  border-top: 1rem solid var(--dark-blue);
+}
+
+.cardBodyTitle {
+  font-size: 1em !important;
+  color: var(--dark-blue);
+  text-decoration: underline;
 }
 
 .cardBodyLinks {
   font-size: 1em !important;
   height: 40%;
-  border-top: 1rem solid #48b;
+  border-top: 1rem solid var(--dark-blue);
 }
 
 .galleryCardLink {
   font-size: 1em !important;
   line-height: 1 !important;
-  color: #48b;
-  text-decoration: none !important;
-  font-family: "Caveat", cursive !important;
-  font-family: "Fuzzy Bubbles", cursive !important;
-  text-decoration: none !important;
+  color: var(--dark-blue);
+}
+
+.aboutText {
+  font-size: 1em !important;
+  color: var(--dark-blue);
 }

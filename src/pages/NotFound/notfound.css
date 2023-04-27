@@ -2,7 +2,7 @@
 /* Page Not Found */
 .notfound-page-container {
     width: 100%;
-    background-color: #181d31;
+    background-color: var(--navy-blue);
     height: 85vh;
   }
   
@@ -17,11 +17,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 20px solid #678983;
+    border: 20px solid var(--dark-blue);
     border-radius: 20px;
     width: 100%;
-    background-color: #181d31;
-    color: #e6ddc4;
+    background-color: var(--navy-blue);
+    color: var(--light-blue);
   }
   
   .notfound-page-content div {
@@ -48,7 +48,7 @@
   }
   
   .notfound-page-content a {
-    color: #e6ddc4;
+    color: var(--light-blue);
   }
   
   .notfound-page-content img {
