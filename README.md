@@ -24,13 +24,17 @@
 ## Description 
 A portfolio to showcase me including my skills, experience, projects  and more.
 
-Deployed Site:
+Deployed Site: https://alanabarrett-frew.netlify.app/
 
 ## Usage 
 You can use this application to find out more about me. You can click on the links to contact me, or to view my deployed projects and their Github links.
 
 ## Screenshots
-<!-- ![alt text](./src/) -->
+![Home Page](./src/assets/Screenshots/Home-Screenshot.png)
+![Project Page](./src/assets/Screenshots/Project-Screenshot.png)
+![Blog Page](./src/assets/Screenshots/Blog-Screenshot.png)
+![Contact Page](./src/assets/Screenshots/Contact-Screenshot.png)
+
 
 
 
