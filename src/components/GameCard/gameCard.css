@@ -3,7 +3,7 @@
     width: 400px !important;
     background: var(--light-blue);
     border: 1rem solid var(--dark-blue) !important;
-    margin-bottom: 20px;
+    margin-bottom: 50px !important;
   }
 
   .gameCardBodyText {
