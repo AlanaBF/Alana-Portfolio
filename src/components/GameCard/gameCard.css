@@ -32,6 +32,10 @@
     padding: 10px !important;
     border: var(--dark-blue) solid 5px !important;
     border-radius: 10px !important;
+    position: absolute;
+    bottom:0;
+    left:10%;
+    right:10%;
   } 
   
  
