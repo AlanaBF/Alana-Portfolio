@@ -20,8 +20,6 @@ function Home() {
           <About />
       </div>
       </div>
-      <hr/>
-     
     </div>
   );
 }

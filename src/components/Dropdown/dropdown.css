@@ -3,5 +3,4 @@
 #dropdown-basic-button {
   background-color: var(--aqua-blue) !important;
   color: var(--dark-blue) !important;
-  display: flex;
 }

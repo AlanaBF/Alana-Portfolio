@@ -6,8 +6,8 @@ import Dropdown from "../Dropdown"
 function Footer() {
   return (
     <footer className="footer">
-      <div>Made with ❤️️ by Alana &copy; 2023 Alana Barrett-Frew</div>
-      <Dropdown className="dropdown"/>
+      <div>Made with ❤️️ by Alana &copy; 2023 Alana Barrett-Frew <Dropdown className="dropdown"/></div>
+     
       
        </footer>
   );

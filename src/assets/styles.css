@@ -7,6 +7,7 @@
   --dark-blue: rgb(5, 85, 146);
   --navy-blue: #181d31;
   --cream:  #e6ddc4;
+  height: 100%;
 }
 
 * {
@@ -53,8 +54,9 @@ h5 {
 /* General Page Layout */
 .page-background {
   background-color: var(--navy-blue);
-  min-height: 120vh;
+  min-height: 100vh;
   margin-top: 0;
+  margin-bottom: 0;
   text-align: center;
   padding: 0;
   box-sizing: border-box;
