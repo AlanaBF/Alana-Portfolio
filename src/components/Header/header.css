@@ -40,7 +40,7 @@ nav a:hover {
 }
 
 .nav-link {
-  color: var(--navy-blue) !important;
+  color: var(--light-blue) !important;
   font-size: 60%;
   font-family: 'Caveat', cursive;
   font-family: 'Fuzzy Bubbles', cursive;

@@ -8,7 +8,7 @@
   padding: 1rem;
   font-family: 'Caveat', cursive;
   font-family: 'Fuzzy Bubbles', cursive;
-  color: var(--dark-blue);
+  color: var(--dark-blue) !important;
 }
 
 .galleryBackground {
@@ -26,5 +26,5 @@
 }
 
 .gallerytitle {
-  color: var(--dark-blue);
+  color: var(--dark-blue) !important;
 }
