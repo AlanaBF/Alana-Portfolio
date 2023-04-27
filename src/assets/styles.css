@@ -116,7 +116,7 @@ h5 {
 
 @media (max-width: 545px) {
   .contactMeForm {
-    width: 300px;
+    width: 100%;
     background-color: rgb(5, 85, 146) !important;
     margin: auto;
     border-radius: 40px;
