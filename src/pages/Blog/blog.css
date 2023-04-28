@@ -10,7 +10,6 @@
   display: flex !important;
   flex-wrap: wrap !important;
   justify-content: space-around !important;
-  margin-bottom: 50px !important;
 }
 
 .picture {
@@ -26,4 +25,12 @@
 
 .picture-section {
   padding: 50px;
+}
+
+.blogLink {
+  color: var(--navy-blue);
+  background-color: var(--light-blue);
+  border: var(--dark-blue) solid 10px;
+  border-radius: 10px;
+  padding: 1rem;
 }

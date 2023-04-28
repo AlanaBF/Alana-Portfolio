@@ -9,11 +9,5 @@
   padding: 1rem;
   font-family: "Caveat", cursive;
   font-family: "Fuzzy Bubbles", cursive;
- 
+ margin: 0;
 }
-
-/* .dropdown {
-  position: absolute !important;
-  bottom: 0 !important;
-  right: 0 !important;  
-} */

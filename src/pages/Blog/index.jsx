@@ -1,7 +1,7 @@
 import React from "react";
 import BlogPost from "../../components/Blog";
-import Search from "../../components/Search";
 import blog from "../../blog.json"
+import { Link } from "react-router-dom";
 import "./blog.css"
 function Blog() {
   return (
@@ -9,10 +9,12 @@ function Blog() {
       <div className="picture-section">
         <div className="picture">
           <h1>Blog</h1>
-          <Search />
+         </div>
         </div>
-      </div>
-      <div>
+     <div>
+      <Link className="blogLink" href="https://alanabf-blog.vercel.app/">Click to Visit Site</Link>
+      <br/>
+      <br/>
         <p className="blogText">
           Welcome to my blog space. Join me on my journey as I take a massive
           leap into the unknown with a career change from Teacher to Front End
@@ -25,7 +27,7 @@ function Blog() {
           <BlogPost key={blogpost.id} blogpost={blogpost} />
         ))}
       </div>
-    </div>
+   </div>
   );
 }
 
