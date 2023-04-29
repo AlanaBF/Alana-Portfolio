@@ -1,6 +1,6 @@
 /* Freelance Page */
 
-.pageUnderConstruction {
+/* .pageUnderConstruction {
   display: flex;
   text-align: center;
   justify-content: center;
@@ -11,4 +11,36 @@
   padding: 50px;
   border-radius: 50px;
   border: var(--dark-blue) solid 20px;
+} */
+
+.freelanceAboutMe {
+color: var(--dark-blue);
 }
+/* .freelanceText {
+color: var(--light-blue);
+
+} */
+
+.freelanceColorSection {
+background-color: var(--dark-blue);
+border: var(--light-blue) solid 10px;
+border-radius: 10px;
+margin: 20px 20px 20px 20px;
+padding: 1%;
+}
+
+.freelanceWhiteSection {
+background-color: var(--light-blue);
+border: var(--dark-blue) solid 10px;
+border-radius: 10px;
+margin: 20px 20px 20px 20px;
+padding: 1%;
+}
+
+.freelanceDarkSection {
+  background-color: var(--navy-blue);
+  border: var(--dark-blue) solid 10px;
+  border-radius: 10px;
+  margin: 20px 20px 20px 20px;
+  padding: 1%;
+  }
