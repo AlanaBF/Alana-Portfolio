@@ -7,6 +7,7 @@ function Freelance() {
         <h2>Alana Barrett-Frew</h2>
         <h2>Freelance React Front End Web Developer, Cornwall</h2>
       </div>
+      <div className="comingsoondiv"><h1 className="comingsoontext">COMING SOON!</h1></div>
       <div className="freelanceWhiteSection">
       <h2 className="freelanceAboutMe">About Me</h2>
         <p className="freelanceText">

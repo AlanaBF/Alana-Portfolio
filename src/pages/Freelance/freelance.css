@@ -1,20 +1,24 @@
 /* Freelance Page */
-
-/* .pageUnderConstruction {
+.comingsoondiv {
   display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
   margin: auto;
   color: var(--navy-blue);
-  background-color: var(--light-blue);
+  background-color: rgb(214, 5, 5);
   padding: 50px;
   border-radius: 50px;
-  border: var(--dark-blue) solid 20px;
+  border: rgb(8, 218, 8) solid 20px;
+}
+/* .pageUnderConstruction {
+
 } */
 
 .freelanceAboutMe {
-color: var(--dark-blue);
+  color: var(--dark-blue);
+  font-family: "Caveat", cursive !important;
+  font-family: "Fuzzy Bubbles", cursive !important;
 }
 /* .freelanceText {
 color: var(--light-blue);
@@ -22,19 +26,24 @@ color: var(--light-blue);
 } */
 
 .freelanceColorSection {
-background-color: var(--dark-blue);
-border: var(--light-blue) solid 10px;
-border-radius: 10px;
-margin: 20px 20px 20px 20px;
-padding: 1%;
+  background-color: var(--dark-blue);
+  border: var(--light-blue) solid 10px;
+  border-radius: 10px;
+  margin: 20px 20px 20px 20px;
+  padding: 1%;
+  font-family: "Caveat", cursive !important;
+  font-family: "Fuzzy Bubbles", cursive !important;
+  color: var(--light-blue);
 }
 
 .freelanceWhiteSection {
-background-color: var(--light-blue);
-border: var(--dark-blue) solid 10px;
-border-radius: 10px;
-margin: 20px 20px 20px 20px;
-padding: 1%;
+  background-color: var(--light-blue);
+  border: var(--dark-blue) solid 10px;
+  border-radius: 10px;
+  margin: 20px 20px 20px 20px;
+  padding: 1%;
+  font-family: "Caveat", cursive !important;
+  font-family: "Fuzzy Bubbles", cursive !important;
 }
 
 .freelanceDarkSection {
@@ -43,4 +52,6 @@ padding: 1%;
   border-radius: 10px;
   margin: 20px 20px 20px 20px;
   padding: 1%;
-  }
+  font-family: "Caveat", cursive !important;
+  font-family: "Fuzzy Bubbles", cursive !important;
+}
