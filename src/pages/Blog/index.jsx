@@ -12,7 +12,6 @@ function Blog() {
          </div>
         </div>
      <div>
-      <Link className="blogLink" href="https://alanabf-blog.vercel.app/">Click to Visit Site</Link>
       <br/>
       <br/>
         <p className="blogText">
