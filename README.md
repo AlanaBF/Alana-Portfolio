@@ -24,7 +24,7 @@
 ## Description 
 A portfolio to showcase me including my skills, experience, projects  and more.
 
-Deployed Site: https://alanabarrett-frew.netlify.app/
+Deployed Site: https://alanabarrettfrew.com
 
 ## Usage 
 You can use this application to find out more about me. You can click on the links to contact me, or to view my deployed projects and their Github links.
@@ -36,14 +36,11 @@ You can use this application to find out more about me. You can click on the lin
 ![Contact Page](./src/assets/Screenshots/Contact-Screenshot.png)
 
 
-
-
 ## Contributing   
 *List of collaborators*
 
 Alana Barrett-Frew
 * Emailjs.com to create a form and send me an email direct.
-* Course material from instructor.
 
 ## License 
 *This project is licensed under* [MIT](https://choosealicense.com/licenses/mit/)
