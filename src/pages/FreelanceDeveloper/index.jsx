@@ -1,20 +1,21 @@
 import React from "react";
-import "./freelance.css";
-function Freelance() {
+import "./freelanceDeveloper.css";
+
+function freelanceDeveloper() {
   return (
     <div className="page-background">
       <div>
         <h2>Alana Barrett-Frew</h2>
-        <h2>Freelance React Front End Web Developer, Cornwall</h2>
+        <h2>Freelance Front End Web Developer, Cornwall</h2>
       </div>
       <div className="comingsoondiv"><h1 className="comingsoontext">COMING SOON!</h1></div>
       <div className="freelanceWhiteSection">
       <h2 className="freelanceAboutMe">About Me</h2>
-        <p className="freelanceText">
+        <p >
           Creating websites for small businesses and startups with user friendly
           design and engaging experiences for their clients.
         </p>
-        <p className="freelanceText">
+        <p >
           I am passionate about creating a well designed website that meets both
           the product owner and users needs. I will work with you throughout the
           consultation, design process and build to create something that will
@@ -36,10 +37,10 @@ function Freelance() {
         </p>
       </div>
       <div className="freelanceDarkSection">
-        <h3>Prices</h3>
+        <h3>Prices Available on Request</h3>
       </div>
     </div>
   );
 }
 
-export default Freelance;
+export default freelanceDeveloper;

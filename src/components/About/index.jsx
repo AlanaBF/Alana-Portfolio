@@ -19,7 +19,9 @@ function About() {
               <br/>Frameworks: React.js, Node.js,
               Bootstrap 
               <br/> 
-              Methodologies: Agile, Scrum, Kanban Other: Git, Api’s
+              Methodologies: Agile, Scrum, Kanban 
+              <br/>
+              Other: Git, Api’s
             </h5>
           </div>
       </div>

@@ -4,7 +4,7 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-  margin: auto;
+  margin: 20px 20px 20px 20px;
   color: var(--navy-blue);
   background-color: rgb(214, 5, 5);
   padding: 50px;
@@ -44,6 +44,7 @@ color: var(--light-blue);
   padding: 1%;
   font-family: "Caveat", cursive !important;
   font-family: "Fuzzy Bubbles", cursive !important;
+  color: var(--dark-blue);
 }
 
 .freelanceDarkSection {
@@ -52,6 +53,12 @@ color: var(--light-blue);
   border-radius: 10px;
   margin: 20px 20px 20px 20px;
   padding: 1%;
+  font-family: "Caveat", cursive !important;
+  font-family: "Fuzzy Bubbles", cursive !important;
+  color: var(--light-blue);
+}
+.freelanceText {
+  color: var(--light-blue);
   font-family: "Caveat", cursive !important;
   font-family: "Fuzzy Bubbles", cursive !important;
 }

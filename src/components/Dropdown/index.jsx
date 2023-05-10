@@ -10,6 +10,7 @@ function DropdownCredit() {
             <Dropdown.Item href="https://www.vecteezy.com/free-vector/blue">Blue Vectors by Vecteezy</Dropdown.Item>
             <Dropdown.Item href="https://www.vecteezy.com/free-vector/sea-cartoon">Sea Cartoon Vectors by Vecteezy</Dropdown.Item>
             <Dropdown.Item href='https://pngtree.com/so/programmer'>Programmer Image Link</Dropdown.Item>
+            <Dropdown.Item href="https://www.vecteezy.com/free-vector/motivational">Motivational Vectors by Vecteezy</Dropdown.Item>
         </DropdownButton>
     );
 }

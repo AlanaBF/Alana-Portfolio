@@ -1,12 +1,20 @@
 [
-    {
+       {
         "key": "1",
         "id": "1",
+        "name": "Always Learning!",
+        "date": "10/5/2023",
+        "image": "https://drive.google.com/uc?export=view&id=1t9W16vxIP6LZuFk2apTr6ztBbEzfVrTV",
+        "postText": "What's next?",
+        "blogLink": "https://alanabf-blog.vercel.app/posts/always-learning"
+    },
+    {
+        "key": "2",
+        "id": "2",
         "name": "First Blog Post Ever!",
         "date": "27/4/2023",
         "image": "https://drive.google.com/uc?export=view&id=1Rygy3O8qXt2YB7EbmCK9Sqpzsva0wTGp",
         "postText": "Welcome to my first Blog Post",
         "blogLink": "https://alanabf-blog.vercel.app/posts/first-blog"
     }
-   
 ]

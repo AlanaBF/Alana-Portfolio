@@ -4,8 +4,8 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { LinkContainer } from "react-router-bootstrap";
-import "./header.css"
-
+import NavDropdown from "react-bootstrap/NavDropdown";
+import "./header.css";
 
 function Header() {
   return (
@@ -22,12 +22,10 @@ function Header() {
         </LinkContainer>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav">
-        <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-bars"></i>
         </Navbar.Toggle>
 
         <Navbar.Collapse className="navbar-collapse collapse justify-content-between align-items-center w-100">
-          
-
           <Nav className="me-auto navbar-nav mx-auto text-md-center text-left">
             <LinkContainer to="/">
               <Nav.Link className="nav-link">Home</Nav.Link>
@@ -35,9 +33,16 @@ function Header() {
             <LinkContainer to="/ProjectGallery">
               <Nav.Link className="nav-link">Project Gallery</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/Freelance">
-              <Nav.Link className="nav-link">Freelance Work</Nav.Link>
-            </LinkContainer>
+
+            <NavDropdown className="dropdownNav" title="Freelance Work" id="basic-nav-dropdown">
+              <LinkContainer to="/freelanceDeveloper">
+                <Nav.Link id="web-link">Website Design</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/freelanceTutor">
+                <Nav.Link id="maths-link">Maths Tutor</Nav.Link>
+              </LinkContainer>
+            </NavDropdown>
+
             <LinkContainer to="/Blog">
               <Nav.Link className="nav-link">Blog</Nav.Link>
             </LinkContainer>
@@ -53,7 +58,7 @@ function Header() {
           </Nav>
 
           <Nav className="nav navbar-nav flex-row justify-content-md-center justify-content-start flex-nowrap">
-          <div className="navIcons">
+            <div className="navIcons">
               <a href="https://twitter.com/AlanaBF81">
                 <i className="fa navbarIcons fa-twitter"></i>
               </a>

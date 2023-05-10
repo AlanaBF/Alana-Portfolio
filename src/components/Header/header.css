@@ -1,10 +1,9 @@
 /* Header Component */
 
-nav a:hover {
+/* nav a:hover {
   color: var(--light-blue) !important;
-  border-radius: 20px;
-  width: auto;
-}
+  
+} */
 
 .navigation {
   width: 100% !important;
@@ -44,10 +43,42 @@ nav a:hover {
   font-size: 60%;
   font-family: 'Caveat', cursive;
   font-family: 'Fuzzy Bubbles', cursive;
+  border-radius: 20px;
+  width: auto;
 }
 
 .nav-link:hover {
   background-color: var(--light-blue);
   color: var(--dark-blue) !important;
+  border-radius: 20px;
+  width: auto;
 }
 
+div.dropdown-menu.show {
+background-color: var(--dark-blue) !important;
+border:0;
+padding: 0 0 !important;
+text-align: center;
+}
+
+#maths-link, #web-link {
+  background-color: var(--dark-blue);
+  margin: 0 !important;
+  padding: 5px;
+  border: 0;
+  border-radius: 0 !important;
+}
+
+#maths-link:hover {
+  background-color: var(--light-blue);
+  color: var(--dark-blue)
+}
+
+#web-link:hover {
+  background-color: var(--light-blue);
+  color: var(--dark-blue);
+}
+
+.dropdown-menu {
+  margin: 0 !important;
+}
