@@ -1,7 +1,6 @@
 import React from "react";
 import ContactMe from "../../components/ContactMe";
 import AlanaCV from "./assets/Alana-Barrett-Frew-CV.pdf";
-import Button from "react-bootstrap/Button";
 import "./contact.css"
 //Contact page with links to my LinkedIn, Github, Twitter and emails
 function Contact() {

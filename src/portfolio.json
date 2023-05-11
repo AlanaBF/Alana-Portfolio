@@ -2,6 +2,17 @@
   {
     "id": 1,
     "key": 1,
+    "name": "nextjs-blog",
+    "image": "https://drive.google.com/uc?export=view&id=1pB1NUlKU0gUBuGWR1jRHHXlU1sNpu0ce",
+    "Github": "https://github.com/AlanaBF/nextjs-blog",
+    "deployedLink": "https://nextjs-blog-alanabf.vercel.app/",
+    "about": "An app that uses Next.js and React that is linked to my main portfolio website that blogs my career change journey from Teacher to Web Developer."
+  },
+  
+  
+  {
+    "id": 2,
+    "key": 2,
     "name": "RWCFrance23",
     "image": "https://drive.google.com/uc?export=view&id=1tNe7kjNugcZT5Z4zfPjqAL72AOoUSPBr",
     "Github": "https://github.com/AlanaBF/RWCFrance23",
@@ -9,8 +20,8 @@
     "about": "RWCFrance23 is a React application built as the final project of a 16-week front-end development boot camp by a team of three developers, Aleksandr Riabov, Ainhoa Prada and myself. The application provides various details about the Rugby World Cup France 2023, including matches, teams, scores, live match updates, pools, venue maps, and filters. Additionally, there are links to the official shop and ticket sales pages.Overall, the RWCFrance23 application is a comprehensive and visually appealing resource for rugby fans who want to stay up-to-date with the latest information about the Rugby World Cup France 2023. With its user-friendly interface and comprehensive features, this application is a testament to the skills and dedication of its developers."
   },
   {
-    "id": 2,
-    "key": 2,
+    "id": 3,
+    "key": 3,
     "name": "Crypto Tracker",
     "image": "https://drive.google.com/uc?export=view&id=1pPgDgXJQVu7sgTaLtn0kLd6lKQYESQc_",
     "Github": "https://github.com/AlanaBF/Project-1-Crypto-Tracker",
@@ -18,8 +29,8 @@
     "about": "A collaborative project by a team of 4 developers, Alana Barrett-Frew, Aleksandr Riabov, Ainhoa Prada and Adrian Kosnik, that primarily focuses on using bootstrap, 2 server side API's; News Catcher and Coin Ranking, is interactive and responsive. It is a web application that runs in the browser and features dynamically updated HTML and CSS."
   },
   {
-    "id": 3,
-    "key": 3,
+    "id": 4,
+    "key": 4,
     "name": "Team profile Generator",
     "image": "https://drive.google.com/uc?export=view&id=1421N1HS76Xenq5qAtocIwg2ZKrB7btaS",
     "Github": "https://github.com/AlanaBF/Team-Profile-Generator",
@@ -27,8 +38,8 @@
     "about": "Using Object-Orientated Programming, this application converts starter code into a working Node.js command-line application. It takes information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. Every part of the code passes each provided test using jest."
   },
   {
-    "id": 4,
-    "key": 4,
+    "id": 5,
+    "key": 5,
     "name": "README Generator",
     "image": "https://drive.google.com/uc?export=view&id=1uOTqn2E6CtGOd5LXo3g1AaWPbkg_Y9dA",
     "Github": "https://github.com/AlanaBF/README-Generator",
@@ -36,8 +47,8 @@
     "about": "README Generator so that you can quickly create a professional README for a new project by answering question in the terminal running node index.js."
   },
   {
-    "id": 5,
-    "key": 5,
+    "id": 6,
+    "key": 6,
     "name": "Weather Dashboard",
     "image": "https://drive.google.com/uc?export=view&id=1A7njQ0nI1l2qVNjkAiDkKNGpTj1J4Msn",
     "Github": "https://github.com/AlanaBF/Weather-Dashboard",
@@ -45,8 +56,8 @@
     "about": "A weather dashboard that runs in the browser and features dynamically updated HTML and CSS."
   },
   {
-    "id": 6,
-    "key": 6,
+    "id": 7,
+    "key": 7,
     "name": "Daily Planner",
     "image": "https://drive.google.com/uc?export=view&id=1EQsfRVOzVWqiYI_XBXgQ7qAoz_5SfnjF",
     "Github": "https://github.com/AlanaBF/Daily-Planner-App",
@@ -55,8 +66,8 @@
   },
 
   {
-    "id": 7,
-    "key": 7,
+    "id": 8,
+    "key": 8,
     "name": "Decision Dice",
     "image": "https://drive.google.com/uc?export=view&id=1FMmhlkP1-ilczWL4COTV8_leGI-tG_Rh",
     "Github": "https://github.com/AlanaBF/DecisionDice",
@@ -65,8 +76,8 @@
   },
   
   {
-    "id": 8,
-    "key": 8,
+    "id": 9,
+    "key": 9,
     "name": "Drum Kit",
     "image": "https://drive.google.com/uc?export=view&id=1kXkLQTVtnof2b6SviZXV0koqQVDXLf1M",
     "Github": "https://github.com/AlanaBF/Drum-Kit",
@@ -75,8 +86,8 @@
   },
 
   {
-    "id": 9,
-    "key": 9,
+    "id": 10,
+    "key": 10,
     "name": "Simon Game",
     "image": "https://drive.google.com/uc?export=view&id=1SIJ_4szWHnZAt4MZZaQXlRpxtsylqHhH",
     "Github": "https://github.com/AlanaBF/Simon-Game",
@@ -85,8 +96,8 @@
   },
 
   {
-    "id": 10,
-    "key": 10,
+    "id": 11,
+    "key": 11,
     "name": "Password Generator",
     "image": "https://drive.google.com/uc?export=view&id=1Z9gEj_CpVcMhHjTBUJpCaVuW8kDtuFuA",
     "Github": "https://github.com/AlanaBF/Password-Generator",
@@ -94,8 +105,8 @@
     "about": "An application that an employee can use to generate a random password based on criteria they’ve selected. This app runs in the browser, and features dynamically updated HTML and CSS powered by JavaScript code. It has a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes. The password can include special characters."
   },
   {
-    "id": 11,
-    "key": 11,
+    "id": 12,
+    "key": 12,
     "name": "Code-Quiz",
     "image": "https://drive.google.com/uc?export=view&id=1GuFiW9vjC23XxjfFyofAypSX08ZexYS2",
     "Github": "https://github.com/AlanaBF/Code-Quiz",

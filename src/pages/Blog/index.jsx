@@ -1,7 +1,6 @@
 import React from "react";
 import BlogPost from "../../components/Blog";
 import blog from "../../blog.json"
-import { Link } from "react-router-dom";
 import "./blog.css"
 function Blog() {
   return (

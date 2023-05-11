@@ -5,7 +5,7 @@ a {
 }
 
 .card {
-  width: 28rem !important;
+  width: 36rem !important;
   background: var(--light-blue) !important;
   border-radius: 10px !important;
   border: 1rem solid var(--dark-blue) !important;
