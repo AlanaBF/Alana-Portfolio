@@ -1,19 +1,23 @@
 /* Freelance Page */
-.comingsoondiv {
+.comingsoontutor {
   display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
-  margin: 20px 20px 20px 20px;
+  margin: 20px 150px 20px 150px;
   color: var(--navy-blue);
   background-color: rgb(214, 5, 5);
-  padding: 50px;
+  padding: 10px;
   border-radius: 50px;
   border: rgb(8, 218, 8) solid 20px;
 }
-/* .pageUnderConstruction {
 
-} */
+.tutor-image {
+  display: flex;
+  height: 400px;
+  margin: auto;
+  border-radius: 20px;
+}
 
 .freelanceAboutMe {
   color: var(--dark-blue);

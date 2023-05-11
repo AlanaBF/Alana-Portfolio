@@ -1,14 +1,17 @@
 import React from "react";
 import "./freelanceTutor.css";
+import image from "../../assets/images/tutor-logo.png"
+
 function FreelanceTutor() {
   return (
     <div className="page-background">
-      <div>
-        <h2>Freelance Maths Tutor, Cornwall / Remote</h2>
-      </div>
-      <div className="comingsoondiv">
+      <div className="comingsoontutor">
         <h1 className="comingsoontext">COMING SOON!</h1>
+      </div> 
+      <div>
+      <img className="tutor-image" variant="top" src={`${image}`} alt="" />
       </div>
+     
       <div className="freelanceWhiteSection">
         <h2 className="freelanceAboutMe">About Me</h2>
         <p>
