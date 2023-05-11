@@ -4,25 +4,25 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-  margin: 20px 150px 20px 150px;
+  margin: 1% 20% 1% 20%;
   color: var(--navy-blue);
   background-color: rgb(214, 5, 5);
-  padding: 10px;
+  padding: 1%;
   border-radius: 50px;
-  border: rgb(8, 218, 8) solid 20px;
+  border: rgb(8, 218, 8) solid 10px;
 }
 
 .tutor-image {
   display: flex;
-  height: 400px;
+  height: 300px;
   margin: auto;
   border-radius: 20px;
 }
 
 .freelanceAboutMe {
   color: var(--dark-blue);
-  font-family: "Caveat", cursive !important;
-  font-family: "Fuzzy Bubbles", cursive !important;
+  font-family: "Caveat", cursive;
+  font-family: "Fuzzy Bubbles", cursive;
 }
 /* .freelanceText {
 color: var(--light-blue);
@@ -33,10 +33,10 @@ color: var(--light-blue);
   background-color: var(--dark-blue);
   border: var(--light-blue) solid 10px;
   border-radius: 10px;
-  margin: 20px 20px 20px 20px;
+  margin: 1% 5% 1% 5%;
   padding: 1%;
-  font-family: "Caveat", cursive !important;
-  font-family: "Fuzzy Bubbles", cursive !important;
+  font-family: "Caveat", cursive;
+  font-family: "Fuzzy Bubbles", cursive;
   color: var(--light-blue);
 }
 
@@ -44,10 +44,10 @@ color: var(--light-blue);
   background-color: var(--light-blue);
   border: var(--dark-blue) solid 10px;
   border-radius: 10px;
-  margin: 20px 20px 20px 20px;
+  margin: 1% 5% 1% 5%;
   padding: 1%;
-  font-family: "Caveat", cursive !important;
-  font-family: "Fuzzy Bubbles", cursive !important;
+  font-family: "Caveat", cursive;
+  font-family: "Fuzzy Bubbles", cursive;
   color: var(--dark-blue);
 }
 
@@ -55,14 +55,14 @@ color: var(--light-blue);
   background-color: var(--navy-blue);
   border: var(--dark-blue) solid 10px;
   border-radius: 10px;
-  margin: 20px 20px 20px 20px;
+  margin: 1% 5% 1% 5%;
   padding: 1%;
-  font-family: "Caveat", cursive !important;
-  font-family: "Fuzzy Bubbles", cursive !important;
+  font-family: "Caveat", cursive;
+  font-family: "Fuzzy Bubbles", cursive;
   color: var(--light-blue);
 }
 .freelanceText {
   color: var(--light-blue);
-  font-family: "Caveat", cursive !important;
-  font-family: "Fuzzy Bubbles", cursive !important;
+  font-family: "Caveat", cursive;
+  font-family: "Fuzzy Bubbles", cursive;
 }

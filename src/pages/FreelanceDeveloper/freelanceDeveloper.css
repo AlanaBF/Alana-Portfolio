@@ -4,12 +4,12 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-  margin: 20px 150px 20px 150px;
+  margin: 1% 20% 1% 20%;
   color: var(--navy-blue);
   background-color: rgb(214, 5, 5);
-  padding: 10px;
+  padding: 1%;
   border-radius: 50px;
-  border: rgb(8, 218, 8) solid 20px;
+  border: rgb(8, 218, 8) solid 10px;
 }
 
 .web-image {
@@ -20,8 +20,8 @@
 
 .freelanceAboutMe {
   color: var(--dark-blue);
-  font-family: "Caveat", cursive !important;
-  font-family: "Fuzzy Bubbles", cursive !important;
+  font-family: "Caveat", cursive;
+  font-family: "Fuzzy Bubbles", cursive;
 }
 /* .freelanceText {
 color: var(--light-blue);
@@ -32,10 +32,10 @@ color: var(--light-blue);
   background-color: var(--dark-blue);
   border: var(--light-blue) solid 10px;
   border-radius: 10px;
-  margin: 20px 100px 20px 100px !important;
+  margin: 1% 5% 1% 5%;
   padding: 1%;
-  font-family: "Caveat", cursive !important;
-  font-family: "Fuzzy Bubbles", cursive !important;
+  font-family: "Caveat", cursive;
+  font-family: "Fuzzy Bubbles", cursive;
   color: var(--light-blue);
 }
 
@@ -43,18 +43,18 @@ color: var(--light-blue);
   background-color: var(--light-blue);
   border: var(--dark-blue) solid 10px;
   border-radius: 10px;
-  margin: 20px 100px 20px 100px !important;
+  margin: 1% 5% 1% 5%;
   padding: 1%;
-  font-family: "Caveat", cursive !important;
-  font-family: "Fuzzy Bubbles", cursive !important;
+  font-family: "Caveat", cursive;
+  font-family: "Fuzzy Bubbles", cursive;
 }
 
 .freelanceDarkSection {
   background-color: var(--navy-blue);
   border: var(--dark-blue) solid 10px;
   border-radius: 10px;
-  margin: 20px 100px 20px 100px !important;
+  margin: 1% 5% 1% 5%;
   padding: 1%;
-  font-family: "Caveat", cursive !important;
-  font-family: "Fuzzy Bubbles", cursive !important;
+  font-family: "Caveat", cursive;
+  font-family: "Fuzzy Bubbles", cursive;
 }
