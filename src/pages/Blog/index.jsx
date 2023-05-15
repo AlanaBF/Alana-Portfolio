@@ -11,8 +11,6 @@ function Blog() {
         </div>
       </div>
       <div>
-        <br />
-        <br />
         <a href="https://newsletter-signup-ntrf.onrender.com/">
           <button class="btn btn-lg btn-primary btn-block" type="button">
             Signup for new content

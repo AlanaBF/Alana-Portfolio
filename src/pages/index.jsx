@@ -7,5 +7,6 @@ import FreelanceDeveloper from "./FreelanceDeveloper";
 import FreelanceTutor from "./FreelanceTutor";
 import NotFound from "./NotFound";
 import Games from "./Games"
+import CollaborativeProjects from "./CollaborativeProjects"
 
-export { Contact, Home, ProjectGallery, CV, Blog, FreelanceDeveloper, FreelanceTutor, NotFound, Games }
+export { Contact, Home, ProjectGallery, CollaborativeProjects, CV, Blog, FreelanceDeveloper, FreelanceTutor, NotFound, Games }

@@ -17,7 +17,7 @@ const NotFound = () => {
             <Link to='/'>Go To Home Page..</Link>
           </div>
           <div>
-            <img clasName="bug404" src={error} alt="bug image" />
+            <img className="bug404" src={error} alt="bug image" />
           </div>
           <div><a href="https://www.vecteezy.com/free-png/error">Error PNGs by Vecteezy</a></div>
         </div>

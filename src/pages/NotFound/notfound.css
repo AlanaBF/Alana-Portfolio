@@ -19,7 +19,7 @@
     align-items: center;
     border: 20px solid var(--dark-blue);
     border-radius: 20px;
-    width: 100%;
+    width: 80%;
     background-color: var(--navy-blue);
     color: var(--light-blue);
   }

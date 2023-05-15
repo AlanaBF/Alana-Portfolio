@@ -61,24 +61,6 @@ padding: 0 0 !important;
 text-align: center;
 }
 
-#maths-link, #web-link {
-  background-color: var(--dark-blue);
-  margin: 0 !important;
-  padding: 5px;
-  border: 0;
-  border-radius: 0 !important;
-}
-
-#maths-link:hover {
-  background-color: var(--light-blue);
-  color: var(--dark-blue)
-}
-
-#web-link:hover {
-  background-color: var(--light-blue);
-  color: var(--dark-blue);
-}
-
 .dropdown-menu {
   margin: 0 !important;
 }

@@ -30,25 +30,42 @@ function Header() {
             <LinkContainer to="/">
               <Nav.Link className="nav-link">Home</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/ProjectGallery">
-              <Nav.Link className="nav-link">Project Gallery</Nav.Link>
-            </LinkContainer>
-
-            <NavDropdown className="dropdownNav" title="Freelance Work" id="basic-nav-dropdown">
-              <LinkContainer to="/freelanceDeveloper">
-                <Nav.Link id="web-link">Website Design</Nav.Link>
+            {/* Project Dropdown */}
+            <NavDropdown
+              className="dropdownNav"
+              title="My Projects"
+              id="basic-nav-dropdown"
+            >
+              <LinkContainer to="/CollaborativeProjects">
+                <Nav.Link className="nav-link">
+                  Collaborative Group Projects
+                </Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/freelanceTutor">
-                <Nav.Link id="maths-link">Maths Tutor</Nav.Link>
+              <LinkContainer to="/ProjectGallery">
+                <Nav.Link className="nav-link">My Projects</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/GamesGallery">
+                <Nav.Link className="nav-link">My Games Projects</Nav.Link>
               </LinkContainer>
             </NavDropdown>
-
+            {/* Freelance Work */}
+            <NavDropdown
+              className="dropdownNav"
+              title="Freelance Work"
+              id="basic-nav-dropdown"
+            >
+              <LinkContainer to="/freelanceDeveloper">
+                <Nav.Link className="nav-link">Website Design</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/freelanceTutor">
+                <Nav.Link className="nav-link">Maths Tutor</Nav.Link>
+              </LinkContainer>
+            </NavDropdown>
+            {/* Blog Page */}
             <LinkContainer to="/Blog">
               <Nav.Link className="nav-link">Blog</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/Games">
-              <Nav.Link className="nav-link">Games</Nav.Link>
-            </LinkContainer>
+            {/* Contacts and info */}
             <LinkContainer to="/Contact">
               <Nav.Link className="nav-link">Contact Me</Nav.Link>
             </LinkContainer>
