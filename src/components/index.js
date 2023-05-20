@@ -6,7 +6,6 @@ import Blog from './Blog';
 import ContactMe from './ContactMe';
 import Dropdown from './Dropdown';
 import ProjectCard from './ProjectCard';
-import Testimonials from './Testimonials';
 
 export default {
   About,
@@ -17,5 +16,4 @@ export default {
   Footer,
   Header,
   ProjectCard,
-  Testimonials,
 };

@@ -9,7 +9,7 @@
 
 /* Home Page */
 
-.page-background-home {
+.pageBackgroundHome {
     background-image: url(../../assets//images//vecteezy_beach-holiday-summer-background_7076104.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -17,12 +17,12 @@
     min-height: 100vh;
   }
   
-  .pageTitle {
-    color: var(--dark-blue) !important;
-    text-align: center;
-  }
+.homePageTitle {
+  color: var(--dark-blue) !important;
+  text-align: center;
+}
   
-  .home-subtitle {
+  .homeSubtitle {
     text-align: center !important;
     color: var(--dark-blue) !important;
     padding-bottom: 5% !important;
@@ -99,7 +99,6 @@
   background-color: var(--light-blue) !important;
   border: var(--light-blue) solid 10px !important;
   color: var(--dark-blue) !important;
-
 }
 
 /* Project Gallery Page */
@@ -155,6 +154,9 @@
   padding-bottom: 100px;
 }
 
+.pageTitle {
+  color: var(--light-blue);
+}
 .contact {
   font-size: 400%;
 }
@@ -225,6 +227,7 @@ span {
 .cv:hover {
   color: var(--aqua-blue);
   background-color: var(--navy-blue);
+  border: var(--navy-blue) solid 10px;
 }
 
 /* CV Page */
@@ -239,7 +242,7 @@ span {
     position: relative;
   }
   
-  .button-position {
+  .buttonPosition {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -254,17 +257,13 @@ span {
     color: var(--dark-blue) !important;
   }
 
-  .cvLinkButton:hover, .cvButtonText:hover {
+  .cvLinkButton:hover {
     background-color: var(--dark-blue) !important;
     border: var(--dark-blue) solid 10px !important;
     color: var(--aqua-blue) !important;
   }
-
-  .cvButtonText {
-    color: var(--dark-blue) !important;
-  }
   
-  .cvframe {
+  .cvFrame {
     padding-top: 20px;
     overflow: auto;
     width: 100% !important;
@@ -339,20 +338,21 @@ span {
   }
 
 /* Page Not Found */
-.notfound-page-container {
+
+.notFoundPageContainer {
     width: 100%;
     background-color: var(--navy-blue);
     height: 85vh;
   }
   
-  .notfound-page-inner {
+  .notFoundPageInner {
     min-height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
-  .notfound-page-content {
+  .notFoundPageContent {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -363,7 +363,7 @@ span {
     color: var(--light-blue);
   }
   
-  .notfound-page-content div {
+  .notFoundPageContent div {
     width: 100%;
     height: 100%;
     min-height: 400px;
@@ -373,24 +373,24 @@ span {
     align-items: flex-start;
   }
   
-  .notfound-page-content div:nth-child(1) {
+  .notFoundPageContent div:nth-child(1) {
     justify-content: center;
     align-items: center;
   }
   
-  .notfound-page-content p {
+  .notFoundPageContent p {
     font-size: 1rem;
   }
   
-  .notfound-page-content span {
+  .notFoundPageContent span {
     font-size: 2rem;
   }
   
-  .notfound-page-content a {
+  .notFoundPageContent a {
     color: var(--light-blue);
   }
   
-  .notfound-page-content img {
+  .notFoundPageContent img {
     display: flex;
     width: 200%;
   }

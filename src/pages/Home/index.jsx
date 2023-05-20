@@ -6,16 +6,16 @@ import "../../assets/styles/pages.css";
 
 function Home() {
   return (
-    <div className="page-background-home">
+    <div className="pageBackgroundHome">
       <div>
         <div>
           <img src={profilePic} className="profilePic" alt="ABF profilePic" />
         </div>
         <div >
-          <h1 className="pageTitle">Alana Barrett-Frew</h1>
+          <h1 className="homePageTitle">Alana Barrett-Frew</h1>
         </div>
         <div >
-          <h2 className="home-subtitle">Front End Web Developer</h2>
+          <h2 className="homeSubtitle">Front End Web Developer</h2>
         </div>
         <div className="aboutMePosition">
           <About />

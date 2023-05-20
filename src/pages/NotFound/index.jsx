@@ -7,19 +7,19 @@ import '../../assets/styles/pages.css';
 
 const NotFound = () => {
   return (
-    <Container fluid className='notfound-page-container'>
-      <Container className='notfound-page-inner'>
-        <div className='notfound-page-content'>
-          <div className='notfound-page-text'>
+    <Container fluid className='notFoundPageContainer'>
+      <Container className='notFoundPageInner'>
+        <div className='notFoundPageContent'>
+          <div className='notFoundPageText'>
             <p>Oops...</p>
             <span>404</span>
             <p>Page Not Found</p>
             <Link to='/'>Go To Home Page</Link>
           </div>
-          <div className='notfound-page-image'>
+          <div className='notFoundPageImage'>
             <img className='bug404' src={error} alt='Bug Illustration' />
           </div>
-          <div className='notfound-page-attribution'>
+          <div className='notFoundPageAttribution'>
             <a href='https://www.vecteezy.com/free-png/error'>Error PNGs by Vecteezy</a>
           </div>
         </div>
