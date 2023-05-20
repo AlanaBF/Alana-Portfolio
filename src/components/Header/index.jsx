@@ -22,7 +22,7 @@ function Header() {
         </LinkContainer>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav">
-          <i class="fa-solid fa-bars"></i>
+          <i className="fa-solid fa-bars"></i>
         </Navbar.Toggle>
 
         <Navbar.Collapse className="navbar-collapse collapse justify-content-between align-items-center w-100">

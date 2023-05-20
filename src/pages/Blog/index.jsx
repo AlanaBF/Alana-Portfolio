@@ -1,18 +1,20 @@
 import React from "react";
 import BlogPost from "../../components/Blog";
 import blog from "../../blog.json";
-import "./blog.css";
+import "../../assets/styles/pages.css";
+
 function Blog() {
   return (
-    <div className="page-background">
-      <div className="picture-section">
-        <div className="picture">
-          <h1>Blog</h1>
+    <div className="pageBackground">
+    <h1 className="blogPageTitle">Blog</h1>
+      <div className="pictureSection">
+        <div className="backgroundBlogPicture">
+          
         </div>
       </div>
       <div>
         <a href="https://newsletter-signup-ntrf.onrender.com/">
-          <button class="btn btn-lg btn-primary btn-block" type="button">
+          <button className="btn btn-lg btn-primary btn-block blogPageButton" type="button">
             Signup for new content
           </button>
         </a>

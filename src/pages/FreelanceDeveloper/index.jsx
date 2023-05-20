@@ -1,23 +1,23 @@
 import React from "react";
-import "./freelanceDeveloper.css";
+import "../../assets/styles/pages.css";
 import image from "../../assets/images/web-logo.png";
 
-function freelanceDeveloper() {
+function FreelanceDeveloper() {
   return (
-    <div className="page-background">
-      <div className="comingsoondiv">
-        <h1 className="comingsoontext">COMING SOON!</h1>
+    <div className="pageBackground">
+      <div className="comingSoonDiv">
+        <h1 className="comingSoonText">COMING SOON!</h1>
       </div>
       <div>
-        <img className="web-image" variant="top" src={`${image}`} alt="" />
+        <img className="webImage" variant="top" src={`${image}`} alt="" />
       </div>
       <div className="freelanceWhiteSection">
-        <h2 className="freelanceAboutMe">About Me</h2>
-        <p>
+        <h2 className="freelanceAboutText">About Me</h2>
+        <p className="freelanceAboutText">
           Creating websites for small businesses and startups with user friendly
           design and engaging experiences for their clients.
         </p>
-        <p>
+        <p className="freelanceAboutText">
           I am passionate about creating a well designed website that meets both
           the product owner and users needs. I will work with you throughout the
           consultation, design process and build to create something that will
@@ -29,20 +29,20 @@ function freelanceDeveloper() {
       </div>
       <div className="freelanceColorSection">
         <h2>Services Available</h2>
-        <p className="freelanceText">Website Build from scratch</p>
-        <p className="freelanceText">Website redesign and update</p>
-        <p className="freelanceText">Follow up support package</p>
-        <p className="freelanceText">
+        <p className="freelanceServicesText">Website Build from scratch</p>
+        <p className="freelanceServicesText">Website redesign and update</p>
+        <p className="freelanceServicesText">Follow up support package</p>
+        <p className="freelanceServicesText">
           Every website design and build will be unique for every client so a
           bespoke package can also be arranged. Get in touch to discuss your
           needs further.
         </p>
       </div>
       <div className="freelanceDarkSection">
-        <h3>Prices Available on Request</h3>
+        <h3 className="freelancePricesText">Prices Available on Request</h3>
       </div>
     </div>
   );
 }
 
-export default freelanceDeveloper;
+export default FreelanceDeveloper;

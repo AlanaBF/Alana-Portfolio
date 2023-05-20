@@ -1,7 +1,8 @@
 import React from "react";
 import profilePic from "../../assets/images/ProfilePic.jpeg";
 import About from "../../components/About";
-import "./home.css";
+import "../../assets/styles/pages.css";
+
 
 function Home() {
   return (
@@ -11,7 +12,7 @@ function Home() {
           <img src={profilePic} className="profilePic" alt="ABF profilePic" />
         </div>
         <div >
-          <h1 className="home-title">Alana Barrett-Frew</h1>
+          <h1 className="pageTitle">Alana Barrett-Frew</h1>
         </div>
         <div >
           <h2 className="home-subtitle">Front End Web Developer</h2>

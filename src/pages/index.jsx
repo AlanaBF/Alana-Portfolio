@@ -6,7 +6,18 @@ import Blog from "./Blog";
 import FreelanceDeveloper from "./FreelanceDeveloper";
 import FreelanceTutor from "./FreelanceTutor";
 import NotFound from "./NotFound";
-import Games from "./Games"
-import CollaborativeProjects from "./CollaborativeProjects"
+import GamesGallery from "./GamesGallery";
+import CollaborativeProjects from "./CollaborativeProjects";
 
-export { Contact, Home, ProjectGallery, CollaborativeProjects, CV, Blog, FreelanceDeveloper, FreelanceTutor, NotFound, Games }
+export {
+  Blog,
+  CollaborativeProjects,
+  Contact,
+  CV,
+  FreelanceDeveloper,
+  FreelanceTutor,
+  GamesGallery,
+  Home,
+  NotFound,
+  ProjectGallery
+};
