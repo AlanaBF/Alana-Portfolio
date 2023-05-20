@@ -1,73 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alana Barrett-Frew</title>
+  <link rel="icon" type="image/png" href="/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon-659e59ba.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAABNpJREFUWEftV3tMlXUYfr5zv3M4B7mEJ5nXhk2kYYSmaWNkmoqRKLXF1NVs6PDSRbkYzKVCkluFuS6CtjLNDWUFXjAlKxPLywSDQkAjgeIcDpzvXDi3r/1+xIHD4XLYGvzju53t7Pve3/M+7/Nevu9jgBxemO5UBgcmDeBCMSbGtDLgClv+XLGbCdNFZ3HArjGJOyAIA2QzobrHWsYu84FpMq1MqC6aG4/se2M+IDBqBTipFIzV+r9VbUgCbpUavC6jTyD9W7sgvXIJsspzADd8+zgf0sH2+Dw4dBHgJFIwrAmCthZIrldB2PgHxR6SgD5jD1RfHYKwocex1xyTpqAj7U0I2u5DfqYU4ts3Abfby8etUIFdmQLrEwsgvnUN/PY28FgWnFgMV1AIuiNnQfn1EUh//n5wAi5NENpz90N58ihk58u8wC1PJYBns8A5IRT0v5mF6ughiOqqqZ9boUR7TgFEtTVwhj+MoNxtPiraI2fBFh0L1RefDE7A8vRiuNQakDIEFB/wAuhM3QB5RRkEf92jGVnmx8M6Px7SHy9AfrYU4Auo5IKWZhg2Z0Kbl+1DoDt6DmC3Q1xzc3AChq07EfjRPnRs2gFNvjcAuad5fzfgdHqA7TNmwjpvEQIOfdhXqoipMCcsg/rj/cM2rE8POCZPgzV2PpVVn7kXmvdyvbre8EYuNO++3QfK46FjwzYoyksgbKz3XCeEiILy8pLRETAlvUSlEdVWw/jqFtpowrt3KIhLowWbmOLJlJPKYFy3EcK7DVB8c8K7VGvTIPuunN7zGMP4TI6PAmTMtPtyAJcL7IrVEN5rhPh6FcXonj0HLm0wZOe/RXdUDLqSUyG9XOkTvCtlPWwxcZDcvApnaDicQSHgZHJIfr2MgKJCL6JeBJxhE2F+Zrmn8UgpyEHZhdP0ELtsFUS/3YJz4iSYnn8R6qJCD7n+qJ2pr8EZEgZxbTUErffBN/wDxmwGv9MIxsIOTYB97gUIm5sgvvELdbJPj6SLRFFylI5bR3oG1AcLYIuZC3ZxIsi4yi9V0JkmivUawRH9fpv+RjIvBfTb3+lpOrsdbmUA2MTVsMQtROCBfIjqatCRngkNKc9/5laq0LVmHd2YqmPFnuuGLVl0ihibbaT4fWPoDNeBXZqEgMMHYY5fQreY/OI52GbHQFOQC1dwGNhnV9D7/Y0TiaDfsQeq48W0PMRIItq9mSMGJw4eBdglK+GMmAZHWDgk165AcfokGKsFHZu2Q/3ZB7SRLAsTEHDEmwABMSWnQth0B5KqHwCBEIat2dDk7/SfAJGSZCFsqofyxOfgG9r76pmYAmFDHUT1dTCu3YjAwjwvYLdaA/3rOdDmZYFn6oJLOwGmVS/TXvHHqAL2yChYY5/0GRECYJszF2Q6FKXHQZZU/4eTO1ALQ3om5GdO0XEk5oiY2qPUgBU+FBlKgF2eDEHzXSr9QCNzzCau8cnIETEFnes3QVZRBlnlWc8x+yOPwrxoMW1Cf6xHgRkz6fOZdL+P8XgwvrIZqi8/BTjAMXk6rHEL0B0ZBdWxIkh/uuhdErkC5qVJUB4/7E/8od8H+p8mC4g0KcDQfSC5cZU++fh/t/oVZDgnv1/JXEHBdI/TBh3hTWg0rPwmMBrQ0fg+IDD+n2bj/nE63p/n/wLNHwHnWQ4pkwAAAABJRU5ErkJggg==">
+  <link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAe5JREFUOE+lk0trE2EUhp9vMpN73aghBUvxilWixt5ibdM2VlrBUFwU3fo7BHf+CbduFFSkVtCAVFFLwQjaRaWWeCFUqsGkNclMZnL5JFNMjRUh5Cy/7z3POeflHBHc13tdiNo1CU5aCAGWlMoN0dkVNltN/l2nDhHBrrBsofAOaTNAVaFSsUXmqX5cb183JUiXC+toiJrHg7aWRk1/pgGQmkb+ylV23bppJxWnpqkEgniSiziX32H1hChcnMGXmEUYOuX9h9A+rm4DzNBpyt0H8M/dtQHGcAzPwjOMM6M4clm0T6sYkSje+cf2f83fAVJuA4zoBFgW7qU3ULYwwwO4k4sUJ+N4558gSgb6+FQD0DCybqJ0ujDD/Tgy3xDlMlJxIH1+Sn0RfI/u4/iRwTzRix6dQM2so+Ry9ij1sD0ohQdwplaoBjoxjxzDsZHF9X4JPTKKqFbwJR5inuxDS62gFPJNxtqAQnwGqhXU7+tIlxuEguflU1tYGhxB+5LCOtyD58XW258hAsfHZPF8HP/sHbt9fWwS9Wsa54dlUDXy05fpeHAbfTiG93liJ2DP0CWpbOZQfm5uuT80jju5QLn7IKXBs/jn7qFsZDFGzv27g783sbp7L3rsAupaGnfyFcKy/ruo7a9y+8fU5jn/AgdgxrR7Wsf6AAAAAElFTkSuQmCC">
+  <link rel="manifest" href="data:application/manifest+json;base64,eyJuYW1lIjoiIiwic2hvcnRfbmFtZSI6IiIsImljb25zIjpbeyJzcmMiOiIvYW5kcm9pZC1jaHJvbWUtMTkyeDE5Mi5wbmciLCJzaXplcyI6IjE5MngxOTIiLCJ0eXBlIjoiaW1hZ2UvcG5nIn0seyJzcmMiOiIvYW5kcm9pZC1jaHJvbWUtNTEyeDUxMi5wbmciLCJzaXplcyI6IjUxMng1MTIiLCJ0eXBlIjoiaW1hZ2UvcG5nIn1dLCJ0aGVtZV9jb2xvciI6IiNmZmZmZmYiLCJiYWNrZ3JvdW5kX2NvbG9yIjoiI2ZmZmZmZiIsImRpc3BsYXkiOiJzdGFuZGFsb25lIn0=">
+
+  <meta name="apple-mobile-web-app-title" content="AlanaBF Portfolio" />
+  <meta name="application-name" content="Alana Barrett-Frew" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Fuzzy+Bubbles:wght@700&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@900&display=swap" rel="stylesheet"/>
   
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alana Barrett-Frew</title>
-    <!-- Favicon -->
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" crossorigin="anonymous" />
+  <script src="https://kit.fontawesome.com/201aa93ea7.js" crossorigin="anonymous"></script>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon-659e59ba.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAABNpJREFUWEftV3tMlXUYfr5zv3M4B7mEJ5nXhk2kYYSmaWNkmoqRKLXF1NVs6PDSRbkYzKVCkluFuS6CtjLNDWUFXjAlKxPLywSDQkAjgeIcDpzvXDi3r/1+xIHD4XLYGvzju53t7Pve3/M+7/Nevu9jgBxemO5UBgcmDeBCMSbGtDLgClv+XLGbCdNFZ3HArjGJOyAIA2QzobrHWsYu84FpMq1MqC6aG4/se2M+IDBqBTipFIzV+r9VbUgCbpUavC6jTyD9W7sgvXIJsspzADd8+zgf0sH2+Dw4dBHgJFIwrAmCthZIrldB2PgHxR6SgD5jD1RfHYKwocex1xyTpqAj7U0I2u5DfqYU4ts3Abfby8etUIFdmQLrEwsgvnUN/PY28FgWnFgMV1AIuiNnQfn1EUh//n5wAi5NENpz90N58ihk58u8wC1PJYBns8A5IRT0v5mF6ughiOqqqZ9boUR7TgFEtTVwhj+MoNxtPiraI2fBFh0L1RefDE7A8vRiuNQakDIEFB/wAuhM3QB5RRkEf92jGVnmx8M6Px7SHy9AfrYU4Auo5IKWZhg2Z0Kbl+1DoDt6DmC3Q1xzc3AChq07EfjRPnRs2gFNvjcAuad5fzfgdHqA7TNmwjpvEQIOfdhXqoipMCcsg/rj/cM2rE8POCZPgzV2PpVVn7kXmvdyvbre8EYuNO++3QfK46FjwzYoyksgbKz3XCeEiILy8pLRETAlvUSlEdVWw/jqFtpowrt3KIhLowWbmOLJlJPKYFy3EcK7DVB8c8K7VGvTIPuunN7zGMP4TI6PAmTMtPtyAJcL7IrVEN5rhPh6FcXonj0HLm0wZOe/RXdUDLqSUyG9XOkTvCtlPWwxcZDcvApnaDicQSHgZHJIfr2MgKJCL6JeBJxhE2F+Zrmn8UgpyEHZhdP0ELtsFUS/3YJz4iSYnn8R6qJCD7n+qJ2pr8EZEgZxbTUErffBN/wDxmwGv9MIxsIOTYB97gUIm5sgvvELdbJPj6SLRFFylI5bR3oG1AcLYIuZC3ZxIsi4yi9V0JkmivUawRH9fpv+RjIvBfTb3+lpOrsdbmUA2MTVsMQtROCBfIjqatCRngkNKc9/5laq0LVmHd2YqmPFnuuGLVl0ihibbaT4fWPoDNeBXZqEgMMHYY5fQreY/OI52GbHQFOQC1dwGNhnV9D7/Y0TiaDfsQeq48W0PMRIItq9mSMGJw4eBdglK+GMmAZHWDgk165AcfokGKsFHZu2Q/3ZB7SRLAsTEHDEmwABMSWnQth0B5KqHwCBEIat2dDk7/SfAJGSZCFsqofyxOfgG9r76pmYAmFDHUT1dTCu3YjAwjwvYLdaA/3rOdDmZYFn6oJLOwGmVS/TXvHHqAL2yChYY5/0GRECYJszF2Q6FKXHQZZU/4eTO1ALQ3om5GdO0XEk5oiY2qPUgBU+FBlKgF2eDEHzXSr9QCNzzCau8cnIETEFnes3QVZRBlnlWc8x+yOPwrxoMW1Cf6xHgRkz6fOZdL+P8XgwvrIZqi8/BTjAMXk6rHEL0B0ZBdWxIkh/uuhdErkC5qVJUB4/7E/8od8H+p8mC4g0KcDQfSC5cZU++fh/t/oVZDgnv1/JXEHBdI/TBh3hTWg0rPwmMBrQ0fg+IDD+n2bj/nE63p/n/wLNHwHnWQ4pkwAAAABJRU5ErkJggg==">
-    <link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAe5JREFUOE+lk0trE2EUhp9vMpN73aghBUvxilWixt5ibdM2VlrBUFwU3fo7BHf+CbduFFSkVtCAVFFLwQjaRaWWeCFUqsGkNclMZnL5JFNMjRUh5Cy/7z3POeflHBHc13tdiNo1CU5aCAGWlMoN0dkVNltN/l2nDhHBrrBsofAOaTNAVaFSsUXmqX5cb183JUiXC+toiJrHg7aWRk1/pgGQmkb+ylV23bppJxWnpqkEgniSiziX32H1hChcnMGXmEUYOuX9h9A+rm4DzNBpyt0H8M/dtQHGcAzPwjOMM6M4clm0T6sYkSje+cf2f83fAVJuA4zoBFgW7qU3ULYwwwO4k4sUJ+N4558gSgb6+FQD0DCybqJ0ujDD/Tgy3xDlMlJxIH1+Sn0RfI/u4/iRwTzRix6dQM2so+Ry9ij1sD0ohQdwplaoBjoxjxzDsZHF9X4JPTKKqFbwJR5inuxDS62gFPJNxtqAQnwGqhXU7+tIlxuEguflU1tYGhxB+5LCOtyD58XW258hAsfHZPF8HP/sHbt9fWwS9Wsa54dlUDXy05fpeHAbfTiG93liJ2DP0CWpbOZQfm5uuT80jju5QLn7IKXBs/jn7qFsZDFGzv27g783sbp7L3rsAupaGnfyFcKy/ruo7a9y+8fU5jn/AgdgxrR7Wsf6AAAAAElFTkSuQmCC">
-    <link rel="manifest" href="/site.webmanifest">
-
-    <meta name="apple-mobile-web-app-title" content="AlanaBF Portfolio" />
-    <meta name="application-name" content="Alana Barrett-Frew" />
-    <meta name="msapplication-TileColor" content="#da532c" />
-
-    <!-- Font Awesome -->
-    <script
-      src="https://kit.fontawesome.com/201aa93ea7.js"
-      crossorigin="anonymous"
-    ></script>
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Caveat&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Caveat&family=Fuzzy+Bubbles:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://kit.fontawesome.com/201aa93ea7.css"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <!-- Stylesheet -->
-    
-    <script type="module" crossorigin src="/assets/index-dc49d11c.js"></script>
-    <link rel="stylesheet" href="/assets/index-2304b312.css">
-  </head>
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="src/assets/styles/styles.css" />
+  
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-T7BJBZF8V7"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-T7BJBZF8V7');
-</script>
-  <body>
-    <div id="root"></div>
-    
-  </body>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T7BJBZF8V7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-T7BJBZF8V7');
+  </script>
+  <script type="module" crossorigin src="/assets/index-0f14eaae.js"></script>
+  <link rel="stylesheet" href="/assets/index-b0bf1a0b.css">
+</head>
+<body>
+  <div id="root"></div>
+  
+</body>
 </html>
