@@ -107,7 +107,7 @@ li {
 /* Blog Component */
 
 .blogCardContainer {
-  max-width: 500px;
+  max-width: 450px;
   display: flex;
   justify-content: center;
   border: 1rem solid var(--dark-blue) !important;
@@ -117,16 +117,18 @@ li {
 }
 
 .blogImage {
-  width: 50%;
+  height: 350px;
 }
 
 .blogTitle,
 .blogDate {
-  margin: 0;
-  padding: 0;
+  height: 100px;
   color: var(--navy-blue);
 }
 
+.blogTitle {
+  font-size: 1.5em;
+}
 .blogDate {
   font-size: 1em;
 }
@@ -251,8 +253,6 @@ li {
 }
 
 /* ProjectCard Component */
-
-
 
 .galleryCard {
   width: 36rem !important;

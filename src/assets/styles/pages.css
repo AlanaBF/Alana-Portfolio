@@ -43,6 +43,114 @@
     margin-top: 20px;
   }
 
+/* Project Gallery Page */
+
+.galleryIntro {
+  width: 100%;
+  text-align: center;
+  font-size: 1em;
+  margin-bottom: 1%;
+  padding: 1rem;
+  font-family: "Caveat", cursive;
+  font-family: "Fuzzy Bubbles", cursive;
+  color: var(--dark-blue) !important;
+}
+
+.galleryBackground {
+  background-image: url(../images/vecteezy_the-wild-ocean-view_6177787.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.galleryPageCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.galleryPageTitle {
+  color: var(--dark-blue) !important;
+  font-family: "Caveat", cursive;
+  font-family: "Fuzzy Bubbles", cursive;
+}
+
+/* Avatar Image */
+
+.avatar-img {
+    height: 300px;
+    margin: auto;
+    padding: auto;
+  }
+
+  /* Freelance Web Dev and Tutor Pages */
+.comingSoonDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1% 10%;
+    color: var(--navy-blue);
+    background-color: rgb(214, 5, 5);
+    padding: 1%;
+    border-radius: 50px;
+    border: 10px solid rgb(8, 218, 8);
+  }
+  
+  .webImage {
+    display: block;
+    height: 400px;
+    margin: 0 auto;
+  }
+  
+  .freelanceAboutMe {
+    color: var(--dark-blue);
+    font-family: "Caveat", cursive;
+    font-family: "Fuzzy Bubbles", cursive !important;
+  }
+
+  .freelanceAboutText {
+    color: var(--dark-blue);
+  }
+  
+  .freelanceServicesText, .freelancePricesText {
+    color: var(--light-blue);
+  }
+  
+  .freelanceColorSection,
+  .freelanceWhiteSection,
+  .freelanceDarkSection {
+    border-radius: 10px;
+    margin: 1% 5%;
+    padding: 1%;
+    font-family: "Caveat", cursive;
+    font-family: "Fuzzy Bubbles", cursive !important;
+  }
+  
+  .freelanceColorSection {
+    background-color: var(--dark-blue);
+    border: 10px solid var(--light-blue);
+    color: var(--light-blue) !important;
+  }
+  
+  .freelanceWhiteSection {
+    background-color: var(--light-blue);
+    border: 10px solid var(--dark-blue);
+  }
+  
+  .freelanceDarkSection {
+    background-color: var(--navy-blue);
+    border: 10px solid var(--dark-blue);
+  }
+  
+  /* Freelance Tutor Page */
+  
+  .tutorImage {
+    display: flex;
+    height: 300px;
+    margin: auto;
+    border-radius: 20px;
+  }
 
 /* Blog Page Styles */
 
@@ -101,46 +209,6 @@
   color: var(--dark-blue) !important;
 }
 
-/* Project Gallery Page */
-
-.galleryIntro {
-  width: 100%;
-  text-align: center;
-  font-size: 1em;
-  margin-bottom: 1%;
-  padding: 1rem;
-  font-family: "Caveat", cursive;
-  font-family: "Fuzzy Bubbles", cursive;
-  color: var(--dark-blue) !important;
-}
-
-.galleryBackground {
-  background-image: url(../images/vecteezy_the-wild-ocean-view_6177787.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  min-height: 100vh;
-}
-
-.galleryPageCard {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.galleryPageTitle {
-  color: var(--dark-blue) !important;
-  font-family: "Caveat", cursive;
-  font-family: "Fuzzy Bubbles", cursive;
-}
-
-/* Avatar Image */
-
-.avatar-img {
-    height: 300px;
-    margin: auto;
-    padding: auto;
-  }
 
 /* Contact Page */
 
@@ -268,75 +336,7 @@ span {
     overflow: auto;
     width: 100% !important;
   }
-
-  /* Freelance Web Dev Page */
-.comingSoonDiv {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1% 10%;
-    color: var(--navy-blue);
-    background-color: rgb(214, 5, 5);
-    padding: 1%;
-    border-radius: 50px;
-    border: 10px solid rgb(8, 218, 8);
-  }
   
-  .webImage {
-    display: block;
-    height: 400px;
-    margin: 0 auto;
-  }
-  
-  .freelanceAboutMe {
-    color: var(--dark-blue);
-    font-family: "Caveat", cursive;
-    font-family: "Fuzzy Bubbles", cursive !important;
-  }
-
-  .freelanceAboutText {
-    color: var(--dark-blue);
-  }
-  
-  .freelanceServicesText, .freelancePricesText {
-    color: var(--light-blue);
-  }
-  
-  .freelanceColorSection,
-  .freelanceWhiteSection,
-  .freelanceDarkSection {
-    border-radius: 10px;
-    margin: 1% 5%;
-    padding: 1%;
-    font-family: "Caveat", cursive;
-    font-family: "Fuzzy Bubbles", cursive !important;
-  }
-  
-  .freelanceColorSection {
-    background-color: var(--dark-blue);
-    border: 10px solid var(--light-blue);
-    color: var(--light-blue) !important;
-  }
-  
-  .freelanceWhiteSection {
-    background-color: var(--light-blue);
-    border: 10px solid var(--dark-blue);
-  }
-  
-  .freelanceDarkSection {
-    background-color: var(--navy-blue);
-    border: 10px solid var(--dark-blue);
-  }
-  
-  /* Freelance Tutor Page */
-  
-  .tutorImage {
-    display: flex;
-    height: 300px;
-    margin: auto;
-    border-radius: 20px;
-  }
-
 /* Page Not Found */
 
 .notFoundPageContainer {
