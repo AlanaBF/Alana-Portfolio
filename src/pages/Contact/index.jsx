@@ -32,7 +32,7 @@ function Contact() {
         </a>
       </span>
       <h1>
-        <a className="cv" href={AlanaCV}>
+        <a className="cv" href={AlanaCV} target="_blank" rel="noopener noreferrer">
           My CV
         </a>
       </h1>

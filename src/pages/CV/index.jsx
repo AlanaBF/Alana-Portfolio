@@ -13,7 +13,7 @@ function CV() {
         </Button>
       </div>
       <div className="cvFrame">
-        <iframe src={`${AlanaCV}#view=fitH`} title="AlanaCV" width="100%" height="1000" />
+        <iframe src={`${AlanaCV}#view=fitH`} title="AlanaCV" width="100%" height="1000" target="_blank" rel="noopener noreferrer"/>
       </div>
     </div>
   );
