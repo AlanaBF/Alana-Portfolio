@@ -36,29 +36,21 @@ function Header() {
               title="My Projects"
               id="basicNavDropdown"
             >
+             <LinkContainer to="/ProfessionalProjects">
+                <Nav.Link className="navLink">
+                  Professional Projects
+                </Nav.Link>
+                </LinkContainer>
               <LinkContainer to="/CollaborativeProjects">
                 <Nav.Link className="navLink">
                   Collaborative Group Projects
                 </Nav.Link>
               </LinkContainer>
               <LinkContainer to="/ProjectGallery">
-                <Nav.Link className="navLink">My Projects</Nav.Link>
+                <Nav.Link className="navLink">Personal Projects</Nav.Link>
               </LinkContainer>
               <LinkContainer to="/GamesGallery">
-                <Nav.Link className="navLink">My Games Projects</Nav.Link>
-              </LinkContainer>
-            </NavDropdown>
-            {/* Freelance Work */}
-            <NavDropdown
-              className="dropdownNav"
-              title="Freelance Work"
-              id="basicNavDropdown1"
-            >
-              <LinkContainer to="/freelanceDeveloper">
-                <Nav.Link className="navLink">Website Design</Nav.Link>
-              </LinkContainer>
-              <LinkContainer to="/freelanceTutor">
-                <Nav.Link className="navLink">Maths Tutor</Nav.Link>
+                <Nav.Link className="navLink">Games Projects</Nav.Link>
               </LinkContainer>
             </NavDropdown>
             {/* Blog Page */}

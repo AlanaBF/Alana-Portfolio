@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "key": 1,
+    "name": "kernowpets",
+    "image": "https://drive.google.com/uc?export=view&id=1hKSboED-EhYlEqJlV6AmoQ-_x2JUGpv0",
+    "Github": "https://github.com/AlanaBF/kernowpets",
+    "deployedLink": "https://kernowpets.com",
+    "about": "Following my teaching career and working with Jamie with reptile supplies for my school farm, I wanted to give something back. Prior to my offer Jamie did not have a website and only used Facebook and Shop Foot Fall to market what he provides. I decided there was a real world problem to be solved and asked if he would like me to design and build a website for him. He was delighted and said yes. This allowed me an opportunity to showcase my skills for a commercial project, help Jamie market his business and give me experience communicating with a key stakeholder. We had meetings, communicated constantly with updates, questions and changes, and he allowed me freedom to plan and build a Vite React Website with html, css and javascript. Over all the website is built with UX/UI in mind, optimized pages and finer details."
+  }
+]
