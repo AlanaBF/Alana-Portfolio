@@ -2,10 +2,16 @@
   {
     "id": 1,
     "key": 1,
-    "name": "kernowpets",
-    "image": "https://drive.google.com/uc?export=view&id=1hKSboED-EhYlEqJlV6AmoQ-_x2JUGpv0",
+    "name": "Kernow Pets",
+    "images": [
+      "/GalleryImages/Home.png",
+      "/GalleryImages/Reptiles.png",
+      "/GalleryImages/Live and Frozen Food.png",
+      "/GalleryImages/Contact.png",
+      "/GalleryImages/Photo Gallery.png"
+    ],
     "Github": "https://github.com/AlanaBF/kernowpets",
     "deployedLink": "https://kernowpets.com",
-    "about": "Following my teaching career and working with Jamie with reptile supplies for my school farm, I wanted to give something back. Prior to my offer Jamie did not have a website and only used Facebook and Shop Foot Fall to market what he provides. I decided there was a real world problem to be solved and asked if he would like me to design and build a website for him. He was delighted and said yes. This allowed me an opportunity to showcase my skills for a commercial project, help Jamie market his business and give me experience communicating with a key stakeholder. We had meetings, communicated constantly with updates, questions and changes, and he allowed me freedom to plan and build a Vite React Website with html, css and javascript. Over all the website is built with UX/UI in mind, optimized pages and finer details."
+    "about": "Following my teaching career and collaborating with Jamie from a reptile supplies business for my school farm, I was motivated to contribute further. Recognising a real-world problem to solve, I proposed the idea of designing and developing a website for Jamie's business. Prior to my involvement, Jamie relied solely on Facebook and Shop Foot Fall for marketing purposes, lacking a dedicated website. Given the opportunity to work on a commercial project, I aimed to showcase my skills, assist Jamie in expanding his business's reach, and gain valuable experience in stakeholder communication. Throughout the project, we held regular meetings and maintained constant communication for updates, inquiries, and any necessary adjustments. Jamie gave me the freedom to plan and construct a Vite React website utilizing HTML, CSS, and JavaScript. With a strong emphasis on user experience (UX) and user interface (UI), the website was developed to optimize page performance and incorporate meticulous attention to detail. Overall, the website successfully addresses the objectives set forth, effectively promoting Jamie's reptile business."
   }
 ]
