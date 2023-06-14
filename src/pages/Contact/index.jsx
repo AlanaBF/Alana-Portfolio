@@ -15,7 +15,7 @@ function Contact() {
         <br />
         or email me direct @:
         <br />
-        alanabarrett-frew@hotmail.com
+        alanabarrettfrew@gmail.com
       </p>
       <span className="buttonGroup">
         <a href="https://twitter.com/AlanaBF81" aria-label="Twitter">
