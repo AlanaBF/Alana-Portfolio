@@ -4,44 +4,44 @@
   min-height: 100vh;
   text-align: center;
   padding: 1%;
-  margin:0;
+  margin: 0;
 }
 
 /* Home Page */
 
 .pageBackgroundHome {
-    background-image: url(../../assets//images//vecteezy_beach-holiday-summer-background_7076104.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 100vh;
-  }
-  
+  background-image: url(../../assets//images//vecteezy_beach-holiday-summer-background_7076104.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
 .homePageTitle {
   color: var(--dark-blue) !important;
   text-align: center;
 }
-  
-  .homeSubtitle {
-    text-align: center !important;
-    color: var(--dark-blue) !important;
-    padding-bottom: 5% !important;
-  }
-  
-  .aboutMePosition {
-    display: flex;
-    margin: auto;
-    justify-content: center;
-    width: 80%;
-  }
-  
-  .profilePic {
-    width: 15%;
-    height: 25%;
-    border-radius: 50px;
-    border: var(--dark-blue) solid 10px;
-    margin-top: 20px;
-  }
+
+.homeSubtitle {
+  text-align: center !important;
+  color: var(--dark-blue) !important;
+  padding-bottom: 5% !important;
+}
+
+.aboutMePosition {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  width: 80%;
+}
+
+.profilePic {
+  width: 15%;
+  height: 25%;
+  border-radius: 50px;
+  border: var(--dark-blue) solid 10px;
+  margin-top: 20px;
+}
 
 /* Project Gallery Page */
 
@@ -79,82 +79,15 @@
 /* Avatar Image */
 
 .avatar-img {
-    height: 300px;
-    margin: auto;
-    padding: auto;
-  }
-
-  /* Freelance Web Dev and Tutor Pages */
-.comingSoonDiv {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1% 10%;
-    color: var(--navy-blue);
-    background-color: rgb(214, 5, 5);
-    padding: 1%;
-    border-radius: 50px;
-    border: 10px solid rgb(8, 218, 8);
-  }
-  
-  .webImage {
-    display: block;
-    height: 400px;
-    margin: 0 auto;
-  }
-  
-  .freelanceAboutMe {
-    color: var(--dark-blue);
-    font-family: "Caveat", cursive;
-    font-family: "Fuzzy Bubbles", cursive !important;
-  }
-
-  .freelanceAboutText {
-    color: var(--dark-blue);
-  }
-  
-  .freelanceServicesText, .freelancePricesText {
-    color: var(--light-blue);
-  }
-  
-  .freelanceColorSection,
-  .freelanceWhiteSection,
-  .freelanceDarkSection {
-    border-radius: 10px;
-    margin: 1% 5%;
-    padding: 1%;
-    font-family: "Caveat", cursive;
-    font-family: "Fuzzy Bubbles", cursive !important;
-  }
-  
-  .freelanceColorSection {
-    background-color: var(--dark-blue);
-    border: 10px solid var(--light-blue);
-    color: var(--light-blue) !important;
-  }
-  
-  .freelanceWhiteSection {
-    background-color: var(--light-blue);
-    border: 10px solid var(--dark-blue);
-  }
-  
-  .freelanceDarkSection {
-    background-color: var(--navy-blue);
-    border: 10px solid var(--dark-blue);
-  }
-  
-  /* Freelance Tutor Page */
-  
-  .tutorImage {
-    display: flex;
-    height: 300px;
-    margin: auto;
-    border-radius: 20px;
-  }
+  height: 300px;
+  margin: auto;
+  padding: auto;
+}
 
 /* Blog Page Styles */
 
-.blogPageTitle, .cvPageTitle {
+.blogPageTitle,
+.cvPageTitle {
   color: var(--light-blue);
 }
 
@@ -209,7 +142,6 @@
   color: var(--dark-blue) !important;
 }
 
-
 /* Contact Page */
 
 .contactBackground {
@@ -246,8 +178,8 @@
 
 .buttonGroup {
   color: var(--dark-blue);
-  margin-top: 1%;
-  margin-bottom: 10%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .fa {
@@ -272,7 +204,7 @@ span {
   background-color: var(--dark-blue);
   margin: auto;
   border-radius: 60px;
-  padding: 10px;
+  padding: 50px;
 }
 
 .cv {
@@ -297,100 +229,60 @@ span {
   background-color: var(--navy-blue);
   border: var(--navy-blue) solid 10px;
 }
-
-/* CV Page */
-
-.cvBackground {
-    background-color: var(--navy-blue);
-    min-height: 100vh;
-    margin-top: 0;
-    text-align: center;
-    padding: 0;
-    box-sizing: border-box;
-    position: relative;
-  }
-  
-  .buttonPosition {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-  }
-  
-  .cvLinkButton {
-    background-color: var(--aqua-blue) !important;
-    font-family: "Caveat", cursive !important;
-    font-family: "Fuzzy Bubbles", cursive !important;
-    border: var(--aqua-blue) solid 10px !important;
-    border-radius: 20px;
-    color: var(--dark-blue) !important;
-  }
-
-  .cvLinkButton:hover {
-    background-color: var(--dark-blue) !important;
-    border: var(--dark-blue) solid 10px !important;
-    color: var(--aqua-blue) !important;
-  }
-  
-  .cvFrame {
-    padding-top: 20px;
-    overflow: auto;
-    width: 100% !important;
-  }
-  
 /* Page Not Found */
 
 .notFoundPageContainer {
-    width: 100%;
-    background-color: var(--navy-blue);
-    height: 85vh;
-  }
-  
-  .notFoundPageInner {
-    min-height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .notFoundPageContent {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 20px solid var(--dark-blue);
-    border-radius: 20px;
-    width: 80%;
-    background-color: var(--navy-blue);
-    color: var(--light-blue);
-  }
-  
-  .notFoundPageContent div {
-    width: 100%;
-    height: 100%;
-    min-height: 400px;
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  
-  .notFoundPageContent div:nth-child(1) {
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .notFoundPageContent p {
-    font-size: 1rem;
-  }
-  
-  .notFoundPageContent span {
-    font-size: 2rem;
-  }
-  
-  .notFoundPageContent a {
-    color: var(--light-blue);
-  }
-  
-  .notFoundPageContent img {
-    display: flex;
-    width: 200%;
-  }
+  width: 100%;
+  background-color: var(--navy-blue);
+  height: 85vh;
+}
+
+.notFoundPageInner {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notFoundPageContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 20px solid var(--dark-blue);
+  border-radius: 20px;
+  width: 80%;
+  background-color: var(--navy-blue);
+  color: var(--light-blue);
+}
+
+.notFoundPageContent div {
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.notFoundPageContent div:nth-child(1) {
+  justify-content: center;
+  align-items: center;
+}
+
+.notFoundPageContent p {
+  font-size: 1rem;
+}
+
+.notFoundPageContent span {
+  font-size: 2rem;
+}
+
+.notFoundPageContent a {
+  color: var(--light-blue);
+}
+
+.notFoundPageContent img {
+  display: flex;
+  width: 200%;
+}

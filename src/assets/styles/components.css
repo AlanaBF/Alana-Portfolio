@@ -65,6 +65,21 @@ padding: 0 0 !important;
 text-align: center;
 }
 
+/* Testimonials */
+
+.TestimonialsPageTitle {
+  color: var(--dark-blue);
+}
+
+.TestimonialsPageText {
+  color: var(--dark-blue);
+  background-color: var(--light-blue);
+  margin: auto;
+  padding: 20px;
+  width: 80%;
+  border-radius: 20px;
+}
+
 /* About Component */
 .aboutContainer {
     font-family: "Caveat", cursive;

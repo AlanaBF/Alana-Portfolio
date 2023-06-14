@@ -32,16 +32,16 @@ function Contact() {
           <i className="fa fa-linkedin" aria-hidden="true"></i>
         </a>
       </span>
-      <h1>
+      <p>
         <a className="cv" href={AlanaWebCV} target="_blank" rel="noopener noreferrer">
           Web Developer CV
         </a>
-      </h1>
-      <h1>
+      </p>
+      <p>
         <a className="cv" href={AlanaPMCV} target="_blank" rel="noopener noreferrer">
           Project Management CV
         </a>
-      </h1>
+      </p>
       <div className="contactMeForm">
         <ContactMe />
       </div>
