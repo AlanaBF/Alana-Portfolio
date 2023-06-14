@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Home, Contact, ProfessionalProjects, ProjectGallery, CollaborativeProjects, Blog, CV, NotFound, GamesGallery } from "./pages";
+import { Home, Contact, ProfessionalProjects, ProjectGallery, CollaborativeProjects, Blog, NotFound, GamesGallery } from "./pages";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
@@ -19,7 +19,6 @@ const App = () => {
           <Route path="/ProjectGallery" element={<ProjectGallery />} />
           <Route path="/CollaborativeProjects" element={<CollaborativeProjects />} />
           <Route path="/GamesGallery" element={<GamesGallery />} />
-          <Route path="/CV" element={<CV />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

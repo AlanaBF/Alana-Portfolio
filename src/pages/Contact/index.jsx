@@ -1,6 +1,7 @@
 import React from "react";
 import ContactMe from "../../components/ContactMe";
-import AlanaCV from "./assets/Alana-Barrett-Frew-CV.pdf";
+import AlanaWebCV from "./assets/Alana-Barrett-Frew-Web-Dev-CV.pdf";
+import AlanaPMCV from "./assets/Alana-Barrett-Frew-PM-CV.pdf";
 import "../../assets/styles/pages.css";
 
 //Contact page with links to my LinkedIn, Github, Twitter and emails
@@ -32,8 +33,13 @@ function Contact() {
         </a>
       </span>
       <h1>
-        <a className="cv" href={AlanaCV} target="_blank" rel="noopener noreferrer">
-          My CV
+        <a className="cv" href={AlanaWebCV} target="_blank" rel="noopener noreferrer">
+          Web Developer CV
+        </a>
+      </h1>
+      <h1>
+        <a className="cv" href={AlanaPMCV} target="_blank" rel="noopener noreferrer">
+          Project Management CV
         </a>
       </h1>
       <div className="contactMeForm">
