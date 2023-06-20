@@ -1,10 +1,10 @@
-# Alana Barrett-Frew Portfolio
+# Alana Barrett-Frew Freelance Page
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
 
-- [Alana Barrett-Frew Portfolio](#alana-barrett-frew-portfolio)
+- [Alana Barrett-Frew Freelance Page](#alana-barrett-frew-freelance-page)
   - [Table of Contents](#table-of-contents)
   - [Technology Used](#technology-used)
   - [Description](#description)
@@ -54,20 +54,21 @@ Sign up to Blog updates:
 
 ## Description
 
-A portfolio to showcase me including my skills, experience, projects  and more.
+A website to showcase my freelance Web Development and Tutoring services.
 
-Deployed Site: https://nauticalturtle.com 
+Deployed Site: https://alanabarrettfrew.com  
 
 ## Usage
 
-You can use this application to find out more about me. You can click on the links to contact me, or to view my deployed projects and their Github links.
+You can use this application to find out more about me and the freelance services I offer.
 
 ## Screenshots
 
-![Home Page](./src/assets/Screenshots/Home-Screenshot.png)
-![Project Page](./src/assets/Screenshots/Project-Screenshot.png)
-![Blog Page](./src/assets/Screenshots/Blog-Screenshot.png)
-![Contact Page](./src/assets/Screenshots/Contact-Screenshot.png)
+![Home Page](./src/assets/Screenshots/AlanaHome.png)
+![Freelance Web Page](./src/assets/Screenshots/freelanceWeb.png)
+![Freelance Tutor Page](./src/assets/Screenshots/freelanceTutor.png)
+![Blog Page](./src/assets/Screenshots/blogPage.png)
+![Contact Page](./src/assets/Screenshots/contactMePage.png)
 
 ## Contributing
 
@@ -86,4 +87,4 @@ Alana Barrett-Frew
 
 Find me on GitHub: [AlanaBF](https://github.com/AlanaBF)
 
-Email: [alanabarrett-frew@hotmail.com](mailto:alanabarrett-frew@hotmail.com)
+Email: [alanabarrettfrew@gmail.com](mailto:alanabarrettfrew@gmail.com)
