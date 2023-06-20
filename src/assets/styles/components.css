@@ -131,6 +131,10 @@
   border-radius: 50px;
 }
 
+.blogCardBody {
+  background-color: var(--pale-green);
+}
+
 .blogImage {
   height: 300px;
 }

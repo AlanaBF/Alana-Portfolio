@@ -11,7 +11,7 @@ function BlogPost({ blogpost }) {
       <div>
         <Card.Img className="blogImage" variant="top" src={`${image}`} alt={`Image for ${name}`} />
       </div>
-      <Card.Body>
+      <Card.Body className="blogCardBody">
         <Card.Title>
           <h2 className="blogTitle">Blog title: {name}</h2>
           <h3 className="blogDate">Date: {date}</h3>
@@ -20,7 +20,7 @@ function BlogPost({ blogpost }) {
           <span>{postText}</span>
         </Card.Text>
       </Card.Body>
-      <Card.Body>
+      <Card.Body className="blogCardBody">
         <Button className="blogButton" href={blogLink} target="_blank">
           <span className="blogLinkText">Read Blog</span>
         </Button>
