@@ -56,7 +56,7 @@ Sign up to Blog updates:
 
 A portfolio to showcase me including my skills, experience, projects  and more.
 
-Deployed Site: https://alanabarrettfrew.com
+Deployed Site: https://nauticalturtle.com 
 
 ## Usage
 
