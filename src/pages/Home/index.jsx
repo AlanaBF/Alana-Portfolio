@@ -8,10 +8,11 @@ function Home() {
   return (
     <div className="pageBackground">
       <div>
-        <h1 className="homePageTitle">Nautical Turtle</h1>
+        <h1 className="homePageTitle">Alana Barrett-Frew</h1>
         </div> 
         <About />
         <br/>
+        <h2 className="sectionHeader">My Services</h2>
         <ContainerIntro />
       </div>
   );

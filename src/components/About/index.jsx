@@ -7,11 +7,13 @@ function About() {
     <div>
       <div className="aboutContainer">
         <div className="aboutCard">
-          <h2 className="sectionHeader">About Me</h2>
+          
           <div>
             <img src={profilePic} className="profilePic" alt="ABF profilePic" />
-          </div>
+          </div> 
           <br />
+          <h2 className="sectionHeader">About Me</h2>
+         
           <p>
               {" "}
               Former Teacher turned Front End Developer, always learning and
@@ -24,7 +26,7 @@ function About() {
             </p>
           <div>
             <p>
-              The Nautical Turtle is designed to showcase my services and
+              This website is designed to showcase my services and
               provide information about my freelance services. The website
               incorporates HTML, CSS, and JavaScript for the front-end
               development, with React and React Bootstrap to enhance the user
@@ -38,8 +40,8 @@ function About() {
               website, I am available for freelance collaborations.
             </p>
             <p>
-              In addition to front-end web development, the Nautical Turtle also
-              offers tutoring services, specifically in Maths for Key Stages 2,
+              In addition to front-end web development, I also
+              offer tutoring services, specifically in Maths for Key Stages 2,
               3, and 4. I am dedicated to helping students improve their
               mathematical skills and achieve academic success.{" "}. Other subjects available on request.
             </p>

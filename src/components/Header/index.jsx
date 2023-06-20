@@ -14,7 +14,7 @@ function Header() {
     >
       <LinkContainer to="/">
         <Navbar.Brand className="navbarBrand">
-          <img src={favicon} alt="logo" height="60px" /> Alana Barrett-Frew
+          <img src={favicon} alt="logo" height="60px" />
         </Navbar.Brand>
       </LinkContainer>
 
