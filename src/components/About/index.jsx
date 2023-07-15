@@ -1,52 +1,94 @@
 import React from "react";
-import profilePic from "../../assets/images/ProfilePic.jpeg";
 import "../../assets/styles/components.css";
 
 function About() {
   return (
-    <div>
-      <div className="aboutContainer">
-        <div className="aboutCard">
-          
-          <div>
-            <img src={profilePic} className="profilePic" alt="ABF profilePic" />
-          </div> 
-          <br />
-          <h2 className="sectionHeader">About Me</h2>
-         
-          <p>
-              {" "}
-              Former Teacher turned Front End Developer, always learning and
-              seeking new knowledge and skills. Very excited to bring highly
-              transferable and relevant skillset into the Tech Sector. I value a
-              simple and clean approach and don’t like to over complicate tasks.
-              A leader, mentor, effective planner and implementor of
-              organization strategies to balance day to day teaching
-              requirements alongside extra curricular activities.
-            </p>
-          <div>
-            <p>
-              This website is designed to showcase my services and
-              provide information about my freelance services. The website
-              incorporates HTML, CSS, and JavaScript for the front-end
-              development, with React and React Bootstrap to enhance the user
-              experience. You can use this website to explore my services and get in touch with me. The website
-              provides an intuitive interface and easy navigation to help you
-              find the information you need.
-            </p>
-            <p>
-              I provide freelance work in front-end web development. If you have
-              a specific project in mind or need assistance with building a
-              website, I am available for freelance collaborations.
-            </p>
-            <p>
-              In addition to front-end web development, I also
-              offer tutoring services, specifically in Maths for Key Stages 2,
-              3, and 4. I am dedicated to helping students improve their
-              mathematical skills and achieve academic success.{" "}. Other subjects available on request.
-            </p>
-          </div>
+    <div className="aboutContainer">
+      <div className="aboutCard">
+        <h2 className="sectionHeader">About Me</h2>
+        <p className="aboutText">
+          An adventurer at heart, I find my true solace amidst the vast ocean
+          and its captivating wonders. Whether it's sailing through the endless
+          waves, casting lines for a thrilling fishing experience, or diving
+          into the depths to explore the hidden world below – the sea has always
+          been my sanctuary. The turquoise paradise of the Maldives, with its
+          tropical allure and graceful turtles, serves as my endless muse,
+          inspiring every stroke of code in my portfolio.
+        </p>
+        <p className="aboutText">
+          But life isn't just about marine escapades; it's an exploration of the
+          boundless possibilities that lie beyond the horizon. My passion for
+          life, travel, and the great outdoors drives me to break free from my
+          comfort zone and embark on new learning journeys with every sunrise.
+        </p>
+        <p>
+          As a former teacher turned Front End Developer, I've discovered a
+          profound connection between teaching and coding – the power to shape,
+          influence, and inspire. Armed with an insatiable thirst for knowledge,
+          I eagerly delve into the depths of the Tech Sector, ready to unleash
+          my highly transferable skills and bring a simple, clean, and elegant
+          touch to the digital realm.
+        </p>
+        <p>
+          In my journey, I've learned that leadership isn't just about leading
+          from the front; it's about being a mentor, an effective planner, and
+          an implementor of strategies that create harmony between daily
+          demands. With every project, I seek the perfect balance, carefully
+          crafting digital experiences that leave a lasting impression.
+        </p>
+        <p className="aboutText">
+          But the journey doesn't end here. As I embark on the West Midlands
+          Digital Academy and Early Career Path with Version 1, I'm delving deeper into the
+          frontiers of innovation, conquering new horizons, and pushing the
+          boundaries of my IT expertise. The pursuit of knowledge is an eternal
+          voyage, and I'm steering full speed ahead, fueled by curiosity and the
+          desire to redefine what's possible.
+        </p>
+        <p>
+          Join me in this odyssey, as we sail the seas of creativity, dive into
+          the depths of innovation, and together, craft a digital world like no
+          other.
+        </p>
+        <h2 className="sectionHeader">Skills: Unleashing the Power of Tech</h2>
+        <div className="skillTable">
+          <table>
+            <tr>
+              <td>Project Management</td>
+              <td>Prince2 Foundation and Practitioner, AgilePM Foundation and Practitioner</td>
+            </tr>
+            <tr>
+              <td>Programming</td>
+              <td>
+                Embracing the ABCs of the digital realm – HTML, CSS, and
+                JavaScript are the foundation of my coding canvas.
+              </td>
+            </tr>
+            <tr>
+              <td>Frameworks</td>
+              <td>
+                From breathing life into user interfaces with React.js to
+                unleashing the power of servers with Node.js, I aim to deliver seamless experiences.
+              </td>
+            </tr>
+            <tr>
+              <td>Methodologies</td>
+              <td>
+                Agile, Scrum, and Kanban are the winds that propel my projects
+                forward, allowing me to navigate complexities with ease and
+                agility.
+              </td>
+            </tr>
+            <tr>
+              <td>Other</td>
+              <td>
+                In the ever-evolving tech universe, Git is my trusty tool,
+                guiding me through version control, while APIs unlock
+                gateways to boundless possibilities.
+              </td>
+            </tr>
+          </table>
         </div>
+    
       </div>
     </div>
   );
