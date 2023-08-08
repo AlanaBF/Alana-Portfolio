@@ -1,5 +1,8 @@
 import React from "react";
 import "../../assets/styles/components.css";
+import BadgeImage1 from "../../assets/images/introduction-to-cybersecurity.png"
+import BadgeImage2 from "../../assets/images/agilepm-foundation.png"
+import BadgeImage3 from "../../assets/images/agilepm-practitioner.2.png"
 
 function About() {
   return (
@@ -51,7 +54,33 @@ function About() {
         </p>
         <h2 className="sectionHeader">Skills: Unleashing the Power of Tech</h2>
         <div className="skillTable">
+        <div className="badgeContainer">
+            <img
+            className="badgeImage"
+              src={BadgeImage1}
+              width="100"
+              height="100"
+              alt="Credly Badge 1"
+            />
+        
+            <img
+            className="badgeImage"
+              src={BadgeImage2}
+              width="100"
+              height="100"
+              alt="Credly Badge 2"
+            />
+        
+            <img
+            className="badgeImage"
+              src={BadgeImage3}
+              width="100"
+              height="100"
+              alt="Credly Badge 3"
+            />
+          </div>
           <table>
+          <tbody>
             <tr>
               <td>Project Management</td>
               <td>Prince2 Foundation and Practitioner, AgilePM Foundation and Practitioner</td>
@@ -86,9 +115,9 @@ function About() {
                 gateways to boundless possibilities.
               </td>
             </tr>
+            </tbody>
           </table>
         </div>
-    
       </div>
     </div>
   );
