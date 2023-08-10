@@ -1,13 +1,13 @@
-# Nautical Turtle
+# Portfolio
 
-This repository contains the code for my Nautical Turtle Portfolio Site, which showcases my projects so far. The site is built using HTML, CSS, JavaScript, and React.
+This repository contains the code for my Portfolio Site, which showcases my projects so far. The site is built using HTML, CSS, JavaScript, and React.
 
-Website: [Nautical Turtle](https://nauticalturtle.com)
+Website: [Portfolio](https://alanabarrettfrew.com)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Table of Contents
 
-- [Nautical Turtle](#nautical-turtle)
+- [Portfolio](#portfolio)
   - [Table of Contents](#table-of-contents)
   - [Technology Used](#technology-used)
   - [Description](#description)
@@ -19,7 +19,7 @@ Website: [Nautical Turtle](https://nauticalturtle.com)
 
 ## Technology Used
 
-The Nautical Turtle website is built using the following technologies:
+The portfolio website is built using the following technologies:
 
 - ![HTML Badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 - ![CSS Badge](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -29,7 +29,7 @@ The Nautical Turtle website is built using the following technologies:
 
 ## Description
 
-The Nautical Turtle is designed to showcase my projects. The website incorporates HTML, CSS, and JavaScript for the front-end development, with React and React Bootstrap to enhance the user experience. You can use this website to explore my services, view my past/current projects, and get in touch with me. The website provides an intuitive interface and easy navigation to help you find the information you need.
+The portfolio is designed to showcase my projects. The website incorporates HTML, CSS, and JavaScript for the front-end development, with React and React Bootstrap to enhance the user experience. You can use this website to explore my services, view my past/current projects, and get in touch with me. The website provides an intuitive interface and easy navigation to help you find the information you need.
 
 ## Front-end Web Development
 
@@ -48,7 +48,7 @@ To explore the front-end web development services, please follow the instruction
 
 ```npm run dev```
 
-- Open your browser and visit http://localhost:5173 to view the Nautical Turtle Site.
+- Open your browser and visit http://localhost:5173 to view the Portfolio Site.
 
 Feel free to navigate through the different sections and explore the showcased projects. If you have any questions or inquiries regarding front-end web development, please don't hesitate to contact me.
 
@@ -72,9 +72,9 @@ A am not currently accepting contributions to this project. However, if you have
 
 ## Questions
 
-Thank you for visiting the Nautical Turtle Site. I look forward to hearing from you. If you have any questions or need further assistance, please contact me:
+Thank you for visiting my Portfolio Site. I look forward to hearing from you. If you have any questions or need further assistance, please contact me:
 
 - Email: [alanabarrettfrew@gmail.com](mailto:alanabarrettfrew@gmail.com)
 - Phone: 07817663239
-- Website: [www.nauticalturtle.com](https://www.nauticalturtle.com)
+- Website: [www.alanabarrettfrew.com](https://www.alanabarrettfrew.com)
 - Github: [AlanaBF](https://github.com/AlanaBF)
