@@ -6,7 +6,7 @@
   font-size: 1rem !important;
   background-color: var(--dark-blue) !important;
   justify-content: space-around !important;
-  }
+}
 
 .navIcons {
   display: flex;
@@ -28,7 +28,7 @@
 }
 
 .navbarBrand {
-  color:var(--navy-blue) !important;
+  color: var(--navy-blue) !important;
   font-size: 100%;
   margin-left: 0%;
 }
@@ -36,8 +36,8 @@
 .navLink {
   color: var(--light-blue) !important;
   font-size: 60%;
-  font-family: 'Caveat', cursive;
-  font-family: 'Fuzzy Bubbles', cursive;
+  font-family: "Caveat", cursive;
+  font-family: "Fuzzy Bubbles", cursive;
   border-radius: 20px;
   width: auto;
 }
@@ -49,20 +49,21 @@
   width: auto;
 }
 
-#basicNavDropdown, #basicNavDropdown1 {
+#basicNavDropdown,
+#basicNavDropdown1 {
   color: #caf0f8 !important;
   font-size: 100%;
-  font-family: 'Caveat', cursive;
-  font-family: 'Fuzzy Bubbles', cursive;
+  font-family: "Caveat", cursive;
+  font-family: "Fuzzy Bubbles", cursive;
   border-radius: 20px;
   width: auto;
 }
 
 div.dropdown-menu.show {
-background-color: var(--dark-blue) !important;
-border:0;
-padding: 0 0 !important;
-text-align: center;
+  background-color: var(--dark-blue) !important;
+  border: 0;
+  padding: 0 0 !important;
+  text-align: center;
 }
 
 /* Testimonials */
@@ -82,8 +83,8 @@ text-align: center;
 
 /* About Component */
 .aboutContainer {
-    font-family: "Caveat", cursive;
-    font-family: "Fuzzy Bubbles", cursive;
+  font-family: "Caveat", cursive;
+  font-family: "Fuzzy Bubbles", cursive;
 }
 
 .aboutCard {
@@ -134,7 +135,23 @@ li {
   text-align: left; /* Align the content to the left */
 }
 
+.button-container {
+  display: flex;
+  gap: 10px; /* Add 10px of space between buttons */
+  justify-content: center;
+}
 
+.linkToProject {
+  background-color: var(--dark-blue) !important;
+  color: var(--light-blue) !important;
+  border: solid 10px var(--dark-blue) !important;
+}
+
+.linkToProject:hover {
+  background-color: var(--aqua-blue) !important;
+  color: var(--dark-blue) !important;
+  border: solid 10px var(--aqua-blue) !important;
+}
 
 /* Blog Component */
 
@@ -181,7 +198,6 @@ li {
 .blogButton:hover {
   background-color: var(--navy-blue) !important;
   border: var(--navy-blue) solid 10px !important;
- 
 }
 
 .blogLinkText {
@@ -275,13 +291,13 @@ li {
 .footer {
   width: 100%;
   background-color: var(--dark-blue) !important;
-  color:var(--aqua-blue);
+  color: var(--aqua-blue);
   font-size: 1rem !important;
   text-align: center;
   padding: 1rem;
   font-family: "Caveat", cursive;
   font-family: "Fuzzy Bubbles", cursive;
- margin: 0;
+  margin: 0;
 }
 
 /* ProjectCard Component */
@@ -312,7 +328,7 @@ li {
   object-fit: 100%;
   overflow: hidden;
   border-radius: 10px;
-} 
+}
 
 .cardBodyText {
   font-size: 1em !important;
@@ -332,7 +348,8 @@ li {
   border-top: 1rem solid var(--dark-blue);
 }
 
-.galleryCardLink, .galleryAnchorTag {
+.galleryCardLink,
+.galleryAnchorTag {
   font-size: 1em !important;
   line-height: 1 !important;
   color: var(--dark-blue);
@@ -341,4 +358,4 @@ li {
 .galleryText {
   font-size: 1em !important;
   color: var(--dark-blue);
-} 
+}
