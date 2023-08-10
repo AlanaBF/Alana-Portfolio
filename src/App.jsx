@@ -1,17 +1,18 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Home, Contact, ProfessionalProjects, ProjectGallery, CollaborativeProjects, Blog, NotFound, GamesGallery } from "./pages";
+import {
+  createHashRouter,
+  createRoutesFromElements,
+  RouterProvider,
+  Outlet,
+  Route,
+} from "react-router-dom";import { Home, Contact, ProfessionalProjects, ProjectGallery, CollaborativeProjects, Blog, NotFound, GamesGallery } from "./pages";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 const App = () => {
-  return (
-    <Router>
-      <div>
-        <Header />
-      </div>
-      <div>
-        <Routes>
+  const router = createHashRouter(
+    createRoutesFromElements(
+      <Route path="/" element={<Root />}>
           <Route path="/" element={<Home />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Blog" element={<Blog />} />
@@ -20,13 +21,25 @@ const App = () => {
           <Route path="/CollaborativeProjects" element={<CollaborativeProjects />} />
           <Route path="/GamesGallery" element={<GamesGallery />} />
           <Route path="*" element={<NotFound />} />
-        </Routes>
-      </div>
-      <div>
-        <Footer />
-      </div>
-    </Router>
-  );
-};
+        </Route>
+  )
+  )
+  return <RouterProvider router={router} />
+    }
+  const Root = () => {
+    return (
+      <>
+        <div>
+          <Header />
+        </div>
+        <div>
+          <Outlet />
+        </div>
+        <div>
+          <Footer />
+        </div>
+      </>
+    )
+  }
 
 export default App;
