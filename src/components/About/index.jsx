@@ -11,9 +11,9 @@ function About() {
   return (
     <div className="aboutContainer">
       <div className="aboutCard">
-        <div class="portfolio-content">
+        <div className="portfolio-content">
           <h1>Welcome to My Portfolio</h1>
-          <p>
+          <p className="about-text">
             As a former teacher turned Front End Developer, I've discovered a
             profound connection between teaching and coding – the power to
             shape, influence, and inspire. Armed with an insatiable thirst for
@@ -21,13 +21,13 @@ function About() {
             to unleash my highly transferable skills and bring a simple, clean,
             and elegant touch to the digital realm.
           </p>
-          <p>
+          <p className="about-text">
             In my journey, I've learned that leadership isn't just about leading
             from the front; it's about being a mentor, an effective planner, and
             an implementor of strategies that create harmony between daily
             demands.
           </p>
-          <p class="about-text">
+          <p className="about-text">
             After completing a rigorous 16-week intensive bootcamp in Front End
             Web Development through the government-funded program with EdX
             Trilogy Skills, I have achieved a remarkable transition from the
@@ -45,13 +45,13 @@ function About() {
             in education to bring a unique perspective to my endeavors in the
             tech world.
           </p>
-          <p class="about-text">
+          <p className="about-text">
             But the journey doesn't end here. As I embark on the West Midlands
             Digital Skills Academy and Early Career Path with Version 1, I'm
             delving deeper into the frontiers of innovation, conquering new
             horizons, and pushing the boundaries of my IT expertise.
           </p>
-          <p class="about-text">
+          <p className="about-text">
             This program has provided me with a diverse range of valuable skills
             and knowledge. I've delved into the intricacies of Linux as an
             operating system, gaining a solid foundation in its mechanics and
@@ -72,11 +72,11 @@ function About() {
             enriched skill set will serve as a strong foundation for my future
             endeavors in this digital landscape.
           </p>
-          <p class="call-to-action">
+          <p className="about-text">
             Ready to explore further? Check out my projects and get in touch!
           </p>
 
-          <div className="button-container">
+          <div className="link-to-projects">
             <Button
               className="linkToProject"
               as={Link}
@@ -126,7 +126,7 @@ function About() {
                 <td>Prince2 Foundation and Practitioner</td>
               </tr>
               <tr>
-                <td></td>
+                <td>Project Management</td>
                 <td>
                   AgilePM Foundation{" "}
                   <img
@@ -136,16 +136,21 @@ function About() {
                     height="100"
                     alt="Credly Badge 2"
                   />
-                  AgilePM Practitioner
-                  <img
-                    className="badgeImage"
-                    src={BadgeImage3}
-                    width="100"
-                    height="100"
-                    alt="Credly Badge 3"
-                  />{" "}
                 </td>
-              </tr>
+                </tr>
+                <tr>
+                    <td>Project Management</td>
+                    <td>
+                    AgilePM Practitioner
+                    <img
+                      className="badgeImage"
+                      src={BadgeImage3}
+                      width="100"
+                      height="100"
+                      alt="Credly Badge 3"
+                    />{" "}
+                  </td>
+            </tr>
               <tr>
                 <td>Programming</td>
                 <td>HTML | CSS | JavaScript</td>

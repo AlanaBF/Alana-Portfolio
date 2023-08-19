@@ -83,8 +83,12 @@ div.dropdown-menu.show {
 
 /* About Component */
 .aboutContainer {
+  display: flex;
   font-family: "Caveat", cursive;
   font-family: "Fuzzy Bubbles", cursive;
+  max-width: 100%;
+  border: solid 10px var(--dark-blue);
+  border-radius: 20px;
 }
 
 .aboutCard {
@@ -92,41 +96,41 @@ div.dropdown-menu.show {
   font-size: 100%;
   text-align: center;
   background-color: var(--light-blue);
-  border: solid 10px var(--dark-blue);
-  border-radius: 20px;
-  padding: 1%;
+  max-width: 100%; /* Adjust this value as needed */
+  margin: 0 auto;
+}
+
+.linkToProject {
+  background-color: var(--dark-blue) !important;
+  color: var(--light-blue) !important;
+  border: solid 10px var(--dark-blue) !important;
+  margin: 10px;
+}
+
+.linkToProject:hover {
+  background-color: var(--aqua-blue) !important;
+  color: var(--dark-blue) !important;
+  border: solid 10px var(--aqua-blue) !important;
 }
 
 .sectionHeader {
   color: var(--dark-blue);
 }
 
-.aboutText {
+.about-text {
   color: var(--dark-blue);
   font-size: 100%;
   text-align: center;
 }
 
-.skillsList {
-  color: var(--dark-blue);
-  font-size: 100%;
-  text-align: center;
-}
-
-li {
-  list-style-type: none; /* Remove bullets */
-  padding: 0;
-  margin: 0;
-}
 .skillTable {
   margin-top: 20px;
   border-collapse: collapse;
-  width: 100%;
+  max-width: 100%;
 }
 
 .skillTable table {
-  width: 100%;
-  border: 2px solid var(--dark-blue); /* Add a border around the table */
+  max-width: 100%;
 }
 
 .skillTable td {
@@ -135,23 +139,6 @@ li {
   text-align: left; /* Align the content to the left */
 }
 
-.button-container {
-  display: flex;
-  gap: 10px; /* Add 10px of space between buttons */
-  justify-content: center;
-}
-
-.linkToProject {
-  background-color: var(--dark-blue) !important;
-  color: var(--light-blue) !important;
-  border: solid 10px var(--dark-blue) !important;
-}
-
-.linkToProject:hover {
-  background-color: var(--aqua-blue) !important;
-  color: var(--dark-blue) !important;
-  border: solid 10px var(--aqua-blue) !important;
-}
 
 /* Blog Component */
 
