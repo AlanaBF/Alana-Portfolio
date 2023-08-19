@@ -123,14 +123,9 @@ div.dropdown-menu.show {
   text-align: center;
 }
 
-.skillTable {
-  margin-top: 20px;
-  border-collapse: collapse;
-  max-width: 100%;
-}
-
 .skillTable table {
   max-width: 100%;
+  margin: auto;
 }
 
 .skillTable td {
