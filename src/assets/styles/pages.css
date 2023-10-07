@@ -88,6 +88,21 @@
 
 /* Blog Page Styles */
 
+.deprecated {
+  color: var(--dark-blue);
+  font-weight: bold;
+}
+.deprecatedButton {
+  border: solid var(--dark-blue) 5px;
+  border-radius: 20px;
+  background-color: var(--dark-blue);
+  color: var(--light-blue);
+}
+
+.deprecatedImage {
+border-radius: 20px;
+}
+
 .blogPageTitle,
 .cvPageTitle {
   color: var(--light-blue);

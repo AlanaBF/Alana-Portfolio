@@ -46,32 +46,35 @@ function About() {
             tech world.
           </p>
           <p className="about-text">
-            But the journey doesn't end here. As I embark on the West Midlands
-            Digital Skills Academy and Early Career Path with Version 1, I'm
-            delving deeper into the frontiers of innovation, conquering new
-            horizons, and pushing the boundaries of my IT expertise.
+            But the journey doesn't end here. I have just completed the West
+            Midlands Digital Skills Academy with Version 1, I've delved deeper
+            into the frontiers of innovation, conquering new horizons, and
+            pushing the boundaries of my IT expertise. 
           </p>
           <p className="about-text">
             This program has provided me with a diverse range of valuable skills
-            and knowledge. I've delved into the intricacies of Linux as an
+            and knowledge. I delved into the intricacies of Linux as an
             operating system, gaining a solid foundation in its mechanics and
-            functionalities. The Agile Fundamentals module has equipped me with
+            functionalities. The Agile Fundamentals module equipped me with
             an understanding of agile methodologies and their application in
-            project management. With hands-on experience on GitHub, I've honed
+            project management. With hands-on experience on GitHub, I honed
             my version control and collaboration skills, essential for modern
-            development practices. The Storytelling for Business course has
+            development practices. The Storytelling for Business course
             taught me the art of conveying complex ideas effectively, vital for
             successful communication in professional settings. My venture into
-            Cyber Security has not only imparted insights into fortifying
-            digital assets and privacy but has also kindled a heightened
+            Cyber Security not only imparted insights into fortifying
+            digital assets and privacy but also kindled a heightened
             awareness of potential threats. In the realm of Business Analysis,
-            I'm learning to decipher business needs and translate them into
-            technical solutions. Additionally, my exposure to Azure is deepening
+            I learnt to decipher business needs and translate them into
+            technical solutions. Additionally, my exposure to Azure deepened
             my understanding of cloud services. Cementing my knowledge with
-            exams in Cyber Security and Azure 900, I'm confident that my
+            exams in Cyber Security and Azure AZ-900, I'm confident that my
             enriched skill set will serve as a strong foundation for my future
             endeavors in this digital landscape.
           </p>
+          <p>I have now started as a
+            permanent member of the team as an Associate Consultant. My first
+            project is allowing me to learn the Business Analyst and AI Engineer Roles in greater detail.</p>
           <p className="about-text">
             Ready to explore further? Check out my projects and get in touch!
           </p>
@@ -137,20 +140,20 @@ function About() {
                     alt="Credly Badge 2"
                   />
                 </td>
-                </tr>
-                <tr>
-                    <td>Project Management</td>
-                    <td>
-                    AgilePM Practitioner
-                    <img
-                      className="badgeImage"
-                      src={BadgeImage3}
-                      width="100"
-                      height="100"
-                      alt="Credly Badge 3"
-                    />{" "}
-                  </td>
-            </tr>
+              </tr>
+              <tr>
+                <td>Project Management</td>
+                <td>
+                  AgilePM Practitioner
+                  <img
+                    className="badgeImage"
+                    src={BadgeImage3}
+                    width="100"
+                    height="100"
+                    alt="Credly Badge 3"
+                  />{" "}
+                </td>
+              </tr>
               <tr>
                 <td>Programming</td>
                 <td>HTML | CSS | JavaScript</td>
