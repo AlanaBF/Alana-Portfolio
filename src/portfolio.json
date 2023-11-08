@@ -1,5 +1,14 @@
 [
   {
+    "id": 10,
+    "key": 10,
+    "name": "cricket fever hub",
+    "image": "https://drive.google.com/uc?export=view&id=1NZSiEvoiY-pgxzvP-jLzlCeRnSXYdfLs",
+    "Github": "https://github.com/AlanaBF/cricketfeverhub.com",
+    "deployedLink": "https://www.cricketfeverhub.com",
+    "about": "An app that displays my passion for cricket and showcases my growing react skills."
+  },
+  {
     "id": 1,
     "key": 1,
     "name": "nextjs-blog",

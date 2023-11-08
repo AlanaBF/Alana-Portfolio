@@ -13,5 +13,19 @@
     "Github": "https://github.com/AlanaBF/kernowpets",
     "deployedLink": "https://kernowpets.com",
     "about": "Developed a commercial website for a local reptile business, diversifying their marketing channels beyond Facebook and in-store footfall. Utilised Vite React, HTML, CSS, and JavaScript to create a seamless user experience. Collaborated closely with the key stakeholder, ensuring alignment with their vision through regular meetings. Implemented modern UX/UI design principles and integrated a store location feature using the Leaflet API. Deployed on Vercel for optimal performance. Solely responsible for project planning and delivery, showcasing independent management skills and web development proficiency."
+  },
+  {
+    "id": 2,
+    "key": 2,
+    "name": "The Startled Moose",
+    "images": [
+      "https://drive.google.com/uc?export=view&id=1z-dnEroOhCqjCI01RgToh4w7idrIMDgu",
+      "https://drive.google.com/uc?export=view&id=159xLiErtRQoQJLzGZW03RhzkHOxsRc8r",
+      "https://drive.google.com/uc?export=view&id=1p6E56byowbNsG6iC8KEEt3hq32CnFUS6"
+    ],
+    "Github": "https://github.com/AlanaBF/The_Startled_Moose",
+    "deployedLink": "https://the-startled-moose.vercel.app/",
+    "about": "Developed a website for an artist looking to modernise her business approach and start to gain clients for book illustrations, portraits and other art commissions."
   }
+  
 ]
