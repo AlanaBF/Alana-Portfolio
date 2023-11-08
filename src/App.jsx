@@ -5,7 +5,8 @@ import {
   RouterProvider,
   Outlet,
   Route,
-} from "react-router-dom";import { Home, Contact, ProfessionalProjects, ProjectGallery, CollaborativeProjects, Blog, NotFound, GamesGallery } from "./pages";
+} from "react-router-dom";
+import { Home, Contact, ProfessionalProjects, ProjectGallery, CollaborativeProjects, Blog, NotFound, GamesGallery } from "./pages";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 

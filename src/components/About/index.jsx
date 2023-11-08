@@ -17,9 +17,7 @@ function About() {
             As a former teacher turned Front End Developer, I've discovered a
             profound connection between teaching and coding – the power to
             shape, influence, and inspire. Armed with an insatiable thirst for
-            knowledge, I eagerly delve into the depths of the Tech Sector, ready
-            to unleash my highly transferable skills and bring a simple, clean,
-            and elegant touch to the digital realm.
+            knowledge, I'm excited to share my portfolio website showcasing my skills.
           </p>
           <p className="about-text">
             In my journey, I've learned that leadership isn't just about leading
@@ -30,16 +28,15 @@ function About() {
           <p className="about-text">
             After completing a rigorous 16-week intensive bootcamp in Front End
             Web Development through the government-funded program with EdX
-            Trilogy Skills, I have achieved a remarkable transition from the
-            field of teaching to the dynamic realm of technology. This
+            Trilogy Skills, I have made a career change possible. This
             transformative journey has enabled me to discover a sector that
-            resonates deeply with my passions. The immersive experience provided
+            I'm passionate about. The immersive experience provided
             by the bootcamp has not only equipped me with a robust skill set in
             web development but has also ignited a newfound enthusiasm for the
             tech industry. This leap signifies a significant personal and
             professional accomplishment, as I've successfully navigated a
             challenging learning path and emerged with the capabilities needed
-            to excel in my newfound passion. As I embark on this exciting
+            to excel. As I embark on this exciting
             trajectory, I'm excited to contribute my skills and creativity to
             the ever-evolving landscape of technology, harnessing my background
             in education to bring a unique perspective to my endeavors in the
@@ -47,9 +44,7 @@ function About() {
           </p>
           <p className="about-text">
             But the journey doesn't end here. I have just completed the West
-            Midlands Digital Skills Academy with Version 1, I've delved deeper
-            into the frontiers of innovation, conquering new horizons, and
-            pushing the boundaries of my IT expertise. 
+            Midlands Digital Skills Academy with Version 1.
           </p>
           <p className="about-text">
             This program has provided me with a diverse range of valuable skills
@@ -68,9 +63,7 @@ function About() {
             I learnt to decipher business needs and translate them into
             technical solutions. Additionally, my exposure to Azure deepened
             my understanding of cloud services. Cementing my knowledge with
-            exams in Cyber Security and Azure AZ-900, I'm confident that my
-            enriched skill set will serve as a strong foundation for my future
-            endeavors in this digital landscape.
+            exams in Cyber Security and Azure AZ-900. 
           </p>
           <p>I have now started as a
             permanent member of the team as an Associate Consultant. My first
@@ -83,7 +76,7 @@ function About() {
             <Button
               className="linkToProject"
               as={Link}
-              to="/ProfessionalProjects"
+              to="ProfessionalProjects"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -92,7 +85,7 @@ function About() {
             <Button
               className="linkToProject"
               as={Link}
-              to="/CollaborativeProjects"
+              to="CollaborativeProjects"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -101,7 +94,7 @@ function About() {
             <Button
               className="linkToProject"
               as={Link}
-              to="/PersonalProjects"
+              to="ProjectGallery"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -110,7 +103,7 @@ function About() {
             <Button
               className="linkToProject"
               as={Link}
-              to="/GamesProjects"
+              to="/GamesGallery"
               target="_blank"
               rel="noopener noreferrer"
             >
