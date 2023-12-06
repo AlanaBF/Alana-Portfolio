@@ -19,9 +19,9 @@ function Contact() {
         alanabarrett-frew@hotmail.com
       </p>
       <span className="buttonGroup">
-        <a href="https://twitter.com/AlanaBF81" aria-label="Twitter">
+        {/* <a href="https://twitter.com/AlanaBF81" aria-label="Twitter">
           <i className="fa fa-twitter" aria-hidden="true"></i>
-        </a>
+        </a> */}
         <a href="https://github.com/AlanaBF" aria-label="GitHub">
           <i className="fa fa-github" aria-hidden="true"></i>
         </a>
@@ -32,7 +32,7 @@ function Contact() {
           <i className="fa fa-linkedin" aria-hidden="true"></i>
         </a>
       </span>
-      <p>
+      {/* <p>
         <a className="cv" href={AlanaWebCV} target="_blank" rel="noopener noreferrer">
           Web Developer CV
         </a>
@@ -41,7 +41,7 @@ function Contact() {
         <a className="cv" href={AlanaPMCV} target="_blank" rel="noopener noreferrer">
           Project Management CV
         </a>
-      </p>
+      </p> */}
       <div className="contactMeForm">
         <ContactMe />
       </div>
