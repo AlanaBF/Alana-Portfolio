@@ -145,7 +145,7 @@ div.dropdown-menu.show {
   display: flex;
   justify-content: center;
   border: 1rem solid var(--dark-blue) !important;
-  margin: 10px auto;
+  margin: auto;
   background-color: var(--light-blue) !important;
   border-radius: 50px;
 }

@@ -14,7 +14,7 @@ const Post2 = () => {
   };
 
   return (
-    <div >
+ 
       <div className="blogPageLayout">
         <Card className="blogCard">
           <Card.Img variant="top" src="/Corporate days.jpeg" />
@@ -170,7 +170,7 @@ const Post2 = () => {
           </Modal.Footer>
         </Modal>
       </div>
-    </div>
+  
   );
 };
 

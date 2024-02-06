@@ -94,17 +94,17 @@
 }
 
 .blogCard {
-  width: 80%;
+  width: 100%;
   margin: auto;
   padding: 10px;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  
 }
 
 .blogPageLayout {
   padding: 20px;
   max-width: 800px;
+  margin: auto;
 }
 
 .blogReadMoreButton {
@@ -122,18 +122,6 @@
   margin: auto;
 }
 
-.backgroundBlogPicture {
-  background-image: url(../images/maldives.jpeg);
-  width: 98%;
-  margin: auto;
-  height: 300px;
-  background-position: center center;
-  padding-bottom: 100px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border: solid 10px var(--dark-blue);
-  border-radius: 40px;
-}
 
 .blogText {
   font-size: 2em;
