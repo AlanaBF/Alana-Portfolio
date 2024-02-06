@@ -17,57 +17,50 @@ function About() {
             As a former teacher turned Front End Developer, I've discovered a
             profound connection between teaching and coding – the power to
             shape, influence, and inspire. Armed with an insatiable thirst for
-            knowledge, I'm excited to share my portfolio website showcasing my skills.
-          </p>
-          <p className="about-text">
-            In my journey, I've learned that leadership isn't just about leading
-            from the front; it's about being a mentor, an effective planner, and
-            an implementor of strategies that create harmony between daily
-            demands.
+            knowledge, I'm excited to share my portfolio website showcasing my
+            skills.
           </p>
           <p className="about-text">
             After completing a rigorous 16-week intensive bootcamp in Front End
             Web Development through the government-funded program with EdX
             Trilogy Skills, I have made a career change possible. This
-            transformative journey has enabled me to discover a sector that
-            I'm passionate about. The immersive experience provided
-            by the bootcamp has not only equipped me with a robust skill set in
-            web development but has also ignited a newfound enthusiasm for the
-            tech industry. This leap signifies a significant personal and
-            professional accomplishment, as I've successfully navigated a
-            challenging learning path and emerged with the capabilities needed
-            to excel. As I embark on this exciting
-            trajectory, I'm excited to contribute my skills and creativity to
-            the ever-evolving landscape of technology, harnessing my background
-            in education to bring a unique perspective to my endeavors in the
-            tech world.
+            transformative journey has enabled me to discover a sector that I'm
+            passionate about. The immersive experience provided by the bootcamp
+            has not only equipped me with a robust skill set in web development
+            but has also ignited a newfound enthusiasm for the tech industry.
+            This leap signifies a significant personal and professional
+            accomplishment, as I've successfully navigated a challenging
+            learning path and emerged with the capabilities needed to excel.
           </p>
           <p className="about-text">
-            But the journey doesn't end here. I have just completed the West
-            Midlands Digital Skills Academy with Version 1.
+            More recently, I have completed the West Midlands Digital Skills
+            Academy with Version 1. This program has provided me with a diverse
+            range of valuable skills and knowledge. I delved into the
+            intricacies of Linux as an operating system, gaining a solid
+            foundation in its mechanics and functionalities. The Agile
+            Fundamentals module equipped me with an understanding of agile
+            methodologies and their application in project management. With
+            hands-on experience on GitHub, I honed my version control and
+            collaboration skills, essential for modern development practices.
+            The Storytelling for Business course taught me the art of conveying
+            complex ideas effectively, vital for successful communication in
+            professional settings. My venture into Cyber Security not only
+            imparted insights into fortifying digital assets and privacy but
+            also kindled a heightened awareness of potential threats. In the
+            realm of Business Analysis, I learnt to decipher business needs and
+            translate them into technical solutions. Additionally, my exposure
+            to Azure deepened my understanding of cloud services. Cementing my
+            knowledge with exams in Cyber Security and Azure AZ-900.
           </p>
-          <p className="about-text">
-            This program has provided me with a diverse range of valuable skills
-            and knowledge. I delved into the intricacies of Linux as an
-            operating system, gaining a solid foundation in its mechanics and
-            functionalities. The Agile Fundamentals module equipped me with
-            an understanding of agile methodologies and their application in
-            project management. With hands-on experience on GitHub, I honed
-            my version control and collaboration skills, essential for modern
-            development practices. The Storytelling for Business course
-            taught me the art of conveying complex ideas effectively, vital for
-            successful communication in professional settings. My venture into
-            Cyber Security not only imparted insights into fortifying
-            digital assets and privacy but also kindled a heightened
-            awareness of potential threats. In the realm of Business Analysis,
-            I learnt to decipher business needs and translate them into
-            technical solutions. Additionally, my exposure to Azure deepened
-            my understanding of cloud services. Cementing my knowledge with
-            exams in Cyber Security and Azure AZ-900. 
+          <p>
+            I have now started as a permanent member of the team as an Associate
+            Consultant. My first project is allowing me to learn the Business
+            Analyst and AI Engineer Roles in greater detail. As I embark on this
+            exciting trajectory, I'm excited to contribute my skills and
+            creativity to the ever-evolving landscape of technology, harnessing
+            my background in education to bring a unique perspective to my
+            endeavors in the tech world.
           </p>
-          <p>I have now started as a
-            permanent member of the team as an Associate Consultant. My first
-            project is allowing me to learn the Business Analyst and AI Engineer Roles in greater detail.</p>
           <p className="about-text">
             Ready to explore further? Check out my projects and get in touch!
           </p>

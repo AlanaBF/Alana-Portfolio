@@ -19,13 +19,12 @@
     "key": 2,
     "name": "The Startled Moose",
     "images": [
-      "https://drive.google.com/uc?export=view&id=1z-dnEroOhCqjCI01RgToh4w7idrIMDgu",
-      "https://drive.google.com/uc?export=view&id=159xLiErtRQoQJLzGZW03RhzkHOxsRc8r",
-      "https://drive.google.com/uc?export=view&id=1p6E56byowbNsG6iC8KEEt3hq32CnFUS6"
+      "/GalleryImages/Thestartledmoose.png",
+      "/GalleryImages/TSMabout.png",
+      "/GalleryImages/TSMcontact.png"
     ],
     "Github": "https://github.com/AlanaBF/The_Startled_Moose",
     "deployedLink": "https://the-startled-moose.vercel.app/",
     "about": "Developed a website for an artist looking to modernise her business approach and start to gain clients for book illustrations, portraits and other art commissions."
   }
-  
 ]

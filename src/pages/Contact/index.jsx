@@ -22,12 +22,12 @@ function Contact() {
         {/* <a href="https://twitter.com/AlanaBF81" aria-label="Twitter">
           <i className="fa fa-twitter" aria-hidden="true"></i>
         </a> */}
-        <a href="https://github.com/AlanaBF" aria-label="GitHub">
-          <i className="fa fa-github" aria-hidden="true"></i>
+        <a href="https://github.com/AlanaBF" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+          <i className="fa fa-github" aria-hidden="true"    ></i>
         </a>
         <a
           href="https://www.linkedin.com/in/alanabarrettfrew"
-          aria-label="LinkedIn"
+          aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"
         >
           <i className="fa fa-linkedin" aria-hidden="true"></i>
         </a>
