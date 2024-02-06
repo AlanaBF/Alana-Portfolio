@@ -54,9 +54,9 @@ function Header() {
               </LinkContainer>
             </NavDropdown>
             {/* Blog Page */}
-            {/* <LinkContainer to="/Blog">
+            <LinkContainer to="/Blog">
               <Nav.Link className="navLink">Blog</Nav.Link>
-            </LinkContainer> */}
+            </LinkContainer>
             {/* Contacts and info */}
             <LinkContainer to="/Contact">
               <Nav.Link className="navLink">Contact Me</Nav.Link>

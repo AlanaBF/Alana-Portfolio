@@ -99,7 +99,7 @@ div.dropdown-menu.show {
   background-color: var(--light-blue);
   max-width: 100%; /* Adjust this value as needed */
   margin: 0 auto;
-  padding: 20px 50px;
+  padding: 20px 30px;
   border-radius: 40px;
 }
 
@@ -342,4 +342,52 @@ div.dropdown-menu.show {
 .galleryText {
   font-size: 1em !important;
   color: var(--dark-blue);
+}
+
+/* Blog Component */
+
+.blogCardContainer {
+  max-width: 450px;
+  display: flex;
+  justify-content: center;
+  border: solid 10px var(--dark-blue) !important;
+  margin: 10px auto;
+  border-radius: 50px;
+}
+
+.blogCardBody {
+  background-color: var(--pale-green);
+}
+
+.blogCardFooter {
+  background-color: var(--teal) !important;
+}
+
+.blogTitle {
+  font-size: 1.5em;
+}
+.blogDate {
+  font-size: 1em;
+}
+
+.blogButton {
+  display: flex;
+  text-align: center;
+  font-weight: bold;
+  font-size: 100%;
+  width: 40%;
+  border-radius: 20px;
+  background-color: var(--dark-blue) !important;
+  border: solid 10px var(--dark-blue) !important;
+}
+
+.blogButton:hover {
+  background-color: var(--pale-green) !important;
+  border: solid 10px var(--pale-green) !important;
+  color: var(--dark-blue) !important;
+}
+
+.blogLinkText {
+  font-size: 1em;
+  text-decoration: none;
 }
