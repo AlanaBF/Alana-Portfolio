@@ -1,4 +1,16 @@
 [
+
+  {
+    "id": 11,
+    "key": 11,
+    "name": "Darts Scoring App",
+    "image": "/GalleryImages/darts-scoreboard.png",
+    "Github": "https://github.com/AlanaBF/darts-scoreboard-app",
+    "deployedLink": "https://darts-scoreboard.netlify.app/",
+    "about": "An app that displays my passion for playing darts and showcases my growing react skills."
+  },
+
+
   {
     "id": 10,
     "key": 10,

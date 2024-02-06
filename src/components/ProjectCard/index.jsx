@@ -9,8 +9,13 @@ function ProjectCard({ project }) {
   return (
     <Card className="galleryCard">
       <div className="cardImagePosition">
-        <Card.Img className="cardImage" variant="top" alt={`Image for ${name}`} src={image} />
-      </div>
+      <Card.Img
+  className="cardImage"
+  variant="top"
+  alt={`Image for ${name}`}
+  src={image}
+  style={{ borderRadius: '0px' }}
+/>      </div>
       <Card.Body className="cardBodyText">
         <Card.Title>
           <h4 className="cardBodyTitle">
