@@ -56,22 +56,18 @@
 
 .careerTimelineDiv {
   background-color: var(--navy-blue);
-
 }
 
 .careerTimelineImage {
-  width: 100%; 
+  width: 100%;
   border-radius: 20px !important;
 }
-
-
 
 .pageTitle {
   color: var(--dark-blue) !important;
   text-align: center;
   padding: 20px;
 }
-
 
 .aboutMePosition {
   display: flex;
@@ -100,6 +96,7 @@
   background-position: center;
   background-size: cover;
   min-height: 100vh;
+  padding: 20px;
 }
 
 .galleryPageCard {

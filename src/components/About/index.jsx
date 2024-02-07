@@ -54,7 +54,7 @@ function About() {
             <Button
               className="linkToBlog"
               as={Link}
-              to="Credentials"
+              to="Blog"
               target="_blank"
               rel="noopener noreferrer"
             >

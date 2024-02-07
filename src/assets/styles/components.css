@@ -86,7 +86,7 @@ div.dropdown-menu.show {
   display: flex;
   font-family: "Caveat", cursive;
   font-family: "Fuzzy Bubbles", cursive;
-  max-width: 80%;
+  max-width: 90%;
   border: solid 10px var(--dark-blue);
   border-radius: 50px;
 }
@@ -150,22 +150,13 @@ div.dropdown-menu.show {
   text-align: center;
 }
 
-.skillTable table {
-  max-width: 100%;
-  margin: auto;
-}
 
-.skillTable td {
-  padding: 8px;
-  border: 1px solid var(--dark-blue); /* Add borders to each cell */
-  text-align: left; /* Align the content to the left */
-}
 
 /* Blog Component */
 
 .blogPageContainer {
   border: 1rem solid var(--dark-blue);
-  margin: auto;
+  margin: 20px;
   background-color: var(--dark-blue);
   border-radius: 20px;
 }
