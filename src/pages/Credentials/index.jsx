@@ -1,15 +1,15 @@
 import React from "react";
 import profilePic from "../../assets/images/ProfilePic.jpeg";
-import CareerTimeline from "../../assets/images/careerTimeline.png";
+import CareerTimeline from "../../assets/images/CareerTimeline.png";
 import "../../assets/styles/pages.css";
 
 function Credentials() {
   return (
     <div className="pageBackgroundCredentials">
-      <div class="row credentialsRow">
-        <div class="col-sm-4 mb-3 mb-sm-0">
-          <div class="card credentialsCard1">
-            <div class="card-body">
+      <div className="row credentialsRow">
+        <div className="col-sm-4 mb-3 mb-sm-0">
+          <div className="card credentialsCard1">
+            <div className="card-body">
               <img
                 src={profilePic}
                 className="profilePic"
@@ -19,9 +19,9 @@ function Credentials() {
           </div>
         </div>
 
-        <div class="col-sm-8 mb-3 mb-sm-0">
-          <div class="card credentialsCard">
-            <div class="card-body">
+        <div className="col-sm-8 mb-3 mb-sm-0">
+          <div className="card credentialsCard">
+            <div className="card-body">
               <h1>Alana Barrett-Frew</h1>
               <h4>Associate Consultant</h4>
               <h4>Version 1</h4>
@@ -32,12 +32,12 @@ function Credentials() {
         </div>
       </div>
 
-      <div class="row credentialsRow">
-        <div class="col-sm-12">
-          <div class="card credentialsCard">
-            <div class="card-body">
-              <h5 class="card-title">Professional Background</h5>
-              <p class="card-text">
+      <div className="row credentialsRow">
+        <div className="col-sm-12">
+          <div className="card credentialsCard">
+            <div className="card-body">
+              <h5 className="card-title">Professional Background</h5>
+              <p className="card-text">
                 Always learning and seeking new knowledge and skills. Recently
                 completed a 12 week Digital Skills Academy leading into my
                 current role as Associate Consultant with Version 1.{" "}
@@ -58,9 +58,9 @@ function Credentials() {
                 value a simple and clean approach and don't like to over
                 complicate tasks.
               </p>
-              <h5 class="card-title">Professional Skills</h5>
-              <div class="row">
-                <div class="col">
+              <h5 className="card-title">Professional Skills</h5>
+              <div className="row">
+                <div className="col">
                   <ul>
                     <li>HTML</li>
                     <li>CSS</li>
@@ -71,7 +71,7 @@ function Credentials() {
                     <li>Azure AI Services</li>
                   </ul>
                 </div>
-                <div class="col">
+                <div className="col">
                   <ul>
                     <li>Node.js</li>
                     <li>Python</li>
@@ -87,10 +87,10 @@ function Credentials() {
         </div>
       </div>
 
-      <div class="row credentialsRow">
-        <div class="col-sm-12 mb-3 mb-sm-0">
-          <div class="card credentialsCard">
-            <div class="card-body">
+      <div className="row credentialsRow">
+        <div className="col-sm-12 mb-3 mb-sm-0">
+          <div className="card credentialsCard">
+            <div className="card-body">
               <h1>Certifications</h1>
               <ul>
                 <li>Prince2 Foundation and Practitioner (Axelos)</li>
@@ -121,13 +121,13 @@ function Credentials() {
         </div>
       </div>
 
-      <div class="row credentialsRow">
-        <div class=" col-sm-12">
-          <div class="card credentialsCard">
-            <div class="card-body">
+      <div className="row credentialsRow">
+        <div className=" col-sm-12">
+          <div className="card credentialsCard">
+            <div className="card-body">
               <h1>Career Timeline</h1>
               <img
-                class="careerTimelineImage"
+                className="careerTimelineImage"
                 src={CareerTimeline}
                 alt="Career Timeline"
               />
