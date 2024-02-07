@@ -6,7 +6,7 @@ import Posts from "../../components/BlogJS/Posts";
 const BlogPage = () => {
     return (
         <div className="galleryBackground">
-       <h1 className="blogPageTitle">Blog</h1>
+       <h1 className="blogPageTitle">Blog Spot</h1>
             <Posts/>
         </div>
     );

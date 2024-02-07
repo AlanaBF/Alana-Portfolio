@@ -12,45 +12,20 @@ function About() {
     <div className="aboutContainer">
       <div className="aboutCard">
         <div className="portfolio-content">
-          <h1>Welcome to My Portfolio</h1>
           <p className="about-text">
-            As a former teacher turned Front End Developer, I've discovered a
-            profound connection between teaching and coding – the power to
-            shape, influence, and inspire. Armed with an insatiable thirst for
-            knowledge, I'm excited to share my portfolio website showcasing my
-            skills.
+            I am a former teacher turned Front End Developer. I took a massive leap of faith to leave teaching after 20 years and embark on a completely new chapter in my life!
           </p>
           <p className="about-text">
             After completing a rigorous 16-week intensive bootcamp in Front End
             Web Development through the government-funded program with EdX
             Trilogy Skills, I have made a career change possible. This
             transformative journey has enabled me to discover a sector that I'm
-            passionate about. The immersive experience provided by the bootcamp
-            has not only equipped me with a robust skill set in web development
-            but has also ignited a newfound enthusiasm for the tech industry.
-            This leap signifies a significant personal and professional
-            accomplishment, as I've successfully navigated a challenging
-            learning path and emerged with the capabilities needed to excel.
+            passionate about.
           </p>
           <p className="about-text">
             More recently, I have completed the West Midlands Digital Skills
             Academy with Version 1. This program has provided me with a diverse
-            range of valuable skills and knowledge. I delved into the
-            intricacies of Linux as an operating system, gaining a solid
-            foundation in its mechanics and functionalities. The Agile
-            Fundamentals module equipped me with an understanding of agile
-            methodologies and their application in project management. With
-            hands-on experience on GitHub, I honed my version control and
-            collaboration skills, essential for modern development practices.
-            The Storytelling for Business course taught me the art of conveying
-            complex ideas effectively, vital for successful communication in
-            professional settings. My venture into Cyber Security not only
-            imparted insights into fortifying digital assets and privacy but
-            also kindled a heightened awareness of potential threats. In the
-            realm of Business Analysis, I learnt to decipher business needs and
-            translate them into technical solutions. Additionally, my exposure
-            to Azure deepened my understanding of cloud services. Cementing my
-            knowledge with exams in Cyber Security and Azure AZ-900.
+            range of valuable skills and knowledge. 
           </p>
           <p>
             I have now started as a permanent member of the team as an Associate
@@ -62,10 +37,30 @@ function About() {
             endeavors in the tech world.
           </p>
           <p className="about-text">
-            Ready to explore further? Check out my projects and get in touch!
+            Ready to explore further? Check out my site!
           </p>
-
           <div className="link-to-projects">
+            {/* Link to Credentials Page */}
+            <Button
+              className="linkToCredentials"
+              as={Link}
+              to="Credentials"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Credentials
+            </Button>
+            {/* Link to Blog Page */}
+            <Button
+              className="linkToBlog"
+              as={Link}
+              to="Credentials"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Blog
+            </Button>
+            {/* Link to Projects Pages */}
             <Button
               className="linkToProject"
               as={Link}
@@ -105,80 +100,7 @@ function About() {
           </div>
         </div>
 
-        <h2 className="sectionHeader">Skills: Unleashing the Power of Tech</h2>
-        <div className="skillTable">
-          <div className="badgeContainer"></div>
-          <table>
-            <tbody>
-              <tr>
-                <td>Project Management</td>
-                <td>Prince2 Foundation and Practitioner</td>
-              </tr>
-              <tr>
-                <td>Project Management</td>
-                <td>
-                  AgilePM Foundation{" "}
-                  <img
-                    className="badgeImage"
-                    src={BadgeImage2}
-                    width="100"
-                    height="100"
-                    alt="Credly Badge 2"
-                  />
-                </td>
-              </tr>
-              <tr>
-                <td>Project Management</td>
-                <td>
-                  AgilePM Practitioner
-                  <img
-                    className="badgeImage"
-                    src={BadgeImage3}
-                    width="100"
-                    height="100"
-                    alt="Credly Badge 3"
-                  />{" "}
-                </td>
-              </tr>
-              <tr>
-                <td>Programming</td>
-                <td>HTML | CSS | JavaScript</td>
-              </tr>
-              <tr>
-                <td>Frameworks</td>
-                <td>React.js | Node.js</td>
-              </tr>
-              <tr>
-                <td>Methodologies</td>
-                <td>Agile | Scrum | Kanban</td>
-              </tr>
-              <tr>
-                <td>Other</td>
-                <td>Git and API's</td>
-              </tr>
-              <tr>
-                <td>Cyber Security</td>
-                <td>
-                  <img
-                    className="badgeImage"
-                    src={BadgeImage1}
-                    width="100"
-                    height="100"
-                    alt="Credly Badge 1"
-                  />
-
-                  <img
-                    className="badgeImage"
-                    src={BadgeImage4}
-                    width="100"
-                    height="100"
-                    alt="Credly Badge 4"
-                  />
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+        
       </div>
     </div>
   );

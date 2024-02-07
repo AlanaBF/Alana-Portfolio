@@ -30,6 +30,13 @@ function Header() {
             <LinkContainer to="/">
               <Nav.Link className="navLink">Home</Nav.Link>
             </LinkContainer>
+
+             {/* Credentials Page */}
+             <LinkContainer to="/Credentials">
+              <Nav.Link className="navLink">Credentials</Nav.Link>
+            </LinkContainer>
+
+
             {/* Project Dropdown */}
             <NavDropdown
               className="dropdownNav"

@@ -21,11 +21,11 @@ const Post3 = () => {
         <Card className="blogCard">
           <Card.Img variant="top" src={GroupPic} />
           <Card.Body>
-            <Card.Title>
+            <Card.Title className="blogTitle">
               My First week as an Associate Consultant with Version 1
             </Card.Title>
-            <Card.Subtitle>7/10/2023</Card.Subtitle>
-            <Card.Text>
+            <Card.Subtitle className="blogDate">7/10/2023</Card.Subtitle>
+            <Card.Text className="blogText">
               Embarking on a new career after two decades in teaching was a leap
               into the unknown. My first week in the tech world at Version 1 was
               nothing short of incredible, filled with moments of excitement,

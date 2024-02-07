@@ -6,7 +6,7 @@ import {
   Outlet,
   Route,
 } from "react-router-dom";
-import { Home, Contact, ProfessionalProjects, ProjectGallery, CollaborativeProjects, Blog, NotFound, GamesGallery } from "./pages";
+import { Home, Credentials, Contact, ProfessionalProjects, ProjectGallery, CollaborativeProjects, Blog, NotFound, GamesGallery } from "./pages";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
@@ -15,6 +15,7 @@ const App = () => {
     createRoutesFromElements(
       <Route path="/" element={<Root />}>
           <Route path="/" element={<Home />} />
+          <Route path="/Credentials" element={<Credentials />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Blog" element={<Blog />} />
           <Route path="/ProfessionalProjects" element={<ProfessionalProjects />} />

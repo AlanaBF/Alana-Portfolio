@@ -6,11 +6,13 @@ import Blog from "./Blog";
 import NotFound from "./NotFound";
 import GamesGallery from "./GamesGallery";
 import CollaborativeProjects from "./CollaborativeProjects";
+import Credentials from './Credentials'
 
 export {
   Blog,
   CollaborativeProjects,
   Contact,
+  Credentials, 
   GamesGallery,
   Home,
   NotFound,

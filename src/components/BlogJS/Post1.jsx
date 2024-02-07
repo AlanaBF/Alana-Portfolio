@@ -19,9 +19,9 @@ const Post1 = () => {
         <Card className="blogCard">
           <Card.Img variant="top" src="/IMG_7197.jpeg" />
           <Card.Body>
-            <Card.Title>A period of reflection and goal setting</Card.Title>
-            <Card.Subtitle>15/7/2023</Card.Subtitle>
-            <Card.Text>
+            <Card.Title className="blogTitle">A period of reflection and goal setting</Card.Title>
+            <Card.Subtitle className="blogDate">15/7/2023</Card.Subtitle>
+            <Card.Text className="blogText">
               Embarking on a career change often triggers deep reflection. In my
               first week at the West Midlands Digital Skills Academy with
               Version1, we were challenged to reflect and create goals,

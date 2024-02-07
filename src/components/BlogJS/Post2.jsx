@@ -19,9 +19,9 @@ const Post2 = () => {
         <Card className="blogCard">
           <Card.Img variant="top" src="/Corporate days.jpeg" />
           <Card.Body>
-            <Card.Title>Journey to Landing my First Job in Tech</Card.Title>
-            <Card.Subtitle>5/7/2023</Card.Subtitle>
-            <Card.Text>
+            <Card.Title className="blogTitle">Journey to Landing my First Job in Tech</Card.Title>
+            <Card.Subtitle className="blogDate">5/7/2023</Card.Subtitle>
+            <Card.Text className="blogText">
               I've secured my first job in tech! Woohoo 🥳🤩🥰 It has been an
               exhilarating journey since I left my teaching career and embarked
               on a thrilling path of upskilling and retraining for a career
