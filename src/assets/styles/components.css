@@ -92,6 +92,7 @@ div.dropdown-menu.show {
 }
 
 .aboutCard {
+  max-width: 100%;
   color: var(--dark-blue);
   font-size: 100%;
   text-align: center;
@@ -116,47 +117,6 @@ div.dropdown-menu.show {
   width: 25rem;
 }
 
-/* Project Buttons on Home Page */
-/* .linkToProject {
-  background-color: var(--dark-blue) !important;
-  color: var(--light-blue) !important;
-  border: solid 10px var(--dark-blue) !important;
-  margin: 10px;
-}
-
-.linkToProject:hover {
-  background-color: var(--aqua-blue) !important;
-  color: var(--dark-blue) !important;
-  border: solid 10px var(--aqua-blue) !important;
-} */
-/* Credentials Button on Home Page */
-/* .linkToCredentials {
-  background-color: var(--dark-blue) !important;
-  color: var(--light-blue) !important;
-  border: solid 10px var(--dark-blue) !important;
-  margin: 10px;
-}
-
-.linkToCredentials:hover {
-  background-color: var(--aqua-blue) !important;
-  color: var(--dark-blue) !important;
-  border: solid 10px var(--aqua-blue) !important;
-} */
-
-/* Blog Button on Home Page */
-/* 
-.linkToBlog {
-  background-color: var(--dark-blue) !important;
-  color: var(--light-blue) !important;
-  border: solid 10px var(--dark-blue) !important;
-  margin: 10px;
-}
-
-.linkToBlog:hover {
-  background-color: var(--aqua-blue) !important;
-  color: var(--dark-blue) !important;
-  border: solid 10px var(--aqua-blue) !important;
-} */
 .sectionHeader {
   color: var(--dark-blue);
 }
