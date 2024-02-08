@@ -7,7 +7,7 @@ function Credentials() {
   return (
     <div className="pageBackgroundCredentials">
       <div className="row credentialsRow">
-        <div className="col-sm-4 mb-3 mb-sm-0">
+        <div className="col-sm-4">
           <div className="card credentialsCard1">
             <div className="card-body">
               <img
@@ -19,7 +19,7 @@ function Credentials() {
           </div>
         </div>
 
-        <div className="col-sm-8 mb-3 mb-sm-0">
+        <div className="col-sm-8">
           <div className="card credentialsCard">
             <div className="card-body">
               <h1>Alana Barrett-Frew</h1>
@@ -88,7 +88,7 @@ function Credentials() {
       </div>
 
       <div className="row credentialsRow">
-        <div className="col-sm-12 mb-3 mb-sm-0">
+        <div className="col-sm-12">
           <div className="card credentialsCard">
             <div className="card-body">
               <h1>Certifications</h1>

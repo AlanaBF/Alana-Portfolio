@@ -99,8 +99,25 @@ div.dropdown-menu.show {
   padding: 10px 30px;
   border-radius: 40px;
 }
+
+.mediumButton {
+  background-color: var(--dark-blue) !important;
+  color: var(--light-blue) !important;
+  border: solid 10px var(--dark-blue) !important;
+  margin: 10px;
+}
+
+.mediumArticles {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mediumCard {
+  width: 25rem;
+}
+
 /* Project Buttons on Home Page */
-.linkToProject {
+/* .linkToProject {
   background-color: var(--dark-blue) !important;
   color: var(--light-blue) !important;
   border: solid 10px var(--dark-blue) !important;
@@ -111,9 +128,9 @@ div.dropdown-menu.show {
   background-color: var(--aqua-blue) !important;
   color: var(--dark-blue) !important;
   border: solid 10px var(--aqua-blue) !important;
-}
+} */
 /* Credentials Button on Home Page */
-.linkToCredentials {
+/* .linkToCredentials {
   background-color: var(--dark-blue) !important;
   color: var(--light-blue) !important;
   border: solid 10px var(--dark-blue) !important;
@@ -124,10 +141,10 @@ div.dropdown-menu.show {
   background-color: var(--aqua-blue) !important;
   color: var(--dark-blue) !important;
   border: solid 10px var(--aqua-blue) !important;
-}
+} */
 
 /* Blog Button on Home Page */
-
+/* 
 .linkToBlog {
   background-color: var(--dark-blue) !important;
   color: var(--light-blue) !important;
@@ -139,7 +156,7 @@ div.dropdown-menu.show {
   background-color: var(--aqua-blue) !important;
   color: var(--dark-blue) !important;
   border: solid 10px var(--aqua-blue) !important;
-}
+} */
 .sectionHeader {
   color: var(--dark-blue);
 }
@@ -150,9 +167,20 @@ div.dropdown-menu.show {
   text-align: center;
 }
 
-
-
 /* Blog Component */
+
+.linksToBlogs {
+  margin: auto;
+}
+
+.linksCard {
+  display: flex;
+  background-color: var(--light-blue) !important;
+  border: var(--dark-blue) solid 10px !important;
+  color: var(--dark-blue) !important;
+  font-family: "Caveat", cursive;
+  font-family: "Fuzzy Bubbles", cursive;
+}
 
 .blogPageContainer {
   border: 3px solid var(--dark-blue);
@@ -225,7 +253,6 @@ div.dropdown-menu.show {
   color: var(--dark-blue);
   border: var(--dark-blue) solid 1px;
 }
-
 
 /* Contact Me Component */
 

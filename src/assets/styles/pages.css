@@ -37,21 +37,24 @@
 }
 
 .credentialsRow {
-  background-color: var(--navy-blue);
+  background-color: var(--dark-blue);
   margin: 10px 20px !important;
   border-radius: 10px;
+  border: var(--navy-blue) solid 10px;
 }
 
 .credentialsCard1 {
-  background-color: var(--navy-blue) !important;
+  background-color: var(--dark-blue) !important;
   color: var(--light-blue) !important;
   text-align: center;
+  border: none !important;
 }
 
 .credentialsCard {
-  background-color: var(--navy-blue) !important;
+  background-color: var(--dark-blue) !important;
   color: var(--light-blue) !important;
   text-align: left;
+  border: none !important;
 }
 
 .careerTimelineDiv {

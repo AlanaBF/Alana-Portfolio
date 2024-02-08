@@ -31,11 +31,10 @@ function Header() {
               <Nav.Link className="navLink">Home</Nav.Link>
             </LinkContainer>
 
-             {/* Credentials Page */}
-             <LinkContainer to="/Credentials">
+            {/* Credentials Page */}
+            <LinkContainer to="/Credentials">
               <Nav.Link className="navLink">Credentials</Nav.Link>
             </LinkContainer>
-
 
             {/* Project Dropdown */}
             <NavDropdown
@@ -43,11 +42,9 @@ function Header() {
               title="Projects"
               id="basicNavDropdown"
             >
-             <LinkContainer to="/ProfessionalProjects">
-                <Nav.Link className="navLink">
-                  Professional Projects
-                </Nav.Link>
-                </LinkContainer>
+              <LinkContainer to="/ProfessionalProjects">
+                <Nav.Link className="navLink">Professional Projects</Nav.Link>
+              </LinkContainer>
               <LinkContainer to="/CollaborativeProjects">
                 <Nav.Link className="navLink">
                   Collaborative Group Projects
@@ -60,10 +57,40 @@ function Header() {
                 <Nav.Link className="navLink">Games Projects</Nav.Link>
               </LinkContainer>
             </NavDropdown>
-            {/* Blog Page */}
-            <LinkContainer to="/Blog">
-              <Nav.Link className="navLink">Blog</Nav.Link>
-            </LinkContainer>
+
+            {/* Blog Dropdown */}
+            <NavDropdown
+              className="dropdownNav"
+              title="Blog"
+              id="basicNavDropdown"
+            >
+              <LinkContainer to="/Blog">
+                <Nav.Link className="navLink">Blog Spot</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/Post1">
+                <Nav.Link className="navLink">
+                  A period of reflection and goal setting
+                </Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/Post2">
+                <Nav.Link className="navLink">
+                  Journey to Landing my First Job in Tech
+                </Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/Post3">
+                <Nav.Link className="navLink">
+                  {" "}
+                  My 1st week as an Associate Consultant with Version 1.
+                </Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/Post4">
+                <Nav.Link className="navLink">
+                  JavasScript30 Complete! 1st 30 days of 100 Days of Code
+                  Challenge 2024.
+                </Nav.Link>
+              </LinkContainer>
+            </NavDropdown>
+
             {/* Contacts and info */}
             <LinkContainer to="/Contact">
               <Nav.Link className="navLink">Contact Me</Nav.Link>
@@ -75,10 +102,18 @@ function Header() {
               {/* <a href="https://twitter.com/AlanaBF81" target="_blank" rel="noopener noreferrer">
                 <i className="fa navbarIcons fa-twitter"></i>
               </a> */}
-              <a href="https://github.com/AlanaBF" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://github.com/AlanaBF"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fa navbarIcons fa-github"></i>
               </a>{" "}
-              <a href="https://www.linkedin.com/in/alanabarrettfrew/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.linkedin.com/in/alanabarrettfrew/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fa navbarIcons fa-linkedin"></i>
               </a>
             </div>

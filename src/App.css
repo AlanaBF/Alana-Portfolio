@@ -4,14 +4,19 @@
   --aqua-blue: #5ff;
   --dark-blue: rgb(5, 85, 146);
   --navy-blue: #181d31;
-  --cream:  #e6ddc4;
+  --cream: #e6ddc4;
   height: 100vh;
 }
 
-h1, h2, h3, h4, h5, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
   font-family: "Caveat", cursive;
-font-family: "Fuzzy Bubbles", cursive;  
-margin: 0;
+  font-family: "Fuzzy Bubbles", cursive;
+  margin: 0;
 }
 
 * {
