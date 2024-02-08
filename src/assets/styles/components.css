@@ -111,6 +111,8 @@ div.dropdown-menu.show {
 .mediumArticles {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap; 
+
 }
 
 .mediumCard {
