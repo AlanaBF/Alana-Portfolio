@@ -154,12 +154,9 @@ div.dropdown-menu.show {
 
 /* Blog Component */
 
-.coming-soon {
-  background-color: red;
-}
 .blogPageContainer {
-  border: 1rem solid var(--dark-blue);
-  margin: 20px;
+  border: 3px solid var(--dark-blue);
+  margin: 20px 0;
   background-color: var(--dark-blue);
   border-radius: 20px;
 }

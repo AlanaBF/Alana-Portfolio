@@ -28,6 +28,7 @@ const Post4 = () => {
               🚀 I've Just completed the JavaScript30 course by Wes Bos and I'm
               excited to share my experience! 🚀
               <br></br>
+              As part of 100 days of code challenge 2024 with @WomenWhoCode, I have just completed my 30 days of JavaScript challenge. 
               If you're looking to level up your JavaScript skills in a
               practical and engaging way, look no further than JavaScript30 by
               @WesBos. This course is an absolute game-changer!
@@ -64,7 +65,7 @@ const Post4 = () => {
             <p>
               🌟 Throughout the 30-day journey, Wes Bos takes you on a hands-on
               adventure, building 30 real-life projects using nothing but
-              vanilla JavaScript. From drum kits to clock widgets, each project
+              Vanilla JavaScript. From drum kits to clock widgets, each project
               is designed to teach you fundamental JavaScript concepts while
               also honing your coding skills. What sets this course apart is Wes
               Bos's teaching style. His clear explanations, insightful tips, and
@@ -94,9 +95,8 @@ const Post4 = () => {
               portfolio of projects to showcase my newfound skills.{" "}
             </p>
             <p>
-              May of these are in their infancy or the same code as from the
-              course and need A LOT of further development to personalise them,
-              however I'm pleased with my achievements so far and wanted to show
+              Many of these are in their infancy or the same code as from the
+              course and need A LOT of further development to personalise them. However I'm pleased with my achievements so far and wanted to show
               what you can learn in a month.
             </p>
             <p>Here are some of my favourites:</p>
@@ -144,7 +144,7 @@ const Post4 = () => {
             <br></br>
             <p>
               <em>
-                Whack-a-Mole. This is one of the apps that I will make touch
+                Whack-a-Mole. Super quick moles. Not yet mobile responsive. This is one of the apps that I will make touch
                 screen/mobile useable and also add difficulty levels, top
                 scores, leaderboard etc. I also want to turn it into a React
                 app. Looking forward to that being one of my next challenges.
@@ -156,7 +156,7 @@ const Post4 = () => {
               cam fun, custom video player, speech detection and geolocation. In
               fact I loved the whole lot but those in particular have sparked a
               whole wave of ideas and inspiration for new apps! Here is a taster
-              of them in vanilla javascript form as taught on JavaScript30 with
+              of them in Vanilla JavaScript form as taught on JavaScript30 with
               Wes Bos. Watch this space for my extensions for them!
             </p>
             {/* Voice Synthesis */}
@@ -182,7 +182,7 @@ const Post4 = () => {
                 <em>
                   A speech synthesis app. Change the name and voice, change the
                   pitch and change the speed at which the voice speaks. Have
-                  some fun and give it any text you like.
+                  some fun and give it any text you like. Just replace the I love JavaScript text.
                 </em>{" "}
               </p>
             </div>
@@ -222,7 +222,7 @@ const Post4 = () => {
               <h4>Custom Video Player</h4>
               <img
                 src="/GalleryImages/CustomVideoPlayer.png"
-                alt=""
+                alt="video player screenshot"
                 className="modalImages"
               />
               <br></br>
@@ -250,7 +250,7 @@ const Post4 = () => {
               <h4>Speech Detector</h4>
               <img
                 src="/GalleryImages/SpeechDetector.png"
-                alt=""
+                alt="speech detector screenshot"
                 className="modalImages"
               />
               <br></br>
@@ -298,7 +298,7 @@ const Post4 = () => {
                   This is a geolocator, that uses your location to detect speed
                   and current location. It only works in the console at the
                   moment. This is an app I definitely have lots of ideas for.
-                  Having a map api and plotting location and routes, and speed.
+                  Having a map and plotting location and routes, and speed.
                   There are so many possibilities with this one.
                 </em>{" "}
               </p>
