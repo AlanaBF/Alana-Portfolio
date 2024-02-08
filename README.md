@@ -74,7 +74,6 @@ A am not currently accepting contributions to this project. However, if you have
 
 Thank you for visiting my Portfolio Site. I look forward to hearing from you. If you have any questions or need further assistance, please contact me:
 
-- Email: [alanabarrettfrew@gmail.com](mailto:alanabarrettfrew@gmail.com)
-- Phone: 07817663239
+- Email: [alanabarrettfrew@gmail.com](mailto:alanabarrett-frew@hotmail.com)
 - Website: [www.alanabarrettfrew.com](https://www.alanabarrettfrew.com)
 - Github: [AlanaBF](https://github.com/AlanaBF)
