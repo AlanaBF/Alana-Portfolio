@@ -3,12 +3,14 @@ import ContactMe from "../../components/ContactMe";
 import AlanaWebCV from "./assets/Alana-Barrett-Frew-Web-Dev-CV.pdf";
 import AlanaPMCV from "./assets/Alana-Barrett-Frew-PM-CV.pdf";
 import "../../assets/styles/pages.css";
+import Avatar1 from "../../components/Avatar";
 
 //Contact page with links to my LinkedIn, Github, Twitter and emails
 function Contact() {
   return (
     <div className="contactBackground">
       <h1 className="pageTitle">Contact Me</h1>
+      <Avatar1/>
       <p className="contactText">
         If you want to get in contact please use the form below
         <br />

@@ -1,5 +1,3 @@
-
-
 import { Exhibit } from "@readyplayerme/visage";
 const config = {
   clearCache: true,
@@ -8,14 +6,34 @@ const config = {
   language: "en",
 };
 
-const style = { width: "100%", height: "100vh", border: "none", touchAction: 'none'};
-const modelSrc = "https://models.readyplayer.me/65cdecfff5da9f6b9251d2f7.glb"
+const style = {
+  width: "100%",
+  height: "50vh",
+  border: "none",
+  touchAction: "none",
+};
 
 export default function Avatar1() {
-
   return (
     <>
-      <Exhibit modelSrc={modelSrc} config={config} style={style} />
+      <Exhibit
+        fit
+        float
+        scale={1}
+        config={config}
+        style={style}
+        cameraInitialDistance={3.2}
+        animationSrc="/visage/male-idle-1.fbx"
+        backLightColor="#FFB878"
+        backLightIntensity={2.2}
+        cameraTarget={1.55}
+        dpr={2}
+        fillLightColor="#6794FF"
+        fillLightIntensity={0.8}
+        keyLightColor="#FFFFFF"
+        keyLightIntensity={1.2}
+        modelSrc="https://models.readyplayer.me/65cdecfff5da9f6b9251d2f7.glb"
+      />
     </>
   );
 }
