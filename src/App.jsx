@@ -16,6 +16,7 @@ import {
   Blog,
   NotFound,
   GamesGallery,
+  Fun
 } from "./pages";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -46,6 +47,7 @@ const App = () => {
           element={<CollaborativeProjects />}
         />
         <Route path="/GamesGallery" element={<GamesGallery />} />
+        <Route path="/Fun" element={<Fun />} />
         <Route path="*" element={<NotFound />} />
       </Route>
     )

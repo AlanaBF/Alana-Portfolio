@@ -57,7 +57,10 @@ function Header() {
                 <Nav.Link className="navLink">Games Projects</Nav.Link>
               </LinkContainer>
             </NavDropdown>
-
+            {/* Fun Page */}
+            <LinkContainer to="/Fun">
+              <Nav.Link className="navLink">Fun</Nav.Link>
+            </LinkContainer>
             {/* Blog Dropdown */}
             <NavDropdown
               className="dropdownNav"

@@ -5,6 +5,10 @@ import Avatar from './Avatar';
 import ContactMe from './ContactMe';
 import Dropdown from './Dropdown';
 import ProjectCard from './ProjectCard';
+import Voiceinator from './Voiceinator';
+import SpeechDetectionComponent from './SpeechDetector.jsx';
+import GoogleSearch from './GoogleSearch';
+import Countdowns from './Countdowns'
 
 export default {
   About,
@@ -14,4 +18,8 @@ export default {
   Footer,
   Header,
   ProjectCard,
+  Voiceinator,
+  SpeechDetectionComponent,
+  GoogleSearch,
+  Countdowns
 };
