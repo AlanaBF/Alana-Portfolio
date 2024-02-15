@@ -1,10 +1,21 @@
-import React from "react";
+
+
 import { Exhibit } from "@readyplayerme/visage";
+const config = {
+  clearCache: true,
+  bodyType: "fullbody",
+  quickStart: false,
+  language: "en",
+};
 
-const modelSrc = "https://models.readyplayer.me/640c924dab2415db27b49dc6.glb";
+const style = { width: "100%", height: "100vh", border: "none", touchAction: 'none'};
+const modelSrc = "https://models.readyplayer.me/65cdecfff5da9f6b9251d2f7.glb"
 
-function Avatar1() {
-  return <Exhibit modelSrc={modelSrc} />;
+export default function Avatar1() {
+
+  return (
+    <>
+      <Exhibit modelSrc={modelSrc} config={config} style={style} />
+    </>
+  );
 }
-
-export default Avatar1;
