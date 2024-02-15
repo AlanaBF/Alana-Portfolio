@@ -32,8 +32,12 @@ export default function Avatar1() {
         fillLightIntensity={0.8}
         keyLightColor="#FFFFFF"
         keyLightIntensity={1.2}
-        modelSrc="https://models.readyplayer.me/65cdecfff5da9f6b9251d2f7.glb"
+        modelSrc="https://models.readyplayer.me/640c924dab2415db27b49dc6.glb"
       />
     </>
   );
 }
+
+
+
+
