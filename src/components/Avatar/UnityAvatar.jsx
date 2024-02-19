@@ -5,10 +5,10 @@ function UnityAvatar() {
   const { unityProvider } = useUnityContext({
 
 
-    loaderUrl: "Build/Avatar.loader.js",
-    dataUrl: "Build/Avatar.data.gz",
-    frameworkUrl: "Build/Avatar.framework.js.gz",
-    codeUrl: "Build/Avatar.wasm.gz",
+    loaderUrl: "AvatarBuild/Avatar.loader.js",
+    dataUrl: "AvatarBuild/Avatar.data.gz",
+    frameworkUrl: "AvatarBuild/Avatar.framework.js.gz",
+    codeUrl: "AvatarBuild/Avatar.wasm.gz",
   });
 
   return <Unity className="unity-avatar" unityProvider={unityProvider} />;
