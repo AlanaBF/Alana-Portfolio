@@ -4,14 +4,13 @@ import "../../assets/styles/pages.css";
 import Voiceinator from "../../components/Voiceinator";
 import SpeechDetector from "../../components/SpeechDetector.jsx";
 import Timer from "../../components/Countdowns/index.jsx";
-import Avatar1 from "../../components/Avatar/index.jsx";
 
 function Fun() {
   return (
     <div className="pageBackgroundHome">
       <div>
         <h1 className="pageTitle">Fun Stuff</h1>
-        <Avatar1/>
+       
       </div>{" "}
       <div>
         <Timer />

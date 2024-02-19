@@ -1,4 +1,5 @@
 import { Exhibit } from "@readyplayerme/visage";
+
 const config = {
   clearCache: true,
   bodyType: "fullbody",
@@ -23,7 +24,7 @@ export default function Avatar1() {
         config={config}
         style={style}
         cameraInitialDistance={3.2}
-        animationSrc="/visage/male-idle-1.fbx"
+        // animationSrc={Dance}
         backLightColor="#FFB878"
         backLightIntensity={2.2}
         cameraTarget={1.55}
@@ -37,7 +38,5 @@ export default function Avatar1() {
     </>
   );
 }
-
-
 
 

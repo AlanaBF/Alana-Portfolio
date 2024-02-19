@@ -619,3 +619,9 @@ div.dropdown-menu.show {
   font-size: 1em;
   text-decoration: none;
 }
+
+.unity-avatar {
+  border: solid 20px var(--dark-blue);
+  max-width: 50%;
+  border-radius: 20px;
+}
