@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Card, Modal, Button } from "react-bootstrap";
 import "../../assets/styles/pages.css";
-import UnityAvatar from "../Avatar/UnityAvatar"
+import UnityAvatar from "../Avatar/UnityAvatar";
 const Post5 = () => {
   const [showModal, setShowModal] = useState(false);
 
@@ -17,7 +17,7 @@ const Post5 = () => {
     <div>
       <div className="blogPageLayout">
         <Card className="blogCard">
-          <UnityAvatar/>
+          <UnityAvatar />
           <Card.Body>
             <Card.Title className="blogTitle">
               {" "}
@@ -26,21 +26,20 @@ const Post5 = () => {
             </Card.Title>
             <Card.Subtitle className="blogDate">21/2/2024</Card.Subtitle>
             <Card.Text className="blogText">
-            <p>
-              So, I innocently embarked on what I thought would be a simple
-              journey to spruce up my portfolio with my recent Javascript30
-              course and … an Avatar.{" "}
-            </p>
-            <p>
-              Little did I know, I was about to fall into a rabbit hole so deep,
-              even Alice would be impressed!
-            </p>
-            <p>
-              It all started with a Ready Player Me Avatar. "Cool," I thought,
-              "this will jazz up my portfolio nicely." Following the GitHub
-              instructions, I added it in, thinking I was done...
-            </p>
-
+              <p>
+                So, I innocently embarked on what I thought would be a simple
+                journey to spruce up my portfolio with my recent Javascript30
+                course and … an Avatar.{" "}
+              </p>
+              <p>
+                Little did I know, I was about to fall into a rabbit hole so
+                deep, even Alice would be impressed!
+              </p>
+              <p>
+                It all started with a Ready Player Me Avatar. "Cool," I thought,
+                "this will jazz up my portfolio nicely." Following the GitHub
+                instructions, I added it in, thinking I was done...
+              </p>
             </Card.Text>
             <Button
               className="blogReadMoreButton"
@@ -82,11 +81,12 @@ const Post5 = () => {
               Avatar with an .fbx file. Easy peasy, right? Wrong. Cue an email
               to the support team and a descent into the world of Unity. How
               hard could it be? Let's just say, my optimism quickly turned into
-              a series of 😵‍💫🤯😱 moments. After countless YouTube tutorials,
-              problem-solving sessions, and time spent in the Unity abyss, I
-              finally managed to bring my Avatar to life.{" "}
+              a series of 😵‍💫🤯😱 moments. After countless YouTube tutorials (big
+              thank you to @Dinesh Punni), problem-solving sessions, and time
+              spent in the Unity abyss, I finally managed to bring my Avatar to
+              life.{" "}
             </p>
-            Cue the happy dance!
+            <p>Cue the happy dance!</p>
             <div>
               <iframe
                 src="https://giphy.com/embed/EPSFKT1angXDO"
@@ -98,21 +98,25 @@ const Post5 = () => {
             </div>
             <p>
               But of course, one rabbit hole always leads to another. Now, I'm
-              not just satisfied with an animated Avatar—I want to give the
-              background some pizzazz too! But let's save that for another day,
-              shall we? Right now, the priority is figuring out how to integrate
-              this masterpiece into my portfolio. More rabbit holes
-              ensued—Google searches, npm install of Unity React WebGL. But with
-              determination rivaling that of a marathon runner, I prevailed.
-              With a sense of triumph, I hit "npm run dev," and voila! It
-              worked.
+              not just satisfied with an animated Avatar, I wanted to give the
+              background some pizzazz too! Ok, step too far for now. Parked it
+              and saved for another day. Right now, the priority is figuring out
+              how to integrate this masterpiece into my portfolio. More rabbit
+              holes ensued, Google searches and finally an npm install of
+              Unity-React-WebGL. With determination rivaling that of a marathon
+              runner (absolutely not a runner!), I prevailed. With a sense of
+              triumph, I hit "npm run dev," and voila! It worked.
             </p>
             <p>
               Style it with a border, add, commit, deploy to GitHub—easy peasy,
-              right? Wrong again. Parsing error! More rabbit holes, more
-              searching, and finally, a solution. Don't gz zip it. Slower, but
-              it works. Cue another happy dance, followed by a
-              well-deserved eye break.
+              right?
+            </p>
+            <p>Wrong again. </p>
+            <p>Parsing error! </p>{" "}
+            <p>
+              Arghhhhhh... More rabbit holes, more searching, and finally, a
+              solution. Don't gz zip it. Slower, but it works. Cue another happy
+              dance, followed by a well-deserved eye break.
             </p>
             <div>
               <iframe
@@ -131,7 +135,7 @@ const Post5 = () => {
               rabbit holes.
             </p>
             <p>
-              Of course,I'm not done yet. The warren of rabbit holes I've built
+              Of course, I'm not done yet. The warren of rabbit holes I've built
               is still expanding and progress is progress, right? It's hard to
               believe that after two decades of teaching Geography, PE, and
               Maths, I've made a 180-degree turn into the world of coding with
@@ -141,6 +145,20 @@ const Post5 = () => {
               curtain, and I'm hooked. Here's to embracing the chaos and loving
               every minute of it! 🥰
             </p>
+            <blockquote>
+              <p style={{ color: "var(--aqua-blue)" }}>
+                {" "}
+                <em>
+                  "If You Always Do What You've Always Done, You'll Always Get
+                  What You've Always Got."
+                </em>{" "}
+                - Henry Ford{" "}
+              </p>
+              <p>
+                Think about it. If you want something different out of your life
+                you have to make a change and put something different into it.
+              </p>
+            </blockquote>
             <p>
               Follow me as I navigate my journey into tech and web development.{" "}
               <a
