@@ -9,6 +9,15 @@ function UnityAvatar() {
     codeUrl: "/Build/Avatar1.wasm",
   });
 
-  return <Unity unityProvider={unityProvider} />;
+  // Define custom styles
+  const unityStyle = {
+    width: "80%", // Adjust width as needed
+    height: "50%", // Adjust height as needed
+    borderRadius: "20px",
+    margin: "auto",
+  };
+
+  return <Unity unityProvider={unityProvider} style={unityStyle} />;
 }
+
 export default UnityAvatar;

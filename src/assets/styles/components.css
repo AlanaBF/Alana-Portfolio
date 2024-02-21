@@ -619,10 +619,3 @@ div.dropdown-menu.show {
   font-size: 1em;
   text-decoration: none;
 }
-
-#react-unity-webgl-canvas-1 {
-  width: 600px !important;
-  height: 300px !important;
-  border-radius: 20px;
-  margin: auto;
-}
