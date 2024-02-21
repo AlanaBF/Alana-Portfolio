@@ -52,7 +52,6 @@ const Post4 = () => {
             <Modal.Title></Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <img src="" alt="" className="modalImages" />
             <h1>
               🚀 I've Just completed the JavaScript30 course by Wes Bos and I'm
               excited to share my experience! 🚀{" "}

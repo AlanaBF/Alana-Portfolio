@@ -103,7 +103,7 @@ const Post5 = () => {
               and saved for another day. Right now, the priority is figuring out
               how to integrate this masterpiece into my portfolio. More rabbit
               holes ensued, Google searches and finally an npm install of
-              Unity-React-WebGL. With determination rivaling that of a marathon
+              Unity-React-WebGL. With determination rivalling that of a marathon
               runner (absolutely not a runner!), I prevailed. With a sense of
               triumph, I hit "npm run dev," and voila! It worked.
             </p>

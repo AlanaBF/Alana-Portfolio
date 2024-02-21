@@ -394,7 +394,7 @@ div.dropdown-menu.show {
 }
 
 .modal-header {
-  background-color: var(--dark-blue);
+  background-color: var(--dark-blue) !important;
 }
 
 .modal-title {
@@ -550,7 +550,7 @@ div.dropdown-menu.show {
 
 .cardBodyTitle {
   font-size: 1em !important;
-  color: var(--dark-blue);
+  color: var(--dark-blue) !important;
   text-decoration: underline;
 }
 
