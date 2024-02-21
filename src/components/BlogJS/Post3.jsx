@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Card, Modal, Button } from "react-bootstrap"; // Assuming you're using react-bootstrap for the modal component
+import { Card, Modal, Button } from "react-bootstrap";
 import "../../assets/styles/pages.css";
 import GroupPic from "../../assets/images/GroupBonding.jpeg";
 import FamilyPic from "../../assets/images/FamilyPic.jpg";

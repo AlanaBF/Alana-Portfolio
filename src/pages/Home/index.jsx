@@ -8,8 +8,7 @@ function Home() {
     <div className="pageBackgroundHome">
       <h1 className="pageTitle">Welcome to My Portfolio</h1>
       <div>
-      <UnityAvatar/>
-    
+        <UnityAvatar />
         <div className="aboutMePosition">
           <About />
         </div>

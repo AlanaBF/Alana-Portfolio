@@ -1,5 +1,5 @@
 import React from "react";
-import professional from "../../professional.json"; // Make sure the import path is correct
+import professional from "../../professional.json";
 import ProfessionalProjectCard from "../../components/ProfessionalProjects";
 import Testimonials from "../../components/Testimonials";
 import "../../assets/styles/pages.css";

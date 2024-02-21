@@ -7,9 +7,7 @@ function GamesGallery() {
   return (
     <div className="galleryBackground">
       <div>
-     
-        <h1 className="galleryPageTitle">Games</h1> 
-        {/* <img className="avatar-img" src={image} alt="Avatar" /> */}
+        <h1 className="galleryPageTitle">Games</h1>
       </div>
       <p className="galleryIntro">
         Here you can play Front End Games I have made.

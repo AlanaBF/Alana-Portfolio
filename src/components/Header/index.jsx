@@ -102,9 +102,9 @@ function Header() {
 
           <Nav className="nav navbar-nav flex-row justify-content-md-center justify-content-start flex-nowrap">
             <div className="navIcons">
-              {/* <a href="https://twitter.com/AlanaBF81" target="_blank" rel="noopener noreferrer">
+              <a href="https://twitter.com/AlanaBF81" target="_blank" rel="noopener noreferrer">
                 <i className="fa navbarIcons fa-twitter"></i>
-              </a> */}
+              </a>
               <a
                 href="https://github.com/AlanaBF"
                 target="_blank"

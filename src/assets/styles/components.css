@@ -620,8 +620,9 @@ div.dropdown-menu.show {
   text-decoration: none;
 }
 
-.unity-avatar {
-  border: solid 20px var(--dark-blue);
-  max-width: 50%;
+#react-unity-webgl-canvas-1 {
+  width: 600px !important;
+  height: 300px !important;
   border-radius: 20px;
+  margin: auto;
 }
