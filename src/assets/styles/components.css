@@ -619,3 +619,18 @@ div.dropdown-menu.show {
   font-size: 1em;
   text-decoration: none;
 }
+
+span {
+margin:0 !important;
+padding:0 !important;
+}
+
+span.token {
+  margin:0 !important;
+padding:0 !important;
+display: block;
+}
+
+code {
+  width:100%;
+}

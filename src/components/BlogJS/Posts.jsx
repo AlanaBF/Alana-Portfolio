@@ -4,6 +4,7 @@ import Post2 from "./Post2";
 import Post3 from "./Post3";
 import Post4 from "./Post4";
 import Post5 from "./Post5";
+import Post6 from "./Post6";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "../../assets/styles/pages.css";
@@ -13,7 +14,8 @@ const Posts = () => {
       <Row className="justify-content-between">
         <Col md={8} className="mb-4 mt-4">
           <Post5 />
-          <Post4 />
+          <Post4 />   
+           <Post6 />
           <Post3 />
           <Post2 />
           <Post1 />
@@ -37,6 +39,13 @@ const Posts = () => {
                     JavaScript
                   </Link>{" "}
                   7/2/2024
+                </li>{" "}
+                <br />
+                <li>
+                  <Link to="/Post6">
+                    Implementing Auth0 User Authentication in a Vite-React-App
+                  </Link>{" "}
+                  3/1/2024
                 </li>{" "}
                 <br />
                 <li>
