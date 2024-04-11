@@ -301,9 +301,15 @@ div.dropdown-menu.show {
 
 /* Google Search */
 
+.googleContainer {
+  background-color: var(--aqua-blue) !important;
+  border: solid 10px var(--dark-blue);
+  border-radius: 20px;
+  margin: 20px;
+}
 .googleSearchText {
   font-weight: 900;
-  color: var(--light-blue);
+  color: var(--dark-blue);
   padding: 1px;
   margin: 0;
 }

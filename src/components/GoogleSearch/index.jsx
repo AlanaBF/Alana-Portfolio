@@ -3,7 +3,7 @@ import '../../assets/styles/components.css'
 
 function GoogleSearch() {
     return (
-        <div>
+        <div className='googleContainer'>
             <h3 className="googleSearchText">Google Search</h3>
             <form className="googleSearch" method="GET" action="https://www.google.com/search" target="_blank">
                 <input className="googleTextEnter" name="q" type="text" />
