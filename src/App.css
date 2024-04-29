@@ -98,14 +98,14 @@ a {
   }
 }
 
-@media (max-width: 840px) {
+/* @media (max-width: 840px) {
   .profilePic {
     width: 20%;
     height: 30%;
     border-radius: 50px;
     border: solid rgb(5, 85, 146) 5px;
   }
-}
+} */
 
 @media (max-width: 545px) {
   .contactMeForm {
@@ -135,10 +135,10 @@ a {
     border-top: 1rem solid rgb(5, 85, 156);
   }
 
-  .profilePic {
+  /* .profilePic {
     width: 30%;
     height: 50%;
     border-radius: 50px;
     border: solid rgb(5, 85, 146) 5px;
-  }
+  } */
 }

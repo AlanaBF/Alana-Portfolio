@@ -6,7 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 import { LinkContainer } from "react-router-bootstrap";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import "../../assets/styles/components.css";
-
+import profileLogo from "./AlanaBF.png"
 function Header() {
   return (
     <Navbar
@@ -17,6 +17,7 @@ function Header() {
       <Container>
         <LinkContainer to="/">
           <Navbar.Brand className="navbarBrand">
+          <img  src={profileLogo} alt="logo" width="50px"/>
             <img src={favicon} alt="logo" width="50px" />
           </Navbar.Brand>
         </LinkContainer>
@@ -112,13 +113,6 @@ function Header() {
 
           <Nav className="nav navbar-nav flex-row justify-content-md-center justify-content-start flex-nowrap">
             <div className="navIcons">
-              <a
-                href="https://twitter.com/AlanaBF81"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fa navbarIcons fa-twitter"></i>
-              </a>
               <a
                 href="https://github.com/AlanaBF"
                 target="_blank"

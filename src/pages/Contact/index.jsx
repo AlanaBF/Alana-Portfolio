@@ -3,12 +3,18 @@ import ContactMe from "../../components/ContactMe";
 import AlanaWebCV from "./assets/Alana-Barrett-Frew-Web-Dev-CV.pdf";
 import AlanaPMCV from "./assets/Alana-Barrett-Frew-PM-CV.pdf";
 import "../../assets/styles/pages.css";
+import profileLogo from "./assets/AlanaBF.png"
 
 //Contact page with links to my LinkedIn, Github, Twitter and emails
 function Contact() {
   return (
     <div className="contactBackground">
-      <h1 className="pageTitle">Contact Me</h1>
+      <h1 className="contactPageTitle" style={{color:"var(--aqua-blue)"}}>Contact Me</h1>
+              <img
+                src={profileLogo}
+                width={"20%"}
+                alt="ABF profileLogo"
+              />
       <p className="contactText">
         If you want to get in contact please use the form below
         <br />
@@ -19,9 +25,6 @@ function Contact() {
         alanabarrett-frew@hotmail.com
       </p>
       <span className="buttonGroup">
-        <a href="https://twitter.com/AlanaBF81" aria-label="Twitter">
-          <i className="fa fa-twitter" aria-hidden="true"></i>
-        </a>
         <a href="https://github.com/AlanaBF" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
           <i className="fa fa-github" aria-hidden="true"    ></i>
         </a>

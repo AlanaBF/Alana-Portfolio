@@ -31,7 +31,7 @@
 }
 
 .profilePic {
-  width: 50%;
+  width: 100%;
   border-radius: 50px;
   border: var(--dark-blue) solid 5px;
   justify-content: center;

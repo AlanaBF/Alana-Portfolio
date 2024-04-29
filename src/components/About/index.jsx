@@ -100,65 +100,6 @@ function About() {
           <p className="about-text">
             Ready to explore further? Check out my site!
           </p>
-          <div className="link-to-projects">
-            {/* Link to Credentials Page */}
-            <Button
-              className="linkToCredentials"
-              as={Link}
-              to="Credentials"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Credentials
-            </Button>
-            {/* Link to Blog Page */}
-            <Button
-              className="btn-danger"
-              as={Link}
-              to="Blog"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Blog
-            </Button>
-            {/* Link to Projects Pages */}
-            <Button
-              className="btn-info"
-              as={Link}
-              to="ProfessionalProjects"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Professional Projects
-            </Button>
-            <Button
-              className="btn-warning"
-              as={Link}
-              to="CollaborativeProjects"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Collaborative Projects
-            </Button>
-            <Button
-              className="btn-success"
-              as={Link}
-              to="ProjectGallery"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Personal Projects
-            </Button>
-            <Button
-              className="btn-secondary"
-              as={Link}
-              to="/GamesGallery"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Games Projects
-            </Button>
-          </div>
         </div>
       </div>
     </div>

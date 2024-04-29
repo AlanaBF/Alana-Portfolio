@@ -11,10 +11,11 @@ function UnityAvatar() {
 
   // Define custom styles
   const unityStyle = {
-    width: "80%", // Adjust width as needed
-    height: "50%", // Adjust height as needed
-    borderRadius: "20px",
+    width: "30%", // Adjust width as needed
+    height: "30%", // Adjust height as needed
+    borderRadius: "50px",
     margin: "auto",
+    border: "solid 10px var(--dark-blue)"
   };
 
   return <Unity unityProvider={unityProvider} style={unityStyle} />;

@@ -1,13 +1,14 @@
 import React from "react";
 import profilePic from "../../assets/images/ProfilePic.jpeg";
+import profileLogo from "./AlanaBarrettFrew.png"
 import CareerTimeline from "../../assets/images/CareerTimeline.png";
 import "../../assets/styles/pages.css";
 
 function Credentials() {
   return (
     <div className="pageBackgroundCredentials">
-      <div className="row credentialsRow">
-        <div className="col-sm-4">
+      <div className="row credentialsRow justify-content-center align-items-center">
+        <div className="col-12 col-sm-6 col-md-4">
           <div className="card credentialsCard1">
             <div className="card-body">
               <img
@@ -19,19 +20,24 @@ function Credentials() {
           </div>
         </div>
 
-        <div className="col-sm-8">
-          <div className="card credentialsCard">
+        <div className="col-12 col-sm-6 col-md-4">
+          <div className="card credentialsCard text-center">
             <div className="card-body">
-              <h1>Alana Barrett-Frew</h1>
-              <h4>Associate Consultant</h4>
-              <h4>Version 1</h4>
-              <p>Work Email: alana.barrettfrew@version1.com</p>
-              <p>Personal Email: alanabarrett-frew@hotmail.com</p>
+            <img
+                src={profileLogo}
+                alt="ABF profilePic"
+                width={"30%"}
+              />
+              <h1 >Alana Barrett-Frew</h1>
+              <p >Associate Consultant</p>
+              <p >Version 1</p>
+              <p >Work Email: alana.barrettfrew@version1.com</p>
+              <p >Personal Email: alanabarrett-frew@hotmail.com</p>
             </div>
+            
           </div>
         </div>
-      </div>
-
+        </div>
       <div className="row credentialsRow">
         <div className="col-sm-12">
           <div className="card credentialsCard">
