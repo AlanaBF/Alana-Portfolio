@@ -50,31 +50,34 @@ function About() {
               Follow me on Medium @alana.barrettfrew
             </p>
           </a>
-          <div className="mediumArticles">
-            <div className="card mediumCard">
-              <img src={Copilot} className="card-img-top" alt="..." />
-              <div className="card-body">
-                <h5 className="card-title">
-                  Exploring GitHub Copilot: A Junior Developer's Journey
-                </h5>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a
-                  href="https://medium.com/version-1/exploring-github-copilot-1c4919069c7f"
-                  className="btn btn-warning"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Read Article
-                </a>
-              </div>
-            </div>
+          <div className="mediumArticles row">
+  <div className="col-md-6">
+    <div className="card mediumCard">
+      <img src={Copilot} className="card-img-top" alt="..." />
+      <div className="card-body">
+        <h5 className="card-title">
+          Exploring GitHub Copilot: A Junior Developer's Journey
+        </h5>
+        <p className="card-text">
+          Some quick example text to build on the card title and make up
+          the bulk of the card's content.
+        </p>
+        <a
+          href="https://medium.com/version-1/exploring-github-copilot-1c4919069c7f"
+          className="btn btn-warning"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Read Article
+        </a>
+      </div>
+    </div>
+  </div>
 
-            <div className="card mediumCard">
-              <img
-                src={Authentication}
+  <div className="col-md-6">
+    <div className="card mediumCard">
+      <img
+      src={Authentication}
                 className="card-img-top mediumCardImage"
                 alt="..."
               />
@@ -96,6 +99,7 @@ function About() {
                 </a>
               </div>
             </div>
+          </div>
           </div>
           <p className="about-text">
             Ready to explore further? Check out my site!

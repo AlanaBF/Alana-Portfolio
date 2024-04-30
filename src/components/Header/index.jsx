@@ -17,8 +17,9 @@ function Header() {
       <Container>
         <LinkContainer to="/">
           <Navbar.Brand className="navbarBrand">
-          <img  src={profileLogo} alt="logo" width="50px"/>
-            <img src={favicon} alt="logo" width="50px" />
+          <img src={favicon} alt="logo" width="50px" />
+          <img  src={profileLogo} alt="logo" width="70px" style={{padding:"10px"}}/>
+            
           </Navbar.Brand>
         </LinkContainer>
 
