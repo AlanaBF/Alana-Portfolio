@@ -1,10 +1,10 @@
 import React from "react";
-import { Button } from "react-bootstrap";
 import "../../assets/styles/components.css";
 import Copilot from "/GalleryImages/GitHubCopilotMedium.webp";
+import AIMedium from "../../assets/AIMedium.webp";
+import certificate from "../../assets/certificate.webp";
 import Authentication from "/GalleryImages/AuthenticationMedium.webp";
-import { Link } from "react-router-dom";
-
+import logo from "../../assets/teacherturnsturtle.png";
 function About() {
   return (
     <div className="aboutContainer">
@@ -37,8 +37,33 @@ function About() {
             endeavors in the tech world.
           </p>
           <p>
-            To document my learning and journey I will create resources that help
-            me but also will help others as well. I have started writing
+            As part of my transition and sharing my story I have also started to
+            blog my journey of teacherturnsturtle{" "}
+            <img width="50px" src={logo}></img>
+          </p>
+          <p>You can follow my journey here:</p>
+          <div className="m-auto">
+            <a
+              href="https://www.instagram.com/teacherturnsturtle81/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3"
+            >
+              <i className="fa fa-instagram"></i>
+            </a>
+
+            <a
+              href="https://www.facebook.com/teacherturnsturtle"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3"
+            >
+              <i className="fa fa-facebook"></i>
+            </a>
+          </div>
+          <p>
+            To document my learning and journey I will create resources that
+            help me but also will help others as well. I have started writing
             articles for Medium as well as my Blog Spot.
           </p>
           <a
@@ -51,59 +76,101 @@ function About() {
             </p>
           </a>
           <div className="mediumArticles row">
-  <div className="col-md-6">
-    <div className="card mediumCard">
-      <img src={Copilot} className="card-img-top" alt="..." />
-      <div className="card-body">
-        <h5 className="card-title">
-          Exploring GitHub Copilot: A Junior Developer's Journey
-        </h5>
-        <p className="card-text">
-          Some quick example text to build on the card title and make up
-          the bulk of the card's content.
-        </p>
-        <a
-          href="https://medium.com/version-1/exploring-github-copilot-1c4919069c7f"
-          className="btn btn-warning"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Read Article
-        </a>
-      </div>
-    </div>
-  </div>
+            <div className="col-md-6">
+              <div className="card mediumCard">
+                <img src={AIMedium} className="card-img-top" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title">
+                    My Thoughts and Relationship with AI and Technology
+                  </h5>
+                  <p className="card-text">
+                    Having successfully transitioned from a career in teaching
+                    to the world of tech and business, I’ve been captivated by
+                    the staggering potential of artificial intelligence (AI) to
+                    revolutionise our lives. This transition wasn’t merely a
+                    change in profession — it was about understanding the
+                    positive impact I could have in this new space.
+                  </p>
+                  <a
+                    href="https://medium.com/version-1/my-thoughts-and-relationship-with-ai-and-technology-d03b223284f2"
+                    className="btn btn-warning"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Read Article
+                  </a>
+                </div>
+              </div>
+            </div>
 
-  <div className="col-md-6">
-    <div className="card mediumCard">
-      <img
-      src={Authentication}
-                className="card-img-top mediumCardImage"
-                alt="..."
-              />
-              <div className="card-body">
-                <h5 className="card-title">
-                  Implementing Auth0 User Authentication in a Vite-React-App
-                </h5>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a
-                  href="https://medium.com/version-1/implementing-auth0-user-authentication-in-a-vite-react-app-4091099bd086"
-                  className="btn btn-warning"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Read Article
-                </a>
+            <div className="col-md-6">
+              <div className="card mediumCard">
+                <img
+                  src={Authentication}
+                  className="card-img-top mediumCardImage"
+                  alt="..."
+                />
+                <div className="card-body">
+                  <h5 className="card-title">
+                    Implementing Auth0 User Authentication in a Vite-React-App
+                  </h5>
+                  <p className="card-text"></p>
+                  <a
+                    href="https://medium.com/version-1/implementing-auth0-user-authentication-in-a-vite-react-app-4091099bd086"
+                    className="btn btn-warning"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Read Article
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className="card mediumCard">
+                <img src={Copilot} className="card-img-top" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title">
+                    Exploring GitHub Copilot: A Junior Developer's Journey
+                  </h5>
+                  <p className="card-text"></p>
+                  <a
+                    href="https://medium.com/version-1/exploring-github-copilot-1c4919069c7f"
+                    className="btn btn-warning"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Read Article
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-6">
+              <div className="card mediumCard">
+                <img
+                  src={certificate}
+                  className="card-img-top mediumCardImage"
+                  alt="..."
+                />
+                <div className="card-body">
+                  <h5 className="card-title">
+                    Unlocking Efficiency: Bulk Adding Names to Certificates with
+                    Mail Merge in Word and PowerPoint
+                  </h5>
+                  <p className="card-text"></p>
+                  <a
+                    href="https://medium.com/version-1/unlocking-efficiency-bulk-adding-names-to-certificates-with-mail-merge-in-word-and-powerpoint-c49559bd9d4b"
+                    className="btn btn-warning"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Read Article
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-          </div>
-          <p className="about-text">
-            Ready to explore further? Check out my site!
-          </p>
         </div>
       </div>
     </div>
