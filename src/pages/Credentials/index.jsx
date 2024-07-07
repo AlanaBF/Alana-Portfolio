@@ -1,6 +1,6 @@
 import React from "react";
-import profilePic from "../../assets/images/ProfilePic.jpeg";
-import profileLogo from "./AlanaBarrettFrew.png"
+import profilePic from "../../assets/Profile Pic.jpeg";
+import profileLogo from "../../assets/teacherturnsturtle.png";
 import CareerTimeline from "../../assets/images/CareerTimeline.png";
 import "../../assets/styles/pages.css";
 
@@ -23,36 +23,34 @@ function Credentials() {
         <div className="col-12 col-sm-6 col-md-4">
           <div className="card credentialsCard text-center">
             <div className="card-body">
-            <img
-                src={profileLogo}
-                alt="ABF profilePic"
-                width={"30%"}
-              />
-              <h1 >Alana Barrett-Frew</h1>
-              <p >Associate Consultant</p>
-              <p >Version 1</p>
-              <p >Work Email: alana.barrettfrew@version1.com</p>
-              <p >Personal Email: alanabarrett-frew@hotmail.com</p>
+              <img src={profileLogo} alt="ABF profilePic" width={"30%"} />
+              <h1>Alana Barrett-Frew</h1>
+              <p>Associate Consultant</p>
+              <p>Version 1</p>
+              <p>Work Email: alana.barrettfrew@version1.com</p>
+              <p>Personal Email: alanabarrett-frew@hotmail.com</p>
             </div>
-            
           </div>
         </div>
-        </div>
+      </div>
       <div className="row credentialsRow">
         <div className="col-sm-12">
           <div className="card credentialsCard">
             <div className="card-body">
               <h5 className="card-title">Professional Background</h5>
               <p className="card-text">
-                Always learning and seeking new knowledge and skills. Recently
-                completed a 12 week Digital Skills Academy leading into my
-                current role as Associate Consultant with Version 1.{" "}
+                Always learning and seeking new knowledge and skills. On a 21
+                month Early careers pathway with Version 1. Working on exciting
+                and innovative AI tech projects for good.{" "}
               </p>
               <p>
-                In the past year, I have completed a 16 week Skills Bootcamp in
-                Front End Web Development and my Project Manager certifications,
-                with recent Prince2 and AgilePM Foundation and Practitioner
-                Certifications.{" "}
+                In the past year, I have completed 3 Microsoft Certifications
+                (AZ-900, AI-900 and AI-102) a 12 weeks Digital Skills Academy,
+                an Udemy Full Stack Web Developer Course, a 16 week Skills
+                Bootcamp in Front End Web Development, my Project Manager
+                certifications, with recent Prince2 and AgilePM Foundation and
+                Practitioner Certifications amongst numerous other courses and
+                hands on learning and work on projects.{" "}
               </p>
               <p>
                 Having worked within the Education Sector for nearly 20 years I
@@ -71,6 +69,7 @@ function Credentials() {
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
+                    <li>Typescript</li>
                     <li>React</li>
                     <li>GitHub</li>
                     <li>API's</li>
@@ -99,11 +98,15 @@ function Credentials() {
             <div className="card-body">
               <h1>Certifications</h1>
               <ul>
+                <li>
+                  Microsoft Certified: Azure AI Engineer Associate - AI-102
+                </li>
+                <li>Microsoft Certified: Azure AI Fundamentals - AI-900</li>
                 <li>Prince2 Foundation and Practitioner (Axelos)</li>
                 <li>
                   AgilePM Foundation and Practitioner (APMG International)
                 </li>
-                <li>AZ-900 Azure Fundamentals</li>
+                <li>Azure Fundamentals - AZ-900</li>
                 <li>
                   Trilogy Skills Bootcamp in Front-End web Development (Trilogy
                   Education Services)
