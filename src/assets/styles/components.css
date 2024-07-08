@@ -114,9 +114,9 @@ div.dropdown-menu.show {
   flex-wrap: wrap;
 }
 
-.mediumCard {
+/* .mediumCard {
   margin:10px;
-}
+} */
 
 .sectionHeader {
   color: var(--dark-blue);

@@ -8,6 +8,7 @@ import GamesGallery from "./GamesGallery";
 import CollaborativeProjects from "./CollaborativeProjects";
 import Credentials from './Credentials'
 import Fun from './Fun'
+import Resources from "./Resources";
 
 export {
   Blog,
@@ -19,5 +20,6 @@ export {
   NotFound,
   ProfessionalProjects,
   ProjectGallery,
-  Fun
+  Fun,
+  Resources
 };

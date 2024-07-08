@@ -17,9 +17,13 @@ function Header() {
       <Container>
         <LinkContainer to="/">
           <Navbar.Brand className="navbarBrand">
-          <img src={favicon} alt="logo" width="50px" />
-          <img  src={logo} alt="logo" width="70px" style={{padding:"10px"}}/>
-            
+            <img src={favicon} alt="logo" width="50px" />
+            <img
+              src={logo}
+              alt="logo"
+              width="70px"
+              style={{ padding: "10px" }}
+            />
           </Navbar.Brand>
         </LinkContainer>
 
@@ -36,6 +40,11 @@ function Header() {
             {/* Credentials Page */}
             <LinkContainer to="/Credentials">
               <Nav.Link className="navLink">Credentials</Nav.Link>
+            </LinkContainer>
+
+            {/* Resources Page */}
+            <LinkContainer to="/Resources">
+              <Nav.Link className="navLink">Resources</Nav.Link>
             </LinkContainer>
 
             {/* Project Dropdown */}
@@ -129,22 +138,21 @@ function Header() {
                 <i className="fa navbarIcons fa-linkedin"></i>
               </a>
               <a
-              href="https://www.instagram.com/teacherturnsturtle81/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className=""
-            >
-              <i className="fa navbarIcons fa-instagram"></i>
-            </a>
-
-            <a
-              href="https://www.facebook.com/teacherturnsturtle"
-              target="_blank"
-              rel="noopener noreferrer"
-              className=""
-            >
-              <i className="fa navbarIcons fa-facebook"></i>
-            </a>
+                href="https://www.instagram.com/teacherturnsturtle81/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className=""
+              >
+                <i className="fa navbarIcons fa-instagram"></i>
+              </a>
+              <a
+                href="https://www.facebook.com/teacherturnsturtle"
+                target="_blank"
+                rel="noopener noreferrer"
+                className=""
+              >
+                <i className="fa navbarIcons fa-facebook"></i>
+              </a>
             </div>
           </Nav>
         </Navbar.Collapse>
