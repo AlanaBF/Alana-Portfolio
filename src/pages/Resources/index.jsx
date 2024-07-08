@@ -17,8 +17,10 @@ function Resources() {
   const [showAIEngineer, setShowAIEngineer] = React.useState(false);
   const [showAIFundamentals, setShowAIFundamentals] = React.useState(false);
   const [showGitHelp, setShowGitHelp] = React.useState(false);
+  const [currentPdf, setCurrentPdf] = React.useState("");
 
-  const openModal = (type) => {
+  const openModal = (type, pdfUrl) => {
+    setCurrentPdf(pdfUrl);
     switch (type) {
       case "AIEngineer":
         setShowAIEngineer(true);
@@ -64,21 +66,21 @@ function Resources() {
           title="Microsoft Certified AI Engineer Associate"
           description="AI-102 Certification Guidance"
           imageSrc={aiEngineerImage}
-          onClick={() => openModal("AIEngineer")}
+          onClick={() => openModal("AIEngineer", AIEngineerPDF)}
         />
 
         <PdfCard
           title="Microsoft Certified AI Fundamentals"
           description="AI-900 Certification Guidance"
           imageSrc={aiFundamentalsImage}
-          onClick={() => openModal("AIFundamentals")}
+          onClick={() => openModal("AIFundamentals", AIFundamentalsPDF)}
         />
 
         <PdfCard
           title="Git Help"
           description="Learn Git basics and more"
           imageSrc={gitHelpImage}
-          onClick={() => openModal("GitHelp")}
+          onClick={() => openModal("GitHelp", GitHelpPDF)}
         />
       </Row>
       <h1 style={{ color: "var(--dark-blue)" }}>PDF Resources</h1>
@@ -101,21 +103,21 @@ function Resources() {
         show={showAIEngineer}
         onHide={() => closeModal("AIEngineer")}
         title="Microsoft Certified AI Engineer Associate - AI-102 Certification Guidance"
-        pdfUrl={AIEngineerPDF}
+        pdfUrl={currentPdf}
       />
 
       <PdfModal
         show={showAIFundamentals}
         onHide={() => closeModal("AIFundamentals")}
         title="Microsoft Certified AI Fundamentals - AI-900 Certification Guidance"
-        pdfUrl={AIFundamentalsPDF}
+        pdfUrl={currentPdf}
       />
 
       <PdfModal
         show={showGitHelp}
         onHide={() => closeModal("GitHelp")}
         title="Git Help"
-        pdfUrl={GitHelpPDF}
+        pdfUrl={currentPdf}
       />
     </div>
   );

@@ -14,8 +14,8 @@ function PdfModal({ show, onHide, title, pdfUrl }) {
       <Modal.Body>
         {isMobile ? (
           <div>
-            <p>PDF preview is not available on mobile. Please download the file to view it.</p>
-            <Button style={{backgroundColor:"var(--dark-blue)", border:"none"}} href={pdfUrl} target="_blank" rel="noopener noreferrer">Download PDF</Button>
+            <p>PDF preview is not available on mobile. Please open the file to view it.</p>
+            <Button style={{backgroundColor:"var(--dark-blue)", border:"none"}} href={pdfUrl} target="_blank" rel="noopener noreferrer">Open PDF</Button>
           </div>
         ) : (
           <embed src={pdfUrl} type="application/pdf" width="100%" height="600px" />
