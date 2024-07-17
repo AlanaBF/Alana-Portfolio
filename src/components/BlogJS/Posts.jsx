@@ -5,6 +5,7 @@ import Post3 from "./Post3";
 import Post4 from "./Post4";
 import Post5 from "./Post5";
 import Post6 from "./Post6";
+import Post7 from "./Post7";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "../../assets/styles/pages.css";
@@ -13,9 +14,10 @@ const Posts = () => {
     <Container>
       <Row className="justify-content-between">
         <Col md={8} className="mb-4 mt-4">
+          <Post7 />
           <Post5 />
-          <Post4 />   
-           <Post6 />
+          <Post4 />
+          <Post6 />
           <Post3 />
           <Post2 />
           <Post1 />
@@ -25,6 +27,13 @@ const Posts = () => {
             <Card.Body>
               <Card.Title>Recent Posts</Card.Title>
               <ul className="list-unstyled">
+                <li>
+                  <Link to="/Post7">
+                    My Time with the Awesome Version 1 AI Labs Team
+                  </Link>{" "}
+                  17/7/2024
+                </li>{" "}
+                <br />
                 <li>
                   <Link to="/Post5">
                     100 Days of Code Challenge - Part 2: A Journey Down lots of

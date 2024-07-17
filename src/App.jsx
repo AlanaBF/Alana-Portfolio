@@ -28,6 +28,7 @@ import Post3 from "./components/BlogJS/Post3";
 import Post4 from "./components/BlogJS/Post4";
 import Post5 from "./components/BlogJS/Post5";
 import Post6 from "./components/BlogJS/Post6";
+import Post7 from "./components/BlogJS/Post7";
 const App = () => {
   const router = createHashRouter(
     createRoutesFromElements(
@@ -43,6 +44,7 @@ const App = () => {
         <Route path="/post4" element={<Post4 />} />
         <Route path="/post5" element={<Post5 />} />
         <Route path="/post6" element={<Post6 />} />
+        <Route path="/post7" element={<Post7 />} />
         <Route
           path="/ProfessionalProjects"
           element={<ProfessionalProjects />}

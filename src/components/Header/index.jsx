@@ -81,6 +81,11 @@ function Header() {
               <LinkContainer to="/Blog">
                 <Nav.Link className="navLink">Blog Spot</Nav.Link>
               </LinkContainer>
+              <LinkContainer to="/Post7">
+                <Nav.Link className="navLink">
+                My Time with the Awesome Version 1 AI Labs Team
+                </Nav.Link>
+              </LinkContainer>
               <LinkContainer to="/Post5">
                 <Nav.Link className="navLink">
                   A Journey Down lots of Rabbit Holes - Unity and React

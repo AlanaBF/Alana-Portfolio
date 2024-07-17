@@ -16,7 +16,7 @@ const Post5 = () => {
   return (
     <div>
       <div className="blogPageLayout">
-        <Card className="blogCard">
+        <Card className="blogCard" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
           <UnityAvatar />
           <Card.Body>
             <Card.Title className="blogTitle">
