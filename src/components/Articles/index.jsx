@@ -18,7 +18,7 @@ const titleStyles = {
 
 function Article({ title, imageSrc, description, articleUrl }) {
   return (
-    <div className="col-md-6 mb-4">
+    <div className="col-lg-3 col-md-6 mb-4">
       <div className="card mediumCard" style={cardStyles}>
         <img src={imageSrc} className="card-img-top" alt="Article Thumbnail" />
         <div className="card-body" style={bodyStyles}>

@@ -3,7 +3,7 @@ import { Card, Button } from "react-bootstrap";
 
 function PdfCard({ title, description, imageSrc, onClick }) {
   return (
-    <div className="col-lg-4 col-md-6 mb-4 p-5 m-auto">
+    <div className="col-lg-3 col-md-4 mb-4 p-5 m-auto">
       <Card  className="d-flex flex-column h-100">
         <Card.Img variant="top" src={imageSrc} />
         <Card.Body className="d-flex flex-column">
