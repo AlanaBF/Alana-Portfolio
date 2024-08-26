@@ -12,7 +12,7 @@ import gitHelpImage from "./assets/git_help_image.png";
 import Article from "../../components/Articles";
 import Copilot from "/GalleryImages/GitHubCopilotMedium.webp";
 import Authentication from "/GalleryImages/AuthenticationMedium.webp";
-
+import PDFsplitter from "/pdf-splitter.webp";
 function Resources() {
   const [showAIEngineer, setShowAIEngineer] = React.useState(false);
   const [showAIFundamentals, setShowAIFundamentals] = React.useState(false);
@@ -85,6 +85,12 @@ function Resources() {
       </Row>
       <h1 style={{ color: "var(--dark-blue)" }}>PDF Resources</h1>
       <Row className="justify-content-center mt-5 p-5">
+      <Article
+              title="Automating PDF Splitting with Python: A Step-by-Step Guide"
+              imageSrc={PDFsplitter}
+              description="Every day is a learning day! As a relative newcomer to the world of development, I am constantly discovering the simple yet powerful uses of Python to make tasks easier — and all without the need for expensive subscriptions."
+              articleUrl="https://medium.com/version-1/automating-pdf-splitting-with-python-a-step-by-step-guide-707689041282"
+            />
         <Article
           title="Implementing Auth0 User Authentication in a Vite-React-App"
           imageSrc={Authentication}

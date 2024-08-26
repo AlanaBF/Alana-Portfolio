@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Card, Modal, Button } from "react-bootstrap";
 import "../../assets/styles/pages.css";
-import Alana from "./assets/Alana.webp"
-const Post7 = () => {
+
+const Post8 = () => {
   const [showModal, setShowModal] = useState(false);
 
   const handleShowModal = () => {
@@ -17,22 +17,29 @@ const Post7 = () => {
     <div>
       <div className="blogPageLayout">
         <Card className="blogCard">
-          <Card.Img variant="top" src={Alana} />
+          <Card.Img variant="top" src="/turtle-race.gif" />
           <Card.Body>
             <Card.Title className="blogTitle">
-              My Time with the Awesome Version 1 AI Labs Team
+              From Python Turtle to Pygame: Deploying a Simple Game Online
             </Card.Title>
-            <Card.Subtitle className="blogDate">17/7/2024</Card.Subtitle>
-            <Card.Text className="blogText">
-              As an Associate Consultant on the Early Careers Pathway with
-              Version 1, I am constantly given amazing opportunities to learn
-              and grow. As they say, the best way to learn is to jump in at the
-              deep end and sink or swim. I love the ethos of my workplace that,
-              while certification is valuable, there is truly no better way to
-              learn than through hands-on experience. None of my experiences so
-              far have been more impactful than my time with the AI Labs team.
-              As the innovators within the company, they are at the forefront of
-              researching and trialling new advancements in AI.
+            <Card.Subtitle className="blogDate">25/08/2024</Card.Subtitle>
+            <Card.Text className="blogText" style={{ textAlign: "left" }}>
+              {" "}
+              Starting out with Python has been a challenging yet rewarding
+              experience, especially as I’m eager to advance my skills beyond
+              the basics as quickly as possible. My Python journey began with
+              the 100 Days of Code: The Complete Python Pro Bootcamp by Dr
+              Angela Yu on Udemy, which has continually sparked my curiosity and
+              led me down numerous rabbit holes. One of the projects that
+              captivated me early on was building a Turtle Race game. This
+              project introduced me to key Python concepts like instances,
+              state, and higher-order functions. After successfully building the
+              game using the Turtle package, I began to wonder: how could I
+              share this game with others so they could play it online? This
+              question set me on a path filled with learning, trial and error,
+              and ultimately, success. This blog post recounts that journey—from
+              Turtle to Pygame, and finally, to deploying the game online using
+              Pygbag.
             </Card.Text>
             <Button
               className="blogReadMoreButton"
@@ -50,188 +57,513 @@ const Post7 = () => {
           onHide={handleCloseModal}
         >
           <Modal.Header closeButton>
-            <Modal.Title></Modal.Title>
+            <Modal.Title>
+              From Python Turtle to Pygame: Deploying a Simple Game Online
+            </Modal.Title>
           </Modal.Header>
           <Modal.Body style={{ textAlign: "left" }}>
-            <img src={Alana} alt="" className="modalImages" />
+            <img
+              src="/turtle-race.gif"
+              alt="giff of game"
+              className="modalImages"
+            />
             <p>
-              As an Associate Consultant on the Early Careers Pathway with
-              Version 1, I am constantly given amazing opportunities to learn
-              and grow. As they say, the best way to learn is to jump in at the
-              deep end and sink or swim. I love the ethos of my workplace that,
-              while certification is valuable, there is truly no better way to
-              learn than through hands-on experience. None of my experiences so
-              far have been more impactful than my time with the AI Labs team.
+              Starting out with Python has been a challenging yet rewarding
+              experience, especially as I’m eager to advance my skills beyond
+              the basics as quickly as possible. My Python journey began with
+              the 100 Days of Code: The Complete Python Pro Bootcamp by Dr
+              Angela Yu on Udemy, which has continually sparked my curiosity and
+              led me down numerous rabbit holes. One of the projects that
+              captivated me early on was building a Turtle Race game. This
+              project introduced me to key Python concepts like instances,
+              state, and higher-order functions.
             </p>
             <p>
-              As the innovators within the company, they are at the forefront of
-              researching and trialling new advancements in AI.{" "}
+              After successfully building the game using the Turtle package, I
+              began to wonder: how could I share this game with others so they
+              could play it online? This question set me on a path filled with
+              learning, trial and error, and ultimately, success. This blog post
+              recounts that journey—from Turtle to Pygame, and finally, to
+              deploying the game online using Pygbag.
             </p>
+            <h3>
+              <strong>Project Structure</strong>
+            </h3>
             <p>
-              During my experience, I had the chance to develop on the frontend
-              and backend of a virtual assistant app, a project for which we are
-              developing a proof of value.{" "}
-            </p>
-            <p>
-              This journey not only strengthened my frontend development skills
-              but also pushed me out of my comfort zone into the realms of data
-              science and AI. I delved into Python coding, explored open-source
-              AI models, learnt cognitive search approaches, worked with text
-              embeddings, deployed models, automated processes, and contributed
-              to creating a product from start to finish. Part of this journey
-              included evaluating and comparing models and outputs using cosine
-              similarity scores, testing, and making iterative improvements. The
-              amount I have learnt in a two-week period is staggering, and I am
-              incredibly grateful to the team for their support and patience as
-              I navigated a multitude of new concepts.
-            </p>
-            <h4> Cognitive Search and Preprocessing</h4>
-
-            <p>
-              One of the key areas I worked on was improving the preprocessing
-              of data for cognitive search.{" "}
-            </p>
-            <p>This involved:</p>
-            <ul>
-              <li>
-                OCR Improvements: Enhancing optical character recognition to
-                filter for English-only content and ignore any empty chunks.
-              </li>
-              <li>
-                Sentence Splitting: Implementing better sentence splitting
-                techniques, including fixed-size chunks (e.g., 200 words) and
-                variable-sized chunks based on punctuation and line endings.
-              </li>
-              <li>
-                Content Overlap: Introducing a 10% content overlap (e.g., 256
-                tokens chunk size with 25 tokens overlap) to ensure context
-                retention across chunks.
-              </li>{" "}
-              <li>
-                Text Split Skill: Developing skills to split text into pages
-                (chunks of multiple sentences) or single sentences.
-              </li>
-            </ul>
-            <h4>Frontend Development</h4>
-            <p>
-              While more familiar with frontend development, I still had a
-              significant learning curve:
-            </p>
-            <ul>
-              <li>Technologies Used: React, TypeScript, and Tailwind CSS.</li>
-              <li>
-                Learning Curve: Transitioning from JavaScript to TypeScript,
-                learning Tailwind CSS, and understanding interfaces and context
-                in React.{" "}
-              </li>
-              <li>
-                Components Developed: I created two components for the virtual
-                assistant and integrated them with the backend API.
-              </li>
-            </ul>
-            <h4>Initial Testing of Backend Responses in Postman</h4>
-            <p>
-              Before diving into full-scale model evaluations, I performed
-              initial testing of backend responses:
+              Before diving into the details, here's a quick overview of the
+              project structure in the main branch:
             </p>
             <ul>
               <li>
-                Q&A Spreadsheet: Create a question and ground truth answer
-                spreadsheet with Postman Queries ready to go and columns for
-                storing results.{" "}
+                <strong>build/:</strong> This directory contains the files
+                generated by Pygbag for deploying the game as a web application.
               </li>
-
               <li>
-                Setup: Cloning notebooks, creating compute resources, and
-                attaching clusters in Databricks.{" "}
+                <strong>index.html:</strong> The entry point for the web version
+                of the game.
               </li>
-
               <li>
-                Testing: Running serving endpoints, ensuring the Chroma DB
-                container was running, and using Postman to test the question
-                and answer functionality.
+                <strong>main.py:</strong> The main Python script containing the
+                game logic.
               </li>
-
               <li>
-                Recording Results: Logging the test results in a spreadsheet for
-                further analysis.
+                <strong>Matemasie-Regular.ttf</strong> and{" "}
+                <strong>Poppins-Regular.ttf:</strong> Custom fonts used in the
+                game.
+              </li>
+              <li>
+                <strong>README.md:</strong> Documentation and instructions for
+                setting up and running the project.
+              </li>
+              <li>
+                <strong>requirements.txt:</strong> A file listing the
+                dependencies needed to run the project.
               </li>
             </ul>
-            <h4>Evaluating Models:</h4>
+            <h3>
+              <strong>Learning with Dr Angela Yu: The Turtle Race Game</strong>
+            </h3>
             <p>
-              As a team, we evaluated a standard model, a quantised model, and a
-              hybrid model. I was responsible for evaluating the quantised
-              model.
+              My journey began with a simple yet educational project in the
+              Udemy course. The Turtle Race game was an excellent way to apply
+              the object-oriented programming (OOP) concepts I had just learned.
+              The game involved creating multiple turtle instances, each with
+              its own colour and position, and having them race across the
+              screen.
             </p>
-            <p>Here’s a step-by-step overview of our evaluation process:</p>
             <p>
-              Creating the Evaluation Script: We developed an evaluation.py
-              script to evaluate our models against a JSON file containing 2000
-              rows of ground truth answers. Initially, we tested with 20 rows to
-              ensure accuracy, then scaled up to the full dataset. The results
-              were saved to another JSON file.
+              Here's the code I initially wrote for the Turtle Race game, which
+              I later modified to support web deployment:
+            </p>
+            <pre>
+              <code style={{ color: "#d6336c" }}>
+                {`import random
+from turtle import Turtle, Screen
+from tkinter import messagebox
+import asyncio
+
+async def main():
+    def start_race():
+        is_race_on = False
+        screen = Screen()
+        screen.setup(width=500, height=400)
+        user_bet = screen.textinput(title="Make your bet", prompt="Which turtle will win the race? Choose a color: ")
+        colors = ["red", "orange", "yellow", "green", "blue", "purple"]
+        y_positions = [-100, -50, 0, 50, 100, 150]
+        all_turtles = []
+
+        for turtle_index in range(0, 6):
+            new_turtle = Turtle(shape="turtle")
+            new_turtle.color(colors[turtle_index])
+            new_turtle.penup()
+            new_turtle.goto(x=-230, y=y_positions[turtle_index])
+            all_turtles.append(new_turtle)
+            
+        if user_bet:
+            is_race_on = True
+
+        while is_race_on:
+            for turtle in all_turtles:
+                if turtle.xcor() > 230:
+                    is_race_on = False
+                    winning_color = turtle.pencolor()
+                    if winning_color == user_bet:
+                        print(f"You've won! The {winning_color} turtle is the winner!")
+                        messagebox.showinfo("You've won", f"The {winning_color} turtle is the winner!")
+                    else:
+                        print(f"You've lost! The {winning_color} turtle is the winner!")
+                        messagebox.showinfo("You've lost", f"The {winning_color} turtle is the winner!")
+                    play_again = messagebox.askyesno("Game Over", "Do you want to play again?")
+                    if play_again:
+                        screen.clearscreen()
+                        start_race()
+                    else:
+                        screen.bye()
+                    break
+                random_distance = random.randint(0, 10)
+                turtle.forward(random_distance)
+
+        screen.exitonclick()
+
+    start_race()
+    await asyncio.sleep(0)  # Very important, and keep it 0
+asyncio.run(main())
+`}
+              </code>
+            </pre>
+
+            <h3>
+              <strong>What I Learned</strong>
+            </h3>
+            <p>
+              This section of my course and the subsequent mini-project taught
+              me several key concepts:
+            </p>
+            <ul>
+              <li>
+                <strong>Instances and Classes:</strong> I learned how to create
+                multiple instances of a class, each with its own properties.
+              </li>
+              <li>
+                <strong>State Management:</strong> Managing the state of each
+                turtle as it moved across the screen.
+              </li>
+              <li>
+                <strong>Higher-Order Functions:</strong> Using functions like
+                screen.onkey() to manage user input.
+              </li>
+            </ul>
+            <h3>
+              <strong>The Challenge: Deploying the Turtle Race Game</strong>
+            </h3>
+            <p>
+              After completing the game, my next challenge was to figure out how
+              to deploy it so that others could play it online. This is where I
+              encountered my first roadblock. The Turtle package, while great
+              for learning and local development, isn’t designed for web
+              deployment. This realisation prompted me to research various ways
+              to make my game accessible online.
+            </p>
+            <h3>
+              <strong>Trying to Use React: A Misstep</strong>
+            </h3>
+            <p>
+              Initially, I thought I could convert the game into a web-based
+              application using React. Since React is popular for building user
+              interfaces, I believed it might offer a way to embed Python logic
+              into a web app. However, I quickly discovered that React, being a
+              JavaScript framework, wasn’t well-suited for running Python code
+              directly, especially for something as interactive as a game. This
+              detour into React was a valuable learning experience, teaching me
+              about the limitations of different tools and the importance of
+              selecting the right one for the task at hand.
+            </p>
+            <h3>
+              <strong>Discovering Pygame and Pygbag</strong>
+            </h3>
+            <p>
+              Realising React wasn’t the right fit, I began exploring other
+              options. That’s when I discovered Pygame, a Python library
+              specifically designed for game development. Pygame allowed me to
+              replicate the logic of my Turtle Race game but with more control
+              over the graphics and user interaction.
+              <br />
+              Once I had recreated the game in Pygame, my next challenge was
+              deployment. I came across Pygbag, a tool that converts Pygame
+              projects into web applications that can be easily deployed using
+              GitHub Pages.
+            </p>
+            <h3>
+              <strong>Transitioning from Turtle to Pygame</strong>
+            </h3>
+            <p>
+              Here’s a brief overview of the steps I took to transition from
+              Turtle to Pygame:
+            </p>
+            <ul>
+              <li>
+                <strong>Recreating the Game:</strong> I rewrote the game using
+                Pygame, handling graphics, user input, and game logic with the
+                help of documentation, advice from others on Reddit and Stack
+                Overflow, ChatGPT, and GitHub Copilot.
+              </li>
+              <li>
+                <strong>Using Pygbag:</strong> I used Pygbag to convert my
+                Pygame project into a web application.
+              </li>
+              <li>
+                <strong>Deploying with GitHub Pages:</strong> Finally, I
+                deployed the game online using GitHub Pages, making it
+                accessible to anyone with a browser.
+              </li>
+            </ul>
+            <h3>
+              <strong>Personalising the Game: Fonts and Colours</strong>
+            </h3>
+            <p>
+              As I worked on translating the game from Turtle to Pygame, I
+              realised it needed a visual upgrade. I decided to add some
+              personal touches, such as custom fonts and colours.
+            </p>
+            <h3>
+              <strong>
+                Changing the Font and Using Google Fonts in Pygame
+              </strong>
+            </h3>
+            <p>
+              Pygame doesn’t directly support loading fonts from Google Fonts or
+              the web, but you can download the desired font from Google Fonts,
+              save it locally, and then load it into Pygame. Steps to Use a
+              Custom Font (from Google Fonts):
+            </p>
+            <ol>
+              <li>
+                <strong>Download the Font:</strong>
+                <ul>
+                  <li>Visit Google Fonts.</li>
+                  <li>
+                    Choose the font you want and download it as a .ttf file.
+                  </li>
+                  <li>
+                    Save the .ttf file in the root of your project directory.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Load the Font in Pygame:</strong>
+                <ul>
+                  <li>
+                    Use <code style={{ color: "#d6336c" }}>pg.font.Font</code> to load the font in your
+                    Pygame script.
+                  </li>
+                  <li>Specify the path to the .ttf file and the font size.</li>
+                </ul>
+              </li>
+            </ol>
+            <p>Example:</p>
+
+            <pre>
+              <code style={{ color: "#d6336c" }}>
+                {`import pygame as pg
+
+# Initialise Pygame
+pg.init()
+
+# Set up the screen
+screen = pg.display.set_mode((500, 400))
+
+# Load the custom font
+custom_font = pg.font.Font("path_to_your_downloaded_font.ttf", 28)
+
+# Use the font to render text
+text_surface = custom_font.render("Play Again", True, pg.Color("#FF5733"))  # Using a hex colour
+
+# Blit the text to the screen
+screen.blit(text_surface, (100, 100))
+
+# Update the display
+pg.display.flip()
+
+# Main loop to keep the window open
+running = True
+while running:
+    for event in pg.event.get():
+        if event.type == pg.QUIT:
+            running = False
+
+pg.quit()
+`}
+              </code>
+            </pre>
+            <h3>
+              <strong>Using Hex Colours in Pygame</strong>
+            </h3>
+            <p>
+              Pygame supports hex colours via the pg.Color function. You can
+              specify colours using hex codes just as you would in CSS or HTML.
             </p>
 
-            <p>
-              Cost Reduction Strategy: To minimise costs, we ran the serving
-              endpoints in Databricks as a job, the Chroma container in the
-              Azure Portal, and the app locally in VS Code. Once the evaluation
-              was completed and data was saved, we shut down all cloud
-              resources.{" "}
-            </p>
+            <code style={{ color: "#d6336c" }}>
+              button_color = pg.Color("#3498db"){`// A blue colour`}
+              <br/>
+              text_color = pg.Color("#ffffff")  {`// White colour`}
+              <br/>
+              <br/>
+            </code>
 
+            <h3>
+              <strong>The Final Pygame Code</strong>
+            </h3>
+            <p>The final code can be found here in the repo:</p>
+            <p>https://github.com/AlanaBF/Turtle-Race</p>
+            <h3>
+              <strong>Deploying the Game with Pygbag and GitHub Pages</strong>
+            </h3>
             <p>
-              Local Data Analysis: The saved JSON file was analysed on local
-              machines using Jupyter Notebooks. This allowed us to extract the
-              quantised responses for Azure and Chroma, which we compared to the
-              ground truth answers.{" "}
+              Finally, I needed to deploy the game so others could play it
+              online. Here’s how I did it:
             </p>
+            <ol>
+              <li>
+                <strong>Build Your Pygame Project for the Web:</strong>
+                <p>
+                  Ensure you have Pygbag installed, and then build your project:
+                </p>
+                <code style={{ color: "#d6336c" }}>
+                  pip install pygbag
+                  <br />
+                  pygbag main.py
+                  <br />
+                  <br />
+                </code>
 
-            <p>
-              Embedding Extraction: We extracted embeddings for the answers
-              using our evaluation script.
-            </p>
+                <p>
+                  This will generate a <code style={{ color: "#d6336c" }}>build/web</code> directory
+                  containing all the necessary files for deploying your Pygame
+                  project as a web application.
+                </p>
+              </li>
+              <li>
+                <strong>Prepare the gh-pages Branch for GitHub Pages:</strong>
+                <p>
+                  If your repository does not have a <code style={{ color: "#d6336c" }}>gh-pages</code>{" "}
+                  branch, create one:
+                </p>
 
-            <p>
-              Cosine Similarity Calculation: We ran a cosine similarity function
-              to compare the ground truth answers with the Azure and Chroma
-              quantised, standard, and hybrid answers, collecting similarity
-              scores.{" "}
-            </p>
+                <code style={{ color: "#d6336c" }}>
+                  git checkout --orphan gh-pages
+                  <br />
+                  git reset --hard
+                  <br />
+                  git commit --allow-empty -m "Initialising gh-pages branch"
+                  <br />
+                  git push origin gh-pages
+                  <br />
+                  git checkout main # Switch back to your main branch
+                  <br />
+                  <br />
+                </code>
 
-            <p>
-              Comparison of Models: Finally, we averaged the cosine similarity
-              scores to compare the performance of the standard, quantised, and
-              hybrid models.{" "}
-            </p>
+                <p>
+                  Copy the contents of <code style={{ color: "#d6336c" }}>build/web</code> to a separate
+                  folder. On the <code style={{ color: "#d6336c" }}>gh-pages</code> branch, copy and paste
+                  the contents of the <code style={{ color: "#d6336c" }}>web/build</code> folder into the
+                  root of the <code style={{ color: "#d6336c" }}>gh-pages</code> branch.
+                </p>
 
-            <h4>Personal Reflections and Key Takeaways </h4>
-            <p>
-              Adaptability is Key: Being pushed out of my comfort zone into the
-              world of AI required a willingness to embrace new challenges and
-              adapt quickly with an open mindset.
-            </p>
+                <code style={{ color: "#d6336c" }}>
+                  git add .
+                  <br />
+                  git commit -m "Deploy Pygame project to GitHub Pages"
+                  <br />
+                  git push origin gh-pages
+                  <br />
+                  <br />
+                </code>
+              </li>
+              <li>
+                <strong>Configure GitHub Pages:</strong>
+                <p>
+                  Go to your repository on GitHub, navigate to the "Settings"
+                  tab, and scroll down to the "Pages" section. Under "Source,"
+                  select the <code style={{ color: "#d6336c" }}>gh-pages</code> branch, and ensure the root
+                  folder is selected.
+                </p>
+              </li>
+              <li>
+                <strong>Check the Deployment:</strong>
+                <p>
+                  After configuring, GitHub will automatically deploy the
+                  content in your <code style={{ color: "#d6336c" }}>gh-pages</code> branch. You can access
+                  your game at the URL provided by GitHub Pages, typically{" "}
+                  <code style={{ color: "#d6336c" }}>https://yourusername.github.io/repositoryname/</code>.
+                </p>
+              </li>
+            </ol>
 
+            <h3>
+              <strong>Turtle Race Game: Try for yourself:</strong>
+            </h3>
+            <h3>
+              <strong>Features</strong>
+            </h3>
+            <ul>
+              <li>
+                <strong>Interactive Gameplay:</strong> Players can place bets on
+                which turtle (represented by coloured squares) they think will
+                win the race.
+              </li>
+              <li>
+                <strong>Randomised Race Mechanics:</strong> The race outcome is
+                randomised, making each game unique.
+              </li>
+              <li>
+                <strong>Responsive Design:</strong> The game scales well to
+                different screen sizes.
+              </li>
+              <li>
+                <strong>Web Deployment:</strong> Using Pygbag, the game can be
+                played directly in a web browser without the need for any
+                installations.
+              </li>
+            </ul>
+            <h3>
+              <strong>Installation</strong>
+            </h3>
             <p>
-              Collaboration Enhances Learning: Working with a supportive team
-              accelerated the learning process and made complex concepts more
-              approachable.{" "}
+              To run the game locally, you'll need Python installed on your
+              machine along with the required dependencies. Follow these steps:
             </p>
-            <p>
-              Hands-On Experience is Invaluable: The practical experience I
-              gained in developing, evaluating, and improving models provided me
-              with a deeper understanding of AI that cannot be achieved through
-              certification alone.
-            </p>
+            <ol>
+              <li>
+                <strong>Clone the Repository:</strong>
 
-            <h4>Conclusion</h4>
+                <code style={{ color: "#d6336c" }}>
+                  {" "}
+                  git clone https://github.com/AlanaBF/Turtle-Race 
+                  <br/>
+                  cd turtle-race
+                </code>
+              </li>
+              <li>
+                <strong>Install Dependencies:</strong> Ensure you have Python
+                installed, and then install the dependencies:
+                <code style={{ color: "#d6336c" }}> pip install pygame asyncio</code>
+              </li>
+              <li>
+                <strong>Run the Game:</strong> Execute the Python script to
+                start the game:
+                <code style={{ color: "#d6336c" }}>python main.py`</code>
+              </li>
+            </ol>
+            <h3>
+              <strong>Future Improvements</strong>
+            </h3>
+            <ul>
+              <li>
+                <strong>Add More Visual Effects:</strong> Enhance the race with
+                animations and visual effects.
+              </li>
+              <li>
+                <strong>Improve User Interface:</strong> Create a more polished
+                user interface with additional interaction elements.
+              </li>
+              <li>
+                <strong>Mobile Compatibility:</strong> Optimise the game for
+                mobile devices.
+              </li>
+            </ul>
+            <h3>
+              <strong>Acknowledgements</strong>
+            </h3>
             <p>
-              My time with the Version 1 AI Labs team has been incredibly
-              enriching. The experience not only expanded my technical skill set
-              but also gave me a deeper appreciation for the vast potential of
-              AI. I am excited to apply these new skills in future projects and
-              to continue my journey in the exciting field of artificial
-              intelligence.
+              Special thanks to the developers of Pygame and Pygbag for making
+              game development and deployment accessible. Thanks to my course
+              instructors and the Python community for ongoing support and
+              resources.
+            </p>
+            <h3>
+              <strong>Conclusion: What I Learned</strong>
+            </h3>
+            <p>
+              This journey taught me a lot about persistence, the importance of
+              choosing the right tools, and the value of being open to learning
+              new things. Moving from Turtle to Pygame, and then deploying the
+              game with Pygbag, was a challenging but rewarding process.
+            </p>
+            <p>
+              If you’re looking to share your Python projects with the world, I
+              highly recommend exploring Pygame and Pygbag. It might take some
+              extra work, but the result is well worth it.
+            </p>
+            <h3>
+              <strong>What’s Next?</strong>
+            </h3>
+            <p>
+              Having successfully deployed the Turtle Race game, I’m excited to
+              apply these lessons to my next project: a Snake game using Pygame.
+              I’m looking forward to seeing where this journey will take me
+              next!
             </p>
           </Modal.Body>
           <Modal.Footer>
@@ -245,4 +577,4 @@ const Post7 = () => {
   );
 };
 
-export default Post7;
+export default Post8;

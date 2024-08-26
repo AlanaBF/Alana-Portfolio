@@ -6,7 +6,8 @@ import Certificate from "../../assets/certificate.webp";
 import Authentication from "/GalleryImages/AuthenticationMedium.webp";
 import logo from "../../assets/teacherturnsturtle.png";
 import Article from "../../components/Articles";
-
+import AILabs from "/ai-labs.webp"
+import PDFsplitter from "/pdf-splitter.webp"
 function About() {
   return (
     <div className="aboutContainer">
@@ -78,6 +79,18 @@ function About() {
           </a>
 
           <div className="row">
+          <Article
+              title="Automating PDF Splitting with Python: A Step-by-Step Guide"
+              imageSrc={PDFsplitter}
+              description="Every day is a learning day! As a relative newcomer to the world of development, I am constantly discovering the simple yet powerful uses of Python to make tasks easier — and all without the need for expensive subscriptions."
+              articleUrl="https://medium.com/version-1/automating-pdf-splitting-with-python-a-step-by-step-guide-707689041282"
+            />
+             <Article
+              title="My Time with the Awesome Version 1 AI Labs Team"
+              imageSrc={AILabs}
+              description="As an Associate Consultant on the Early Careers Pathway with Version 1, I am constantly given incredible opportunities to learn and grow. As they say, the best way to learn is to jump in at the deep end and either sink or swim. I love the ethos of my workplace that, while certification is valuable, there is truly no better way to learn than through hands-on experience. None of my experiences so far have been more impactful than my time with the AI Labs team."
+              articleUrl="https://medium.com/version-1/my-time-with-the-awesome-version-1-ai-labs-team-3c51a82ce3e0"
+            />
             <Article
               title="My Thoughts and Relationship with AI and Technology"
               imageSrc={AIMedium}

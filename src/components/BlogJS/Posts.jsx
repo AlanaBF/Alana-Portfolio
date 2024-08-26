@@ -27,11 +27,10 @@ const Posts = () => {
             <Card.Body>
               <Card.Title>Recent Posts</Card.Title>
               <ul className="list-unstyled">
-                <li>
-                  <Link to="/Post7">
-                    My Time with the Awesome Version 1 AI Labs Team
+              <li>
+                  <Link to="/Post7">From Python Turtle to Pygame: Deploying a Simple Game Online
                   </Link>{" "}
-                  17/7/2024
+                  25/08/2024
                 </li>{" "}
                 <br />
                 <li>

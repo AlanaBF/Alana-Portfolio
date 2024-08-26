@@ -83,7 +83,7 @@ function Header() {
               </LinkContainer>
               <LinkContainer to="/Post7">
                 <Nav.Link className="navLink">
-                My Time with the Awesome Version 1 AI Labs Team
+                From Python Turtle to Pygame: Deploying a Simple Game Online
                 </Nav.Link>
               </LinkContainer>
               <LinkContainer to="/Post5">

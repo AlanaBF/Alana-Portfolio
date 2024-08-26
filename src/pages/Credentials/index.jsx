@@ -1,5 +1,5 @@
 import React from "react";
-import profilePic from "../../assets/ProfilePic.jpeg";
+import profilePic from "/Alana.png";
 import profileLogo from "../../assets/teacherturnsturtle.png";
 import CareerTimeline from "../../assets/images/CareerTimeline.png";
 import "../../assets/styles/pages.css";
