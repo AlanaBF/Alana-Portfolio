@@ -72,53 +72,11 @@ function Header() {
             <LinkContainer to="/Fun">
               <Nav.Link className="navLink">Fun</Nav.Link>
             </LinkContainer>
-            {/* Blog Dropdown */}
-            <NavDropdown
-              className="dropdownNav"
-              title="Blog"
-              id="basicNavDropdown"
-            >
-              <LinkContainer to="/Blog">
-                <Nav.Link className="navLink">Blog Spot</Nav.Link>
-              </LinkContainer>
-              <LinkContainer to="/Post7">
-                <Nav.Link className="navLink">
-                From Python Turtle to Pygame: Deploying a Simple Game Online
-                </Nav.Link>
-              </LinkContainer>
-              <LinkContainer to="/Post5">
-                <Nav.Link className="navLink">
-                  A Journey Down lots of Rabbit Holes - Unity and React
-                </Nav.Link>
-              </LinkContainer>
-              <LinkContainer to="/Post4">
-                <Nav.Link className="navLink">
-                  JavasScript30 Complete! 1st 30 days of 100 Days of Code
-                  Challenge 2024.
-                </Nav.Link>
-              </LinkContainer>
-              <LinkContainer to="/Post6">
-                <Nav.Link className="navLink">
-                  Implementing Auth0 User Authentication in a Vite-React-App
-                </Nav.Link>
-              </LinkContainer>
-              <LinkContainer to="/Post3">
-                <Nav.Link className="navLink">
-                  {" "}
-                  My 1st week as an Associate Consultant with Version 1.
-                </Nav.Link>
-              </LinkContainer>
-              <LinkContainer to="/Post2">
-                <Nav.Link className="navLink">
-                  Journey to Landing my First Job in Tech
-                </Nav.Link>
-              </LinkContainer>
-              <LinkContainer to="/Post1">
-                <Nav.Link className="navLink">
-                  A period of reflection and goal setting
-                </Nav.Link>
-              </LinkContainer>
-            </NavDropdown>
+            {/* Blog */}
+
+            <LinkContainer to="/Blog">
+              <Nav.Link className="navLink">Blog Spot</Nav.Link>
+            </LinkContainer>
 
             {/* Contacts and info */}
             <LinkContainer to="/Contact">

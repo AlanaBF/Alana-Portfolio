@@ -2,7 +2,6 @@ import React from "react";
 import About from "../../components/About";
 import "../../assets/styles/pages.css";
 import UnityAvatar from "../../components/Avatar/UnityAvatar";
-import Hobbies from "../../components/Hobbies";
 
 function Home() {
   return (

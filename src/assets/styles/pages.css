@@ -128,6 +128,144 @@
   padding: 20px;
   color: var(--dark-blue);
 }
+.modalImages {
+  width: 100%;
+  height: auto;
+}
+
+.modal-dialog {
+  max-width: 100%;
+  margin: 1.75rem auto;
+}
+
+.avatar-image {
+  width: 60px; /* Set a specific width for the avatar */
+  height: 60px; /* Set a specific height for the avatar */
+  object-fit: cover; /* Ensure the avatar image covers the area */
+  border-radius: 50%; /* Make the avatar circular */
+  margin: 10px auto; /* Center the avatar with margin */
+}
+
+.post-card {
+  border-radius: 10px; /* Rounded corners */
+  max-height: 350px; /* Set a max height for uniformity */
+  transition: transform 0.2s; /* Smooth transform */
+  display: flex; /* Use flexbox for inner content alignment */
+  flex-direction: column; /* Stack children vertically */
+  justify-content: space-between; /* Space out children */
+  overflow: hidden; /* Prevent overflow */
+}
+
+.post-card img {
+  height: 200px; /* Set a specific height for images */
+  object-fit: cover; /* Ensure images cover the area without distortion */
+  border-radius: 10px 10px 0 0; /* Round the top corners of images */
+}
+
+.card-title {
+  overflow: hidden; /* Prevent overflow */
+  text-overflow: ellipsis; /* Add ellipsis for overflowing text */
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.card-body {
+  flex-grow: 1; /* Allow the body to take up remaining space */
+}
+
+.post-link {
+  text-decoration: none; /* Remove underline */
+  color: #007bff; /* Bootstrap primary color */
+  font-weight: 500; /* Slightly bolder font */
+}
+
+.post-link:hover {
+  color: turquoise; /* Change color on hover */
+  text-decoration: underline; /* Underline on hover for clarity */
+}
+
+.shadow-sm {
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important; /* Subtle shadow for card */
+}
+
+
+/* .carousel-image {
+  max-width: 50%; 
+  max-height: 300px; 
+} */
+
+/* Ensure the carousel is full width and centered */
+.carousel {
+  width: 100%;
+  position: relative; /* Needed for absolute positioning of arrows */
+}
+
+/* Custom Carousel Arrows */
+.carousel-control-prev,
+.carousel-control-next {
+  color: transparent; /* Hide the default arrow color */
+  width: 5%; /* Make arrows clickable */
+  z-index: 1; /* Ensure arrows are above the images */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: teal; /* Set arrow color */
+  border-radius: 50%; /* Optional: make the background circular */
+  height: 30px; /* Set height for icons */
+  width: 30px; /* Set width for icons */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+  background-color: darkcyan; /* Darker teal on hover */
+}
+
+/* Positioning the arrows */
+.carousel-control-prev {
+  left: 10px; /* Adjust left arrow position */
+}
+
+.carousel-control-next {
+  right: 10px; /* Adjust right arrow position */
+}
+
+/* Style for all carousel indicators */
+.carousel-indicators button {
+  background-color: lightgray; /* Set background color for inactive indicators */
+  border-radius: 100%; /* Make them circular */
+
+}
+
+/* Style for the active carousel indicator */
+.carousel-indicators .active {
+  background-color: turquoise !important; /* Force background color for active indicator */
+}
+
+
+/* Adding hover effect for inactive indicators */
+.carousel-indicators button:hover {
+  background-color: teal; /* Change color on hover */
+  cursor: pointer; /* Change cursor to pointer */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+/* Image styling */
+.carousel-item img {
+  height: auto; /* Maintain aspect ratio */
+  max-height: 400px; /* Set a max height for uniformity */
+  margin: auto;
+}
+
+/* Ensure the modal text is left aligned */
+.modal-body {
+  text-align: left; /* Align text to the left */
+}
+
+
+
+
+
 
 /*  */
 

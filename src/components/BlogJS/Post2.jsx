@@ -15,35 +15,27 @@ const Post2 = () => {
 
   return (
  
-      <div className="blogPageLayout">
-        <Card className="blogCard">
+      <div >
+      <Card className="post-card shadow-sm mb-4">
+
           <Card.Img variant="top" src="/Corporate days.jpeg" />
-          <Card.Body>
-            <Card.Title className="blogTitle">Journey to Landing my First Job in Tech</Card.Title>
-            <Card.Subtitle className="blogDate">5/7/2023</Card.Subtitle>
-            <Card.Text className="blogText">
-              I've secured my first job in tech! Woohoo 🥳🤩🥰 It has been an
-              exhilarating journey since I left my teaching career and embarked
-              on a thrilling path of upskilling and retraining for a career
-              change into the world of Tech. Breaking into this sector during a
-              time of layoffs and fierce competition from established developers
-              has been challenging, but I have gone above and beyond to ensure
-              my success.
+          <Card.Body className="text-center">
+            <Card.Title className="text-truncate">Journey to Landing my First Job in Tech</Card.Title>
+            <Card.Text className="text-muted">
+      5/7/2023
             </Card.Text>
-            <Button className="blogReadMoreButton" variant="primary" onClick={handleShowModal}>
+            <Button variant="primary" className="blogReadMoreButton" onClick={handleShowModal}>
               Read More
             </Button>
           </Card.Body>
         </Card>
 
-        <Modal dialogClassName="custom-modal-dialog" show={showModal} onHide={handleCloseModal}>
+        <Modal dialogClassName="custom-modal-dialog" show={showModal} onHide={handleCloseModal} aria-labelledby="modal-title">
           <Modal.Header closeButton>
-            <Modal.Title>Journey to Landing my First Job in Tech</Modal.Title>
+            <Modal.Title id="modal-title">Journey to Landing my First Job in Tech</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <img
-              src="https://www.version1.com/wp-content/uploads/2018/04/v1-placeholder-image-1.jpg"
-              alt="Version 1"
+            <img src="https://www.version1.com/wp-content/uploads/2024/04/version1-logo.svg"         
               className="modalImages"
             />
             <br />

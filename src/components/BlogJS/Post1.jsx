@@ -15,23 +15,13 @@ const Post1 = () => {
 
   return (
     <div>
-      <div className="blogPageLayout">
-        <Card className="blogCard">
+     
+     <Card className="post-card shadow-sm mb-4">
           <Card.Img variant="top" src="/IMG_7197.jpeg" />
-          <Card.Body>
-            <Card.Title className="blogTitle">A period of reflection and goal setting</Card.Title>
-            <Card.Subtitle className="blogDate">15/7/2023</Card.Subtitle>
-            <Card.Text className="blogText">
-              Embarking on a career change often triggers deep reflection. In my
-              first week at the West Midlands Digital Skills Academy with
-              Version1, we were challenged to reflect and create goals,
-              nurturing a growth mindset. These reflections took me back to my
-              childhood, shaped by my parents' involvement in the Royal Air
-              Force (RAF) and my love for the Mallory Towers books by Enid
-              Blyton. Those books ignited a desire to attend boarding school, a
-              place where routine, structure, and freedom intertwined
-              seamlessly. With my parents' support and RAF subsidies, I embarked
-              on an incredible adventure that left an indelible mark on my life.
+          <Card.Body className="text-center">
+            <Card.Title className="text-truncate">A period of reflection and goal setting</Card.Title>
+            <Card.Text className="text-muted">
+            15/7/2023
             </Card.Text>
             <Button
               className="blogReadMoreButton"
@@ -42,14 +32,15 @@ const Post1 = () => {
             </Button>
           </Card.Body>
         </Card>
-      </div>
+
       <Modal
         dialogClassName="custom-modal-dialog"
         show={showModal}
         onHide={handleCloseModal}
+        aria-labelledby="modal-title"
       >
         <Modal.Header closeButton>
-          <Modal.Title>A period of reflection and goal setting</Modal.Title>
+          <Modal.Title id="modal-title">A period of reflection and goal setting</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <p>

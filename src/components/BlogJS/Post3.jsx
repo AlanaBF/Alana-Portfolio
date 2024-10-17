@@ -17,21 +17,15 @@ const Post3 = () => {
 
   return (
     <div>
-      <div className="blogPageLayout">
-        <Card className="blogCard">
+      
+      <Card className="post-card shadow-sm mb-4">
           <Card.Img variant="top" src={GroupPic} />
-          <Card.Body>
-            <Card.Title className="blogTitle">
+          <Card.Body className="text-center">
+            <Card.Title className="text-truncate">
               My First week as an Associate Consultant with Version 1
             </Card.Title>
-            <Card.Subtitle className="blogDate">7/10/2023</Card.Subtitle>
-            <Card.Text className="blogText">
-              Embarking on a new career after two decades in teaching was a leap
-              into the unknown. My first week in the tech world at Version 1 was
-              nothing short of incredible, filled with moments of excitement,
-              self-discovery, and camaraderie. As I share my journey, I hope to
-              inspire those contemplating a career change to embrace the
-              possibility and seize the opportunities ahead.
+            <Card.Text className="text-muted">
+            7/10/2023
             </Card.Text>
             <Button
               className="blogReadMoreButton"
@@ -47,9 +41,10 @@ const Post3 = () => {
           dialogClassName="custom-modal-dialog"
           show={showModal}
           onHide={handleCloseModal}
+          aria-labelledby="modal-title"
         >
           <Modal.Header closeButton>
-            <Modal.Title>
+            <Modal.Title id="modal-title">
               {" "}
               My First week as an Associate Consultant with Version 1
             </Modal.Title>
@@ -158,7 +153,6 @@ const Post3 = () => {
           </Modal.Footer>
         </Modal>
       </div>
-    </div>
   );
 };
 

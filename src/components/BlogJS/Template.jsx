@@ -15,13 +15,11 @@ const Post4 = () => {
 
   return (
     <div>
-      <div className="blogPageLayout">
-        <Card className="blogCard">
+    <Card className="post-card shadow-sm mb-4">
           <Card.Img variant="top" src="" />
-          <Card.Body>
-            <Card.Title className="blogTitle"></Card.Title>
-            <Card.Subtitle className="blogDate"></Card.Subtitle>
-            <Card.Text className="blogText"></Card.Text>
+          <Card.Body className="text-center">
+            <Card.Title className="text-truncate"></Card.Title>
+            <Card.Text className="text-muted"></Card.Text>
             <Button className="blogReadMoreButton" variant="primary" onClick={handleShowModal}>
               Read More
             </Button>
@@ -49,7 +47,6 @@ const Post4 = () => {
           </Modal.Footer>
         </Modal>
       </div>
-    </div>
   );
 };
 

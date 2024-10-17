@@ -1,85 +1,28 @@
 import React from "react";
-import Post1 from "./Post1";
+import Post1 from "./Post1"; 
 import Post2 from "./Post2";
 import Post3 from "./Post3";
 import Post4 from "./Post4";
 import Post5 from "./Post5";
 import Post6 from "./Post6";
 import Post7 from "./Post7";
+import Post8 from "./Post8"; 
 import { Container, Row, Col, Card } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import "../../assets/styles/pages.css";
+
 const Posts = () => {
   return (
     <Container>
-      <Row className="justify-content-between">
-        <Col md={8} className="mb-4 mt-4">
-          <Post7 />
-          <Post5 />
-          <Post4 />
-          <Post6 />
-          <Post3 />
-          <Post2 />
-          <Post1 />
-        </Col>
-        <Col md={2} className="mt-4 float-right">
-          <Card>
-            <Card.Body>
-              <Card.Title>Recent Posts</Card.Title>
-              <ul className="list-unstyled">
-              <li>
-                  <Link to="/Post7">From Python Turtle to Pygame: Deploying a Simple Game Online
-                  </Link>{" "}
-                  25/08/2024
-                </li>{" "}
-                <br />
-                <li>
-                  <Link to="/Post5">
-                    100 Days of Code Challenge - Part 2: A Journey Down lots of
-                    Rabbit Holes
-                  </Link>{" "}
-                  21/2/2024
-                </li>{" "}
-                <br />
-                <li>
-                  <Link to="/Post4">
-                    100 Days of Code Challenge - Part 1: 30 days of Vanilla
-                    JavaScript
-                  </Link>{" "}
-                  7/2/2024
-                </li>{" "}
-                <br />
-                <li>
-                  <Link to="/Post6">
-                    Implementing Auth0 User Authentication in a Vite-React-App
-                  </Link>{" "}
-                  3/1/2024
-                </li>{" "}
-                <br />
-                <li>
-                  <Link to="/Post3">
-                    My 1st week as an Associate Consultant with Version 1
-                  </Link>{" "}
-                  7/10/2023
-                </li>{" "}
-                <br />
-                <li>
-                  <Link to="/Post2">
-                    Journey to Landing my First Job in Tech
-                  </Link>{" "}
-                  5/7/2023
-                </li>
-                <br />
-                <li>
-                  <Link to="/Post1">
-                    A period of reflection and goal setting
-                  </Link>{" "}
-                  15/7/2023
-                </li>
-                <br />
-              </ul>
-            </Card.Body>
-          </Card>
+      <Row className="justify-content-center">
+        <Col md={10} className="mb-4 mt-4">
+          <Row>
+            {/* Cards for each post */}
+            {[Post8, Post7, Post5, Post4, Post6, Post3, Post2, Post1].map((PostComponent, index) => (
+              <Col xs={12} sm={6} md={4} key={index} className="mb-4">
+                <PostComponent /> {/* Each post now contains its own card structure */}
+              </Col>
+            ))}
+          </Row>
         </Col>
       </Row>
     </Container>

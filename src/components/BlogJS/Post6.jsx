@@ -26,28 +26,19 @@ const Post6 = () => {
 
   return (
     <div>
-      <div className="blogPageLayout">
-        <Card className="blogCard">
+   
+   <Card className="post-card shadow-sm mb-4">
           <Card.Img
             variant="top"
             src={UserAuthentication}
             style={{ width: "50%", margin: "auto" }}
           />
-          <Card.Body>
-            <Card.Title className="blogTitle">
+          <Card.Body className="text-center">
+            <Card.Title className="text-truncate">
               Implementing Auth0 User Authentication in a Vite-React-App
             </Card.Title>
-            <Card.Subtitle className="blogDate">3/1/2024</Card.Subtitle>
-            <Card.Text className="blogText">
-              <p>
-                As a junior developer I am often navigating the complexities of
-                user authentication. After a lot of research and trial and
-                error, I’ve successfully implemented a concise solution using
-                Auth0 in a Vite-React-App. This tutorial offers a
-                straightforward, step-by-step approach to seamlessly integrate
-                Auth0, a trusted authentication platform, into your React
-                application.
-              </p>
+            <Card.Text className="text-muted">
+            3/1/2024
             </Card.Text>
             <Button
               className="blogReadMoreButton"
@@ -63,9 +54,10 @@ const Post6 = () => {
           dialogClassName="custom-modal-dialog"
           show={showModal}
           onHide={handleCloseModal}
+          aria-labelledby="modal-title"
         >
           <Modal.Header closeButton>
-            <Modal.Title></Modal.Title>
+            <Modal.Title id="modal-title">Implementing Auth0 User Authentication in a Vite-React-App</Modal.Title>
           </Modal.Header>
           <Modal.Body style={{ textAlign: "left" }}>
             <img
@@ -245,7 +237,7 @@ const Post6 = () => {
           </Modal.Footer>
         </Modal>
       </div>
-    </div>
+   
   );
 };
 

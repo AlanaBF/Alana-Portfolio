@@ -15,31 +15,14 @@ const Post8 = () => {
 
   return (
     <div>
-      <div className="blogPageLayout">
-        <Card className="blogCard">
+     <Card className="post-card shadow-sm mb-4">
           <Card.Img variant="top" src="/turtle-race.gif" />
-          <Card.Body>
-            <Card.Title className="blogTitle">
+          <Card.Body className="text-center">
+            <Card.Title className="text-truncate">
               From Python Turtle to Pygame: Deploying a Simple Game Online
             </Card.Title>
-            <Card.Subtitle className="blogDate">25/08/2024</Card.Subtitle>
-            <Card.Text className="blogText" style={{ textAlign: "left" }}>
-              {" "}
-              Starting out with Python has been a challenging yet rewarding
-              experience, especially as I’m eager to advance my skills beyond
-              the basics as quickly as possible. My Python journey began with
-              the 100 Days of Code: The Complete Python Pro Bootcamp by Dr
-              Angela Yu on Udemy, which has continually sparked my curiosity and
-              led me down numerous rabbit holes. One of the projects that
-              captivated me early on was building a Turtle Race game. This
-              project introduced me to key Python concepts like instances,
-              state, and higher-order functions. After successfully building the
-              game using the Turtle package, I began to wonder: how could I
-              share this game with others so they could play it online? This
-              question set me on a path filled with learning, trial and error,
-              and ultimately, success. This blog post recounts that journey—from
-              Turtle to Pygame, and finally, to deploying the game online using
-              Pygbag.
+            <Card.Text className="text-muted">
+            25/08/2024
             </Card.Text>
             <Button
               className="blogReadMoreButton"
@@ -55,9 +38,10 @@ const Post8 = () => {
           dialogClassName="custom-modal-dialog"
           show={showModal}
           onHide={handleCloseModal}
+          aria-labelledby="modal-title"
         >
           <Modal.Header closeButton>
-            <Modal.Title>
+            <Modal.Title id="modal-title">
               From Python Turtle to Pygame: Deploying a Simple Game Online
             </Modal.Title>
           </Modal.Header>
@@ -573,7 +557,6 @@ pg.quit()
           </Modal.Footer>
         </Modal>
       </div>
-    </div>
   );
 };
 
