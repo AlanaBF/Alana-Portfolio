@@ -8,7 +8,7 @@ import Image2 from "./assets/IMG_0012.jpeg";
 import Image3 from "./assets/IMG_0038.jpeg";
 import Image4 from "./assets/IMG_0039.jpeg";
 import Image5 from "./assets/IMG_0040.jpeg";
-import Results1 from "./assets/IMG_0140.png";
+import Results1 from "./assets/IMG_0140.png"; 
 import Results2 from "./assets/IMG_0139.png";
 import Results3 from "./assets/IMG_0138.png";
 
