@@ -46,7 +46,7 @@ const Post8 = () => {
             <img
               src={Bangalore1}
               alt="Road to Bangalore Banner"
-              className="modalImages img-fluid mb-3"
+              className="modalImages img-fluid mb-3 w-100"
             />
             <p>
               From September 23rd to October 14th, we embarked on a rewarding
