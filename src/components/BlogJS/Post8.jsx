@@ -233,19 +233,31 @@ const Post8 = () => {
               holiday, combining history, scenery, and fitness.
             </p>
             <p>
-              I see a plan coming together... in fact,
-              <blockquote>
-                <em>"I love it when a plan comes together!"</em>
-              </blockquote>
+              I see a plan coming together... in fact
+             
             </p>
+            <div className="d-flex flex-column align-items-center mb-5"> {/* Flex container */}
+  <div className="embed-responsive" style={{ width: '100%', maxWidth: '600px', position: 'relative', paddingBottom: '56.25%' /* 16:9 Aspect Ratio */ }}>
+    <iframe
+      src="https://giphy.com/embed/l3vR6aasfs0Ae3qdG"
+      className="embed-responsive-item"
+      allowFullScreen
+      style={{
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        width: '100%',
+        height: '100%',
+        border: 'none' // Optional: remove border for a cleaner look
+      }}
+    ></iframe>
+  </div>
+  <blockquote className="text-center mt-3"> {/* Centered text */}
+    <em>"I love it when a plan comes together!"</em>
+  </blockquote>
+</div>
 
-            <div className="embed-responsive embed-responsive-16by9 mb-3">
-              <iframe
-                src="https://giphy.com/embed/l3vR6aasfs0Ae3qdG"
-                className="embed-responsive-item"
-                allowFullScreen
-              ></iframe>
-            </div>
+
           </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleCloseModal}>
