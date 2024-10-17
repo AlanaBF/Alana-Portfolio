@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import { Card, Modal, Button, Carousel, Row, Col } from "react-bootstrap";
 import "../../assets/styles/pages.css";
-import Bangalore from "./assets/Road to Bangalore graphic.png";
-import Bangalore1 from "./assets/road to bangalore banner.png";
-import Image1 from "./assets/IMG_0020.jpeg";
-import Image2 from "./assets/IMG_0012.jpeg";
-import Image3 from "./assets/IMG_0038.jpeg";
-import Image4 from "./assets/IMG_0039.jpeg";
-import Image5 from "./assets/IMG_0040.jpeg";
-import Results1 from "./assets/IMG_0140.png"; 
-import Results2 from "./assets/IMG_0139.png";
-import Results3 from "./assets/IMG_0138.png";
+import Bangalore from "/Road to Bangalore graphic.png";
+import Bangalore1 from "/road to bangalore banner.png";
+import Image1 from "/IMG_0020.jpeg";
+import Image2 from "/IMG_0012.jpeg";
+import Image3 from "/IMG_0038.jpeg";
+import Image4 from "/IMG_0039.jpeg";
+import Image5 from "/IMG_0040.jpeg";
+import Results1 from "/IMG_0140.png"; 
+import Results2 from "/IMG_0139.png";
+import Results3 from "/IMG_0138.png";
 
 const Post8 = () => {
   const [showModal, setShowModal] = useState(false);
